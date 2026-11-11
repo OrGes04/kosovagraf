@@ -176,7 +176,9 @@ IX 2008-today (independence)
   `docs/sourcing/m1-eras-I-and-IV.md`.
 - Sound: only the opt-in prompt and the stored choice exist. Audio is Milestone 2.
 - Not yet verified on real hardware: 60fps target, iOS Safari, Firefox. The in-app preview
-  renders WebGL in software, so its frame rates mean nothing.
+  renders WebGL in software, so its frame rates mean nothing. While it shows the story it
+  also uses enough CPU to stall shell commands: point it at an empty page
+  (e.g. `http://localhost:4321/idle`) before running builds, installs or scripts.
 - Known for Milestone 3: per-scene image focus point for portrait phones (landscape images
   are cropped to their centre), gyroscope parallax, texture upload off the main thread.
 
