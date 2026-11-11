@@ -1,0 +1,9 @@
+{
+  // Cloudflare Workers static-assets deploy. The Worker name in the Cloudflare
+  // dashboard must match "name" below, or the build fails.
+  "name": "kosovograf",
+  "compatibility_date": "2026-11-11",
+  "assets": {
+    "directory": "./dist"
+  }
+}
