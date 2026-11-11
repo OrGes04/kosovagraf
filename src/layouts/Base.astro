@@ -1,0 +1,49 @@
+---
+interface Props {
+  lang: 'sq' | 'en';
+  title: string;
+  description: string;
+}
+
+const { lang, title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Draft: keep search engines out until the owner says the site is ready to launch. -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#000000" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    color-scheme: dark;
+    --bg: #050505;
+    --fg: #ece7dc;
+    --muted: #8a857b;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: Georgia, 'Times New Roman', serif;
+    -webkit-font-smoothing: antialiased;
+  }
+</style>
