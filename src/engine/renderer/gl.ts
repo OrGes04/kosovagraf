@@ -45,6 +45,11 @@ export class GLRenderer implements SceneRenderer {
   private mesh: Mesh;
   private blank: Texture;
   private entries = new Map<string, Entry>();
+  /** 0 while the current image is missing, rising to 1 once it has arrived. */
+  private reveal = 0;
+  private lastTime = 0;
+  /** Resolution scale, lowered by the main loop on devices that cannot keep up. */
+  private quality = 1;
 
   constructor(canvas: HTMLCanvasElement) {
     this.renderer = new Renderer({
@@ -95,7 +100,14 @@ export class GLRenderer implements SceneRenderer {
   }
 
   private dpr(): number {
-    return Math.min(window.devicePixelRatio || 1, window.innerWidth < 800 ? 1.5 : 1.75);
+    return Math.min(window.devicePixelRatio || 1, window.innerWidth < 800 ? 1.5 : 1.75) * this.quality;
+  }
+
+  /** Sets the render resolution scale (1 = full). */
+  setQuality(scale: number): void {
+    if (scale === this.quality) return;
+    this.quality = scale;
+    this.resize();
   }
 
   resize(): void {
@@ -108,7 +120,10 @@ export class GLRenderer implements SceneRenderer {
 
   private targetWidth(scene: SceneData): number {
     const aspect = scene.media.width / scene.media.height;
-    const needed = neededWidth(this.gl.drawingBufferWidth, this.gl.drawingBufferHeight, aspect);
+    // On a phone held upright a landscape image is mostly cropped away, so the
+    // largest file would be wasted bandwidth and memory.
+    const cap = window.innerWidth < 800 ? 1600 : Infinity;
+    const needed = Math.min(cap, neededWidth(this.gl.drawingBufferWidth, this.gl.drawingBufferHeight, aspect));
     return pickWidth(scene.media.widths, needed);
   }
 
@@ -154,6 +169,10 @@ export class GLRenderer implements SceneRenderer {
     return this.entries.get(scene.image)?.status === 'ready';
   }
 
+  busy(): boolean {
+    return this.reveal < 1;
+  }
+
   keepOnly(scenes: SceneData[]): void {
     const keep = new Set(scenes.map((s) => s.image));
     for (const [id, entry] of this.entries) {
@@ -189,8 +208,12 @@ export class GLRenderer implements SceneRenderer {
     u.uParallax.value = f.parallax;
     u.uTime.value = f.time;
     u.uFrame.value = f.tick;
-    // An image that has not loaded yet shows as static rather than as a black hole.
-    u.uStatic.value = aReady ? f.staticAmount : 1;
+    // An image that has not loaded yet shows as static rather than as a black
+    // hole, and the static clears smoothly once it arrives.
+    const dt = Math.min(0.1, Math.max(0, f.time - this.lastTime));
+    this.lastTime = f.time;
+    this.reveal = aReady ? Math.min(1, this.reveal + dt * 2.2) : 0;
+    u.uStatic.value = Math.max(f.staticAmount, 1 - this.reveal);
     u.uBlack.value = f.black;
     for (const k of SHADER_WEIGHTS) u[uniformName(k)].value = f.weights[k];
 

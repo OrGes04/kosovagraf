@@ -34,6 +34,12 @@ export class FallbackRenderer implements SceneRenderer {
     return true;
   }
 
+  busy(): boolean {
+    return false;
+  }
+
+  setQuality(): void {}
+
   keepOnly(): void {}
 
   render(f: Frame): void {

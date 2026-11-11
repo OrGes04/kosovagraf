@@ -27,6 +27,10 @@ export interface SceneRenderer {
   /** Start loading a scene's image if it is not loaded yet. */
   preload(scene: SceneData): void;
   isReady(scene: SceneData): boolean;
+  /** True while the renderer is animating something of its own (e.g. an image arriving). */
+  busy(): boolean;
+  /** Render resolution scale, 1 = full. Lower trades sharpness for speed. */
+  setQuality(scale: number): void;
   /** Free images for scenes other than these. */
   keepOnly(scenes: SceneData[]): void;
   render(frame: Frame): void;

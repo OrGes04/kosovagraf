@@ -211,6 +211,43 @@ function boot() {
   let lastSignature = '';
   let lastHash = location.hash;
 
+  // Slow device guard: if frames keep arriving late, render at a lower
+  // resolution rather than stutter. Checked over two-second windows.
+  const pace = { since: 0, frames: 0, slowWindows: 0, quality: 1, fpsBefore: 0, enabled: !params.has('debug') };
+  function watchPace(time: number) {
+    if (!pace.enabled || document.hidden) return;
+    if (pace.since === 0) pace.since = time;
+    pace.frames++;
+    const elapsed = time - pace.since;
+    if (elapsed < 2) return;
+    const fps = pace.frames / elapsed;
+    pace.since = time;
+    pace.frames = 0;
+    // If the last step down bought nothing, the screen itself is slow (a 30Hz
+    // display, battery saver): go back to full sharpness and stop trying.
+    if (pace.fpsBefore > 0) {
+      if (fps < pace.fpsBefore * 1.15) {
+        pace.quality = 1;
+        pace.enabled = false;
+        renderer.setQuality(1);
+        return;
+      }
+      pace.fpsBefore = 0;
+    }
+    // Two slow windows in a row, so one hiccup (a tab switch, an image decode) is ignored.
+    pace.slowWindows = fps < 42 ? pace.slowWindows + 1 : 0;
+    if (pace.slowWindows >= 2) {
+      pace.slowWindows = 0;
+      if (pace.quality <= 0.5) {
+        pace.enabled = false;
+        return;
+      }
+      pace.fpsBefore = fps;
+      pace.quality -= 0.25;
+      renderer.setQuality(pace.quality);
+    }
+  }
+
   function zoomFor(pos: Position, offset: number): number {
     if (reducedMotion.matches) return BASE_ZOOM;
     const item = items[pos.index + offset];
@@ -264,6 +301,7 @@ function boot() {
   }
 
   gsap.ticker.add((time) => {
+    watchPace(time);
     const pos = scroll.position();
     const item = items[pos.index]!;
     const next = items[pos.index + 1];
@@ -322,7 +360,7 @@ function boot() {
     const animated =
       weights.grain + weights.flicker + weights.scratches + weights.jitter + weights.tracking + weights.scanlines +
       frame.staticAmount;
-    if (animated < 0.001) {
+    if (animated < 0.001 && !renderer.busy()) {
       const ready = renderer.isReady(frame.a) && (!frame.b || renderer.isReady(frame.b));
       const signature = `${frame.a.image}|${frame.b?.image}|${frame.mix.toFixed(4)}|${frame.zoomA.toFixed(5)}|${frame.pointerX.toFixed(4)}|${frame.pointerY.toFixed(4)}|${frame.black.toFixed(3)}|${ready}|${window.innerWidth}x${window.innerHeight}|${JSON.stringify(weights)}`;
       if (signature === lastSignature) return;
