@@ -143,6 +143,43 @@ IX 2008-today (independence)
 - Offline scripts in `scripts/`: image optimisation, depth maps, content validator.
 - Licence allow-list for images: public domain, CC0, CC BY, CC BY-SA. No NC or ND.
 
+## Commands
+- `npm run dev` : dev server on http://localhost:4321 (`.claude/launch.json` name: `kosovograf`)
+- `npm run check` : type check (`astro check`) + unit tests (Vitest)
+- `npm run build` : production build into `dist/`
+- `npm run images` : optimise `media-src/scenes/*` into `public/media/scenes/<id>/` and
+  rewrite `src/data/media.json`. Outputs are committed.
+- `npm run depth` : generate missing depth maps locally (own package in `scripts/depth/`),
+  then run `npm run images`.
+- `npm run placeholders` : regenerate the engine test cards and their scene files.
+
+## Where things are
+- `src/engine/main.ts` : the one loop. Scroll position in, everything else out.
+- `src/engine/sequence.ts` : pure maths for scroll -> scene, year, ruler, captions (tested).
+- `src/engine/shader/` : `era.frag.glsl` (all effects), `presets.ts` (era weights).
+- `src/engine/renderer/` : WebGL renderer (OGL), plain-image fallback.
+- `src/engine/hud/` : odometer, timeline, captions, source tab, opening.
+- `src/components/Story.astro` + `src/styles/story.css` : the page and all styling.
+- `src/content/eras/`, `src/content/scenes/<era>/` : content. `src/i18n/` : interface text.
+- `docs/sourcing/` : sourcing notes sent to the owner before each era is drafted.
+
+## Useful URLs while developing
+- `/?skip` skips the opening. `/?debug` opens the tuning panel (sliders for every shader
+  weight, force any era's treatment). `/#<scene-id>` deep-links to a scene.
+
+## State of the build
+- Milestone 1 engine is built and runs on generated **test cards** (`test-01` … `test-13`,
+  `"placeholder": true`, labelled "Skenë prove" on screen). They carry no historical content
+  and must be deleted once real scenes exist: remove their JSON files, their images in
+  `media-src/`, and their folders in `public/media/scenes/`, then run `npm run images`.
+- Real content for eras I and IV waits on the owner's decisions D1–D10 in
+  `docs/sourcing/m1-eras-I-and-IV.md`.
+- Sound: only the opt-in prompt and the stored choice exist. Audio is Milestone 2.
+- Not yet verified on real hardware: 60fps target, iOS Safari, Firefox. The in-app preview
+  renders WebGL in software, so its frame rates mean nothing.
+- Known for Milestone 3: per-scene image focus point for portrait phones (landscape images
+  are cropped to their centre), gyroscope parallax, texture upload off the main thread.
+
 ## Content workflow
 - Before drafting an era, send the owner a sourcing note: proposed scenes, sources per
   fact, and every point where sources disagree. The owner decides, then SQ and EN drafts
