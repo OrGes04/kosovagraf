@@ -1,0 +1,31 @@
+{
+  "era": "09-2008-today",
+  "year": 2008,
+  "treatment": "digital",
+  "title": {
+    "sq": "Skenë prove 12",
+    "en": "Test scene 12"
+  },
+  "subtitles": {
+    "sq": [
+      "Kjo është një skenë prove për motorin e Kosovografit.",
+      "Trajtimi vizual: «digital». Viti në vijën kohore: 2008.",
+      "Përmbajtja e vërtetë shtohet pasi të shqyrtohen burimet."
+    ],
+    "en": [
+      "This is a test scene for the Kosovograf engine.",
+      "Visual treatment: “digital”. Year on the timeline: 2008.",
+      "Real content is added once the sources have been reviewed."
+    ]
+  },
+  "image": "test-12",
+  "imageAlt": {
+    "sq": "Peizazh i vizatuar me kompjuter, i përdorur vetëm për prova.",
+    "en": "A computer-drawn landscape used only for testing."
+  },
+  "imageCredit": "Kosovograf (test card)",
+  "imageLicense": "own-work",
+  "isIllustration": true,
+  "depthMap": true,
+  "placeholder": true
+}

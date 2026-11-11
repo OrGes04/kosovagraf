@@ -1,0 +1,199 @@
+import { Mesh, Program, Renderer, Texture, Triangle, type OGLRenderingContext } from 'ogl';
+import fragment from '../shader/era.frag.glsl?raw';
+import vertex from '../shader/era.vert.glsl?raw';
+import { WEIGHT_KEYS, type WeightKey } from '../shader/presets';
+import type { SceneData } from '../types';
+import {
+  depthUrl,
+  loadImage,
+  loadSceneImage,
+  neededWidth,
+  pickWidth,
+  type Frame,
+  type SceneRenderer,
+} from './types';
+
+interface Entry {
+  status: 'loading' | 'ready' | 'failed';
+  color: Texture | null;
+  depth: Texture | null;
+  width: number;
+  height: number;
+  /** Which file size is loaded, so a bigger one can replace it after a resize. */
+  loadedWidth: number;
+}
+
+/** Weights handled outside the shader. */
+const NOT_UNIFORMS: WeightKey[] = ['stutter', 'stamp'];
+const SHADER_WEIGHTS = WEIGHT_KEYS.filter((k) => !NOT_UNIFORMS.includes(k));
+const uniformName = (k: WeightKey) => `w${k[0]!.toUpperCase()}${k.slice(1)}`;
+
+export function webglAvailable(): boolean {
+  try {
+    const c = document.createElement('canvas');
+    return !!(c.getContext('webgl2') || c.getContext('webgl'));
+  } catch {
+    return false;
+  }
+}
+
+export class GLRenderer implements SceneRenderer {
+  readonly kind = 'webgl' as const;
+  private renderer: Renderer;
+  private gl: OGLRenderingContext;
+  private program: Program;
+  private mesh: Mesh;
+  private blank: Texture;
+  private entries = new Map<string, Entry>();
+
+  constructor(canvas: HTMLCanvasElement) {
+    this.renderer = new Renderer({
+      canvas,
+      dpr: this.dpr(),
+      alpha: false,
+      depth: false,
+      antialias: false,
+      powerPreference: 'high-performance',
+    });
+    this.gl = this.renderer.gl;
+    this.gl.clearColor(0, 0, 0, 1);
+
+    this.blank = new Texture(this.gl, { generateMipmaps: false });
+
+    const uniforms: Record<string, { value: unknown }> = {
+      tA: { value: this.blank },
+      tB: { value: this.blank },
+      tDepthA: { value: this.blank },
+      tDepthB: { value: this.blank },
+      uSizeA: { value: [1, 1] },
+      uSizeB: { value: [1, 1] },
+      uHasDepthA: { value: 0 },
+      uHasDepthB: { value: 0 },
+      uRes: { value: [1, 1] },
+      uDpr: { value: 1 },
+      uMix: { value: 0 },
+      uZoomA: { value: 1 },
+      uZoomB: { value: 1 },
+      uPointer: { value: [0, 0] },
+      uParallax: { value: 0 },
+      uTime: { value: 0 },
+      uFrame: { value: 0 },
+      uStatic: { value: 0 },
+      uBlack: { value: 0 },
+    };
+    for (const k of SHADER_WEIGHTS) uniforms[uniformName(k)] = { value: 0 };
+
+    this.program = new Program(this.gl, { vertex, fragment, uniforms, depthTest: false, depthWrite: false });
+    this.mesh = new Mesh(this.gl, { geometry: new Triangle(this.gl), program: this.program });
+
+    // A lost context (common on phones after the tab was in the background)
+    // cannot be repaired piecemeal; reloading restores the scroll position.
+    canvas.addEventListener('webglcontextlost', (e) => e.preventDefault());
+    canvas.addEventListener('webglcontextrestored', () => location.reload());
+
+    this.resize();
+  }
+
+  private dpr(): number {
+    return Math.min(window.devicePixelRatio || 1, window.innerWidth < 800 ? 1.5 : 1.75);
+  }
+
+  resize(): void {
+    this.renderer.dpr = this.dpr();
+    this.renderer.setSize(window.innerWidth, window.innerHeight);
+    const u = this.program.uniforms;
+    u.uRes.value = [this.gl.drawingBufferWidth, this.gl.drawingBufferHeight];
+    u.uDpr.value = this.renderer.dpr;
+  }
+
+  private targetWidth(scene: SceneData): number {
+    const aspect = scene.media.width / scene.media.height;
+    const needed = neededWidth(this.gl.drawingBufferWidth, this.gl.drawingBufferHeight, aspect);
+    return pickWidth(scene.media.widths, needed);
+  }
+
+  preload(scene: SceneData): void {
+    const target = this.targetWidth(scene);
+    const existing = this.entries.get(scene.image);
+    if (existing && (existing.status === 'loading' || existing.loadedWidth >= target)) return;
+    if (existing?.status === 'failed') return;
+
+    const entry: Entry = existing ?? {
+      status: 'loading',
+      color: null,
+      depth: null,
+      width: scene.media.width,
+      height: scene.media.height,
+      loadedWidth: 0,
+    };
+    const wasReady = entry.status === 'ready';
+    if (!wasReady) entry.status = 'loading';
+    this.entries.set(scene.image, entry);
+
+    const colour = loadSceneImage(scene, target);
+    const depth = scene.media.depth && !entry.depth ? loadImage(depthUrl(scene)).catch(() => null) : null;
+
+    Promise.all([colour, depth])
+      .then(([img, depthImg]) => {
+        // The entry may have been freed while the image was downloading.
+        if (this.entries.get(scene.image) !== entry) return;
+        if (entry.color) this.gl.deleteTexture(entry.color.texture);
+        entry.color = new Texture(this.gl, { image: img, generateMipmaps: false });
+        entry.width = img.naturalWidth;
+        entry.height = img.naturalHeight;
+        entry.loadedWidth = target;
+        if (depthImg) entry.depth = new Texture(this.gl, { image: depthImg, generateMipmaps: false });
+        entry.status = 'ready';
+      })
+      .catch(() => {
+        if (!wasReady) entry.status = 'failed';
+      });
+  }
+
+  isReady(scene: SceneData): boolean {
+    return this.entries.get(scene.image)?.status === 'ready';
+  }
+
+  keepOnly(scenes: SceneData[]): void {
+    const keep = new Set(scenes.map((s) => s.image));
+    for (const [id, entry] of this.entries) {
+      if (keep.has(id)) continue;
+      if (entry.color) this.gl.deleteTexture(entry.color.texture);
+      if (entry.depth) this.gl.deleteTexture(entry.depth.texture);
+      this.entries.delete(id);
+    }
+  }
+
+  render(f: Frame): void {
+    const u = this.program.uniforms;
+    const a = this.entries.get(f.a.image);
+    const b = f.b ? this.entries.get(f.b.image) : undefined;
+    const aReady = a?.status === 'ready' && a.color;
+    const bReady = b?.status === 'ready' && b.color;
+
+    u.tA.value = aReady ? a.color : this.blank;
+    u.tDepthA.value = aReady && a.depth ? a.depth : this.blank;
+    u.uHasDepthA.value = aReady && a.depth ? 1 : 0;
+    if (aReady) u.uSizeA.value = [a.width, a.height];
+
+    u.tB.value = bReady ? b.color : this.blank;
+    u.tDepthB.value = bReady && b.depth ? b.depth : this.blank;
+    u.uHasDepthB.value = bReady && b.depth ? 1 : 0;
+    if (bReady) u.uSizeB.value = [b.width, b.height];
+
+    // Until the next image has arrived, hold on the current one.
+    u.uMix.value = bReady ? f.mix : 0;
+    u.uZoomA.value = f.zoomA;
+    u.uZoomB.value = f.zoomB;
+    u.uPointer.value = [f.pointerX, f.pointerY];
+    u.uParallax.value = f.parallax;
+    u.uTime.value = f.time;
+    u.uFrame.value = f.tick;
+    // An image that has not loaded yet shows as static rather than as a black hole.
+    u.uStatic.value = aReady ? f.staticAmount : 1;
+    u.uBlack.value = f.black;
+    for (const k of SHADER_WEIGHTS) u[uniformName(k)].value = f.weights[k];
+
+    this.renderer.render({ scene: this.mesh });
+  }
+}

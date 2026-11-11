@@ -1,0 +1,169 @@
+---
+/**
+ * The whole experience on one page: a fixed stage (canvas + interface) and,
+ * behind it, the scroll track. The track holds the story as real, readable
+ * HTML, which is also what search engines, screen readers and visitors
+ * without JavaScript get.
+ */
+import '@fontsource-variable/newsreader';
+import '@fontsource/ibm-plex-mono/400.css';
+import '@fontsource/ibm-plex-mono/500.css';
+import '@fontsource/vt323/400.css';
+import '../styles/story.css';
+import { LOCALES } from '../lib/constants';
+import { SCENE_SPAN, TITLE_SPAN } from '../engine/sequence';
+import { imageUrl, pickWidth } from '../engine/renderer/types';
+import { formatYear } from '../engine/hud/text';
+import type { StoryData } from '../engine/types';
+
+interface Props {
+  data: StoryData;
+}
+
+const { data } = Astro.props;
+const lang = data.locale;
+const ui = data.ui[lang];
+const eraById = new Map(data.eras.map((e) => [e.id, e]));
+const firstEra = eraById.get(data.scenes[0]!.era)!;
+const lastScene = data.scenes.length - 1;
+// "<" must not appear raw inside the JSON script block.
+const json = JSON.stringify(data).replace(/</g, '\\u003c');
+---
+
+<a class="skip-link" href="#track" data-i18n="a11y.skipToContent">{ui.a11y.skipToContent}</a>
+
+<div class="stage" id="stage">
+  <canvas class="stage__canvas" id="gl" aria-hidden="true"></canvas>
+  <div class="stage__fallback" id="fallback" hidden aria-hidden="true">
+    <img alt="" /><img alt="" />
+  </div>
+  <div class="stage__shade" aria-hidden="true"></div>
+
+  <header class="hud">
+    <p class="chapter">
+      <span class="chapter__number" id="chapter-number">{firstEra.roman}</span>
+      <span class="chapter__title" id="chapter-title">{firstEra.title[lang]}</span>
+    </p>
+
+    <nav class="timeline" id="timeline" data-i18n-label="timeline.label" aria-label={ui.timeline.label}>
+      <div class="timeline__year" id="year"></div>
+      <div class="timeline__ruler">
+        <div class="timeline__strip"></div>
+        <span class="timeline__needle" aria-hidden="true"></span>
+      </div>
+      <div class="timeline__progress" aria-hidden="true"><span class="timeline__progress-fill"></span></div>
+      <div class="timeline__preview" aria-hidden="true"></div>
+    </nav>
+
+    <div class="controls">
+      <button class="control" id="btn-sound" type="button" aria-pressed="false">
+        <span class="control__lamp" aria-hidden="true"></span>
+        <span data-i18n="controls.sound">{ui.controls.sound}</span>
+      </button>
+      <button class="control control--lang" id="btn-lang" type="button" data-i18n-label="controls.language" aria-label={ui.controls.language}>
+        {LOCALES.map((code) => <span data-lang={code} class:list={{ 'is-active': code === lang }}>{code.toUpperCase()}</span>)}
+      </button>
+      <button class="control" id="btn-effects" type="button" aria-pressed="true">
+        <span class="control__lamp" aria-hidden="true"></span>
+        <span data-i18n="controls.effects">{ui.controls.effects}</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="title" id="title">
+    <h1 class="title__name" data-i18n="site.title">{ui.site.title}</h1>
+    <p class="title__tagline" data-i18n="site.tagline">{ui.site.tagline}</p>
+    <p class="title__hint">
+      <span data-i18n="opening.scrollHint">{ui.opening.scrollHint}</span>
+      <span class="title__arrow" aria-hidden="true"></span>
+    </p>
+  </div>
+
+  <p class="badge" id="badge"></p>
+  <p class="stamp" id="stamp" aria-hidden="true"></p>
+
+  <!-- The same text is in the track below for assistive technology. -->
+  <div class="captions" id="captions" aria-hidden="true">
+    <p class="captions__text"></p>
+  </div>
+
+  <aside class="source" id="source">
+    <button class="source__tab" type="button" aria-expanded="false" aria-controls="source-panel">
+      <span data-i18n="source.tab">{ui.source.tab}</span>
+    </button>
+    <div class="source__panel" id="source-panel" data-lenis-prevent>
+      <button class="source__close" type="button" data-i18n-label="source.close" aria-label={ui.source.close}>×</button>
+      <div class="source__body"></div>
+    </div>
+  </aside>
+
+  <div class="opening" id="opening" hidden>
+    <p class="opening__channel" aria-hidden="true">CH 01</p>
+    <div class="opening__prompt">
+      <p class="opening__question" data-i18n="opening.soundPrompt">{ui.opening.soundPrompt}</p>
+      <div class="opening__choices">
+        <button type="button" class="opening__choice" data-sound="on" data-i18n="opening.withSound">{ui.opening.withSound}</button>
+        <button type="button" class="opening__choice" data-sound="off" data-i18n="opening.withoutSound">{ui.opening.withoutSound}</button>
+      </div>
+    </div>
+    <div class="opening__counter" aria-hidden="true"><div class="opening__year"></div></div>
+    <button type="button" class="opening__skip" data-i18n="opening.skip">{ui.opening.skip}</button>
+  </div>
+</div>
+
+<main class="track" id="track" data-i18n-label="a11y.story" aria-label={ui.a11y.story}>
+  <section class="track__item" data-item="title" data-scene="0" style={`--span:${TITLE_SPAN}`}></section>
+  {
+    data.scenes.map((scene, i) => (
+      <article
+        class="track__item scene"
+        id={scene.id}
+        data-item="scene"
+        data-scene={i}
+        style={`--span:${SCENE_SPAN + (i === lastScene ? 1 : 0)}`}
+      >
+        <div class="scene__copy">
+          <p class="scene__meta">
+            <span class="scene__year">{formatYear(scene.year, ui)}</span>
+          </p>
+          <h2 class="scene__title">{scene.title[lang]}</h2>
+          <noscript>
+            <img
+              src={imageUrl(scene, pickWidth(scene.media.widths, 1600), 'webp')}
+              alt={scene.imageAlt[lang]}
+              width={scene.media.width}
+              height={scene.media.height}
+              loading="lazy"
+            />
+          </noscript>
+          <p class="scene__alt">{scene.imageAlt[lang]}</p>
+          <div class="scene__lines">
+            {scene.subtitles[lang].map((line) => <p>{line}</p>)}
+          </div>
+          <p class="scene__credit">
+            {scene.imageCredit} · {scene.imageLicenseDetail ?? ui.license[scene.imageLicense]}
+          </p>
+          {
+            scene.sources.length > 0 && (
+              <ul class="scene__sources">
+                {scene.sources.map((s) => (
+                  <li>
+                    {s.url ? <a href={s.url} rel="noopener noreferrer">{s.title}</a> : s.title}
+                    {[s.author, s.publisher, s.year].filter(Boolean).length > 0 &&
+                      ` (${[s.author, s.publisher, s.year].filter(Boolean).join(', ')})`}
+                  </li>
+                ))}
+              </ul>
+            )
+          }
+        </div>
+      </article>
+    ))
+  }
+</main>
+
+<script type="application/json" id="story-data" set:html={json} />
+
+<script>
+  import '../engine/main';
+</script>

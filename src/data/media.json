@@ -1,0 +1,132 @@
+{
+  "test-01": {
+    "width": 2560,
+    "height": 1440,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "test-02": {
+    "width": 2560,
+    "height": 1440,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "test-03": {
+    "width": 2560,
+    "height": 1440,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "test-04": {
+    "width": 2560,
+    "height": 1440,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "test-05": {
+    "width": 2560,
+    "height": 1440,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "test-06": {
+    "width": 2560,
+    "height": 1440,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "test-07": {
+    "width": 2560,
+    "height": 1440,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "test-08": {
+    "width": 2560,
+    "height": 1440,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "test-09": {
+    "width": 2560,
+    "height": 1440,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "test-10": {
+    "width": 2560,
+    "height": 1440,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "test-11": {
+    "width": 2560,
+    "height": 1440,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "test-12": {
+    "width": 2560,
+    "height": 1440,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "test-13": {
+    "width": 2560,
+    "height": 1440,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  }
+}

@@ -1,62 +1,12 @@
 ---
+import Story from '../components/Story.astro';
 import Base from '../layouts/Base.astro';
+import { getStory } from '../lib/story';
+
+const data = await getStory('sq');
+const ui = data.ui.sq;
 ---
 
-<Base
-  lang="sq"
-  title="Kosovograf · Kosova nëpër kohë"
-  description="Një udhëtim nëpër historinë e Kosovës, nga Dardania antike deri sot."
->
-  <main class="placeholder">
-    <p class="channel">CH 01</p>
-    <h1>Kosovograf</h1>
-    <p class="tagline">Kosova nëpër kohë</p>
-    <p class="status">Në ndërtim · <a href="/en/">English</a></p>
-  </main>
+<Base lang="sq" title={`${ui.site.title} · ${ui.site.tagline}`} description={ui.site.description}>
+  <Story data={data} />
 </Base>
-
-<style>
-  .placeholder {
-    min-height: 100svh;
-    display: grid;
-    place-content: center;
-    text-align: center;
-    padding: 24px;
-  }
-
-  .channel {
-    position: fixed;
-    top: 20px;
-    right: 24px;
-    margin: 0;
-    font-family: ui-monospace, Consolas, monospace;
-    letter-spacing: 0.12em;
-    color: var(--muted);
-  }
-
-  h1 {
-    margin: 0;
-    font-size: clamp(2.5rem, 9vw, 6rem);
-    font-weight: 400;
-    letter-spacing: 0.04em;
-  }
-
-  .tagline {
-    margin: 0.4em 0 0;
-    font-size: clamp(1rem, 2.5vw, 1.4rem);
-    font-style: italic;
-  }
-
-  .status {
-    margin-top: 3em;
-    font-family: ui-monospace, Consolas, monospace;
-    font-size: 0.8rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--muted);
-  }
-
-  .status a {
-    color: inherit;
-  }
-</style>

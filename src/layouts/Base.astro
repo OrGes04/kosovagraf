@@ -1,23 +1,34 @@
 ---
+import { DEFAULT_LOCALE, LOCALES, localePath, type Locale } from '../i18n';
+
 interface Props {
-  lang: 'sq' | 'en';
+  lang: Locale;
   title: string;
   description: string;
 }
 
 const { lang, title, description } = Astro.props;
+const site = Astro.site;
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={lang} class="no-js">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <!-- Draft: keep search engines out until the owner says the site is ready to launch. -->
     <meta name="robots" content="noindex, nofollow" />
     <meta name="description" content={description} />
     <meta name="theme-color" content="#000000" />
     <title>{title}</title>
+    {
+      site &&
+        LOCALES.map((code) => <link rel="alternate" hreflang={code} href={new URL(localePath(code), site).href} />)
+    }
+    {site && <link rel="alternate" hreflang="x-default" href={new URL(localePath(DEFAULT_LOCALE), site).href} />}
+    <script is:inline>
+      document.documentElement.className = 'js';
+    </script>
   </head>
   <body>
     <slot />
@@ -25,13 +36,6 @@ const { lang, title, description } = Astro.props;
 </html>
 
 <style is:global>
-  :root {
-    color-scheme: dark;
-    --bg: #050505;
-    --fg: #ece7dc;
-    --muted: #8a857b;
-  }
-
   *,
   *::before,
   *::after {
@@ -41,9 +45,8 @@ const { lang, title, description } = Astro.props;
   html,
   body {
     margin: 0;
-    background: var(--bg);
-    color: var(--fg);
-    font-family: Georgia, 'Times New Roman', serif;
+    background: #000;
+    color: #f1ece1;
     -webkit-font-smoothing: antialiased;
   }
 </style>

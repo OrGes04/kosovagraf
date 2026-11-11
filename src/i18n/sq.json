@@ -1,0 +1,50 @@
+{
+  "site": {
+    "title": "Kosovograf",
+    "tagline": "Kosova nëpër kohë",
+    "description": "Një udhëtim nëpër historinë e Kosovës, nga Dardania antike deri sot."
+  },
+  "opening": {
+    "soundPrompt": "Ndize zërin për përvojën e plotë",
+    "withSound": "Me zë",
+    "withoutSound": "Pa zë",
+    "skip": "Kalo hyrjen",
+    "scrollHint": "Rrëshqit për të udhëtuar nëpër kohë"
+  },
+  "controls": {
+    "sound": "Zëri",
+    "effects": "Efektet",
+    "language": "Gjuha",
+    "on": "ndezur",
+    "off": "fikur"
+  },
+  "timeline": {
+    "label": "Vija kohore",
+    "bc": "p.e.s.",
+    "jumpTo": "Shko te"
+  },
+  "source": {
+    "tab": "Burimi",
+    "sources": "Burimet",
+    "image": "Fotografia",
+    "credit": "Autori",
+    "license": "Licenca",
+    "illustration": "Ilustrim",
+    "close": "Mbyll",
+    "none": "Kjo skenë prove nuk ka burime."
+  },
+  "license": {
+    "public-domain": "Domen publik",
+    "cc0": "CC0",
+    "cc-by": "CC BY",
+    "cc-by-sa": "CC BY-SA",
+    "own-work": "Punim i këtij projekti"
+  },
+  "a11y": {
+    "skipToContent": "Kalo te përmbajtja",
+    "story": "Historia, skenë pas skene"
+  },
+  "placeholder": {
+    "badge": "Skenë prove"
+  }
+}
