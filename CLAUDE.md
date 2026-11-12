@@ -187,8 +187,9 @@ IX 2008-today (independence)
   `"placeholder": true`, labelled "Skenë prove" on screen). They carry no historical content
   and must be deleted once real scenes exist: remove their JSON files, their images in
   `media-src/`, and their folders in `public/media/scenes/`, then run `npm run images`.
-- Real content for eras I and IV waits on the owner's decisions D1–D10 in
-  `docs/sourcing/m1-eras-I-and-IV.md`.
+- The owner decided D1–D10 on 2026-11-12 (table at the top of
+  `docs/sourcing/m1-eras-I-and-IV.md`). Follow those decisions when drafting; they override the
+  recommendations lower in that note. Next: draft SQ + EN scenes for eras I and IV.
 - Sound: only the opt-in prompt and the stored choice exist. Audio is Milestone 2.
 - Not yet verified on real hardware: 60fps target, iOS Safari, Firefox. The in-app preview
   renders WebGL in software, so its frame rates mean nothing. While it shows the story it

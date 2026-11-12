@@ -1,7 +1,27 @@
 # Sourcing note: Era I (Antiquity) and Era IV (1912–1945)
 
-Status: **proposal, awaiting the owner's decisions.** No scene text has been drafted from this yet.
+Status: **decided by the owner on 2026-11-12.** The decisions below override the
+recommendations further down where they differ. No scene text has been drafted yet.
 Prepared 2026-11-11.
+
+## Owner decisions (2026-11-12)
+
+| | Decision |
+|---|---|
+| D1 | The Dardanians are described as **an Illyrian people**. The sources panel of that scene notes that some scholars see Thracian influence in eastern Dardania. |
+| D2 | Bardylis is left out of v1. |
+| D3 | Wording: *"Albanian scholars, and many linguists abroad, trace the Albanian language back to the Illyrians of this land."* Emperors are described by birthplace only. |
+| D4 | The story starts with the Dardani; the Goddess on the Throne is held for the Culture channel. |
+| D5 | Maps and engravings first; stylised AI landscapes or objects only where nothing exists, never people, always labelled. Each one proposed for a yes/no. |
+| D6 | The 1912–13 killings are stated as fact, attributed to contemporary observers, **with the estimate given** (about 20,000–25,000 Albanians killed in the first months), attributed to its source and checked in print before publication. |
+| D7 | The Kaçaks are called **freedom fighters** throughout. One sentence explains the name: *kaçak* comes from the Turkish for "fugitive" or "outlaw", the authorities' word, which the people of Drenica made a badge of honour. |
+| D8 | No figure where the estimates are far apart. **The 1941 expulsions of Serb and Montenegrin settlers are not mentioned.** |
+| D9 | **Violence against Serbs and Montenegrins in 1941–45 is not mentioned** (owner's decision after discussion; not to be re-raised). Included: Albanian-language schools in 1941, the deportation of Prishtina's Jews in May 1944 by the SS Skanderbeg division, and Albanians who sheltered Jews. |
+| D10 | Town names in their Albanian form in both languages, **with no Serbian form in brackets**. "Kosova" in Albanian text, "Kosovo" in English text. |
+
+Consequences for the proposed scenes: IV-6 keeps the occupation, partition and Albanian schools,
+and drops the sentence on settlers. IV-8 drops the number of Albanians killed in 1944–45
+(no agreed figure, per D8).
 
 How to read this:
 
