@@ -10,10 +10,14 @@ Prepared 2026-11-12.
 | Framing | **The site is about Albanians.** Each era is told with Albanians at its centre. Serbian rule and Serbian churches are mentioned where the history needs them, briefly. |
 | D20 | The League of Prizren is presented as **the founding moment of the Albanian national movement.** |
 | D21 | **Violence against Serbs in 1878–1912 is not mentioned** (as with D9; not to be re-raised). |
-| Era II | The owner found the first proposal centred on Serbs. It is replaced by **"Era II revised"** at the end of this note; the original Era II section below is kept only for reference. Decisions D24–D27 there are open. |
+| Era II | The owner found the first proposal centred on Serbs. It is replaced by **"Era II revised"** at the end of this note; the original Era II section below is kept only for reference. |
+| D24 | **Yes:** scenes may take place outside Kosovo (Kruja, Lezha), saying where each place is. |
+| D25 | **Yes:** one scene on the Serbian state (II-2). It also says when the Slavs, and later the Serbian state, came to the region (one sentence, folded into II-2 rather than a scene of its own). |
+| D26 | **Option (b):** the caption of II-5 adds *"In Albanian tradition, the knight was Millosh Kopiliqi."* |
+| D27 | **Include** the Kanun of Lekë Dukagjini, as a scene in Era III (see "Era III revised"). |
 
-Still open: D11 (as reworded in Era II revised), D12, D13, D14, D15 (replaced by D26), D16,
-D17, D18, D19, D22, D23, D24–D27.
+Still open: D11 (as reworded in Era II revised), D12, D13, D14, D16, D17, D19, D22, D23,
+and the Era III revision (D18 reworded, D28–D29).
 
 How to read this (same format as `m1-eras-I-and-IV.md`):
 
@@ -412,10 +416,14 @@ these centuries Kosovo itself was ruled by Byzantium and, for a time, by Bulgari
 → D24 (a scene set outside Kosovo).
 
 **II-2 · Kosovo under Serbian kings (late 12th–14th century).**
-One scene, plainly told: from the late 12th century Kosovo was part of the Serbian kingdom of the
-Nemanjić dynasty, whose kings built churches here, among them the monastery at Deçan, Graçanica
-and the Patriarchate of Peja, now on UNESCO's World Heritage list.
-*Sources: Fine LMB; Malcolm ch. 3; UNESCO 724.* → D25.
+One scene, plainly told: Slavic peoples settled in the Balkans from the late 6th and 7th centuries.
+The Serbian state reached Kosovo only at the end of the 12th century: from then on Kosovo was part
+of the Serbian kingdom of the Nemanjić dynasty, whose kings built churches here, among them the
+monastery at Deçan, Graçanica and the Patriarchate of Peja, now on UNESCO's World Heritage list.
+*Sources: Fine EMB; Curta; Fine LMB; Malcolm ch. 3; UNESCO 724.* → D25 (decided).
+[verify: the dating of the Slavic settlement; the decade of Nemanja's conquest of Kosovo]
+Note: the sentence states only when the Slavs and the Serbian state arrived. It says nothing about
+who lived here before them; that question is covered by the agreed wording of D3 in Era I.
 
 **II-3 · The first traces in Kosovo (1285–1348).**
 In 1285 a court record in Dubrovnik mentions a voice heard calling in the mountains "in the
@@ -442,8 +450,9 @@ lists about 150 Albanian householders is **not** to be used unless confirmed in 
 On 15 June 1389 an Ottoman army under Sultan Murad I met a coalition of Balkan lords on the plain
 of Kosovo, led by Prince Lazar of Serbia, with Bosnian troops. According to the chronicle of the
 Albanian Muzaka family, Albanian lords fought there too, and Teodor Muzaka II died in the battle.
-Lazar and Murad were both killed; Murad was struck down by a Christian knight. Neither side won
-outright, but the Ottoman advance into the Balkans continued.
+Lazar and Murad were both killed; Murad was struck down by a Christian knight. In Albanian
+tradition, the knight was Millosh Kopiliqi (D26). Neither side won outright, but the Ottoman
+advance into the Balkans continued.
 *Sources: Emmert; Fine LMB; Malcolm ch. 4; Muzaka.* [verify: the chronicle's passage; Malcolm's
 discussion of it] → D14 (the date, still open), D26.
 
@@ -516,3 +525,98 @@ Era II; it belongs in Era VI, where the 1989 speech at the site is part of the s
 | II-6 | 16th-century portrait of Skanderbeg (Uffizi, Giovio series) | Public domain | to select |
 
 Still no AI illustration proposed for Era II.
+
+---
+
+## Era III revised: Albanians under Ottoman rule (proposed 2026-11-12)
+
+Same approach as Era II revised: the scenes follow the Albanians. Compared with the first proposal,
+III-2 drops the restored Serbian Patriarchate (D28), III-3 is retold around the Albanians (D18),
+the Kanun becomes a scene (D27), and the last two scenes merge to keep the count at 7 (D29).
+The decided points apply: D20 (the League as the founding moment) and D21 (no 1878–1912 violence
+against Serbs).
+
+### Proposed scenes (7)
+
+**III-1 · Ottoman rule, and a new faith (15th–17th century).**
+After 1455 Kosovo was divided into Ottoman districts (sanjaks); Sultan Mehmed II's mosque in
+Prishtina dates from 1461. Over two centuries most Albanians became Muslim, mainly for the lower
+taxes and the careers Islam opened, at times under pressure (D17). Some stayed Catholic; some
+families lived as Muslims in public and kept their Christian faith at home. Albanians rose to high
+office across the Empire, among them several grand viziers.
+*Sources: Inalcik; Malcolm ch. 5–7; Elsie.* [verify: the mosque's inscription date; the grand
+viziers of Albanian origin to be named, if any, each from a published source]
+
+**III-2 · Bazaars, mosques and bridges (16th–17th century).**
+Prizren, Gjakova, Peja, Prishtina and Vushtrri grew into Ottoman towns, with bazaars, mosques,
+baths and stone bridges: in Prizren the Sinan Pasha Mosque (1615), in Gjakova the Hadum Mosque and
+its long bazaar. The Ottoman traveller Evliya Çelebi described Prizren and Vushtrri in 1660.
+*Sources: Malcolm ch. 6; Evliya; Ćurčić; Elsie.* [verify: every construction date; the Hadum
+Mosque's date and founder]
+
+**III-3 · 1689: Albanians and the Austrian campaign.**
+In 1689, during a great war between the Habsburgs and the Ottomans, an Austrian army reached
+Kosovo and Prizren. Pjetër Bogdani, Catholic archbishop and author of *Cuneus Prophetarum* (1685),
+one of the first great books written in Albanian, called on Albanians to support it, and many did.
+Bogdani died in Prishtina that winter. When the Ottomans returned in 1690, reprisals followed, and
+many local Christians fled north with the retreating army, led by the Serbian Patriarch Arsenije III.
+*Sources: Malcolm ch. 8; Elsie (entry: Bogdani); Elsie Lit.* [verify: Bogdani's role and death
+(December 1689); the extent of Albanian participation, which rests mainly on Malcolm and is disputed
+by Serbian historians, so the caption says "many" and gives no number] → D18 (reworded).
+
+**III-4 · The Kanun: the law of the mountains (16th–19th century).**
+Under Ottoman rule the Albanian highlands, including the plain of Dukagjin in western Kosovo,
+largely governed themselves by customary law: the Kanun, named after Lekë Dukagjini (1410–1481),
+a lord of northern Albania who fought the Ottomans in Skanderbeg's time. It ruled family, land,
+hospitality, the given word (*besa*) and the blood feud. It was handed down orally until the priest
+Shtjefën Gjeçovi wrote it down; he was shot at Zym, near Prizren, in 1929, and his edition was
+published in 1933.
+*Sources: Elsie; Malcolm; the Kanun, ed. Gjeçovi (1933), English trans. L. Fox (1989).*
+[verify: Lekë's dates; the attribution, which is traditional (the caption says "named after");
+Gjeçovi's death date and place; how far the Kanun applied in the Kosovo lowlands]
+Year on the timeline: approximate, e.g. 1700. Treatment: parchment (no photograph).
+
+**III-5 · 1877–78: expelled from Niš and Toplica.**
+As written in III-4 of the first proposal: the Albanian population of the Niš, Prokuplje,
+Kuršumlija and Leskovac districts was expelled by Serbian forces, and many refugees (muhaxhirë)
+settled in Kosovo. No figure (D19, still open).
+
+**III-6 · The League of Prizren (1878–1881).**
+On 10 June 1878 delegates from the Albanian lands met in Prizren and founded the League of Prizren,
+the founding moment of the Albanian national movement (D20). It rose against the decisions of San
+Stefano and Berlin, which handed Albanian lands to Montenegro and Serbia, and fought to keep Plav
+and Gusinje. Under Abdyl Frashëri, Ymer Prizreni and Sulejman Vokshi it demanded an autonomous
+Albanian province, and in 1881 the Sultan's army crushed it.
+*Sources: Skendi; Gawrych; Frashëri; Malcolm ch. 12; Elsie.* [verify as before]
+
+**III-7 · From the League of Peja to the uprising of 1912.**
+In 1899 Haxhi Zeka called the League of Peja. Albanian schools were forbidden and the language was
+taught in secret. In 1910 Kosovo rose against the Young Turk government; Idriz Seferi held the
+Kaçanik pass. In 1912 a general uprising led by Hasan Prishtina, Isa Boletini and Bajram Curri took
+Prishtina and Skopje, and the government accepted most of its demands. Two months later the Balkan
+Wars began.
+*Sources: Gawrych; Skendi; Malcolm ch. 12; Elsie.* [verify as before]
+
+### Decisions for Era III revised
+
+**D18 (reworded) · 1689–90.**
+The first proposal centred on the Serbian "Great Migration". *Recommendation:* tell 1689 through
+Bogdani and the Albanians who joined the campaign, as in III-3, and keep the Serbian departure to
+the one clause at the end, with no figure. Leaving it out entirely is possible, but it is the
+best-known event of these years; a single neutral clause shows the site does not avoid it, and the
+source tab notes that the numbers are disputed.
+
+**D28 · The restored Serbian Patriarchate (1557).**
+*Recommendation:* drop it from III-2; it is not part of the Albanian story, and II-2 already
+introduces the Patriarchate of Peja.
+
+**D29 · Scene count.**
+With Era II at 7 and Era III at 7, Eras I–IV have 27 scenes, leaving 13 for Eras V–IX if v1 stays
+at 40. Era VII (the war) should not be squeezed. *Recommendation:* let v1 grow to about 44 scenes
+rather than cut further here; decide when the notes for V–IX are ready.
+
+### Images for Era III revised
+
+As in the first proposal, plus for III-4: a Commons photograph of a kulla in western Kosovo, and
+the title page of Gjeçovi's 1933 edition if a public-domain scan exists (to select). For III-3:
+`Cuneus Prophetarum Title Page.jpg` (public domain).
