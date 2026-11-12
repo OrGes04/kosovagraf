@@ -211,6 +211,10 @@ IX 2008-today (independence)
 - Known for Milestone 3: gyroscope parallax, texture upload off the main thread.
 
 ## Content workflow
+- Framing (owner, 2026-11-12): **the site is about Albanians.** Each era is told with Albanians
+  at its centre; Serbian rule and Serbian churches are mentioned where the history needs them,
+  briefly. Violence against Serbs is not included (decisions D9 and D21; do not re-raise).
+  Accuracy rules are unchanged: no claim beyond what the sources support.
 - Before drafting an era, send the owner a sourcing note: proposed scenes, sources per
   fact, and every point where sources disagree. The owner decides, then SQ and EN drafts
   follow. The owner reviews all Albanian text.

@@ -1,7 +1,19 @@
 # Sourcing note: Era II (Middle Ages) and Era III (Ottoman era, to 1912)
 
-Status: **waiting for the owner's decisions.** No scene text has been drafted.
+Status: **partly decided (2026-11-12).** No scene text has been drafted.
 Prepared 2026-11-12.
+
+## Owner decisions (2026-11-12)
+
+| | Decision |
+|---|---|
+| Framing | **The site is about Albanians.** Each era is told with Albanians at its centre. Serbian rule and Serbian churches are mentioned where the history needs them, briefly. |
+| D20 | The League of Prizren is presented as **the founding moment of the Albanian national movement.** |
+| D21 | **Violence against Serbs in 1878–1912 is not mentioned** (as with D9; not to be re-raised). |
+| Era II | The owner found the first proposal centred on Serbs. It is replaced by **"Era II revised"** at the end of this note; the original Era II section below is kept only for reference. Decisions D24–D27 there are open. |
+
+Still open: D11 (as reworded in Era II revised), D12, D13, D14, D15 (replaced by D26), D16,
+D17, D18, D19, D22, D23, D24–D27.
 
 How to read this (same format as `m1-eras-I-and-IV.md`):
 
@@ -48,6 +60,8 @@ and give the other side its own source.
 ---
 
 ## Era II: Middle Ages (about 600–1455)
+
+> **Superseded** by "Era II revised" at the end of this note (owner, 2026-11-12). Kept for reference.
 
 ### Proposed scenes
 
@@ -366,3 +380,139 @@ Notes on the images:
 - The crypto-Catholics (*laramanë*), Albanian Catholic culture in Janjeva and Letnica: Culture channel.
 - Ottoman-era daily life, crafts and guilds of Prizren and Gjakova: Daily life channel.
 - The Rilindja writers and the 1908 alphabet congress (in Manastir, outside Kosovo): Culture channel.
+
+---
+
+## Era II revised: Albanians in the Middle Ages (proposed 2026-11-12)
+
+The first proposal followed the political record, which for 1180–1455 is mostly written by the
+Serbian state and church. This version follows **the Albanians**: where they first appear, where
+the records show them in Kosovo, and their own lords and leaders. The Serbian state appears in one
+scene and where the story needs it (the charters, 1389). Everything below is documented; nothing
+claims more than the sources do (no population shares, see D11).
+
+New sources for this version:
+
+| Short name | Work |
+|---|---|
+| Ducellier | Alain Ducellier, *La façade maritime de l'Albanie au Moyen Âge* (Thessaloniki, 1981) |
+| Schmitt | Oliver Jens Schmitt, *Skanderbeg: Der neue Alexander auf dem Balkan* (Pustet, 2009) |
+| Muzaka | Gjon Muzaka, *Breve memoria de li discendenti de nostra casa Musachi* (1510–1515), in C. Hopf, *Chroniques gréco-romanes* (Berlin, 1873), public domain |
+| Dubrovnik Archives | State Archives in Dubrovnik: the 1285 court record naming the Albanian language; 14th–15th-century records of Novo Brdo, as published by scholars of the Ragusan archives [verify which edition] |
+| Elsie Lit. | Robert Elsie, *Albanian Literature: A Short History* (I.B. Tauris, 2005), for the earliest records of the language |
+
+### Proposed scenes (7)
+
+**II-1 · Arbër: the Albanians enter the written record (11th–12th century).**
+Byzantine writers name the Albanians for the first time in the 11th century: Michael Attaleiates,
+describing events of 1043, and later Anna Komnene, who calls their land *Arbanon*. Around 1190,
+Arbër, the first Albanian principality, was founded under Progon, with Kruja as its centre. In
+these centuries Kosovo itself was ruled by Byzantium and, for a time, by Bulgaria.
+*Sources: Ducellier; Fine EMB; Malcolm ch. 3; Elsie.* [verify: the 1043 passage; the date 1190]
+→ D24 (a scene set outside Kosovo).
+
+**II-2 · Kosovo under Serbian kings (late 12th–14th century).**
+One scene, plainly told: from the late 12th century Kosovo was part of the Serbian kingdom of the
+Nemanjić dynasty, whose kings built churches here, among them the monastery at Deçan, Graçanica
+and the Patriarchate of Peja, now on UNESCO's World Heritage list.
+*Sources: Fine LMB; Malcolm ch. 3; UNESCO 724.* → D25.
+
+**II-3 · The first traces in Kosovo (1285–1348).**
+In 1285 a court record in Dubrovnik mentions a voice heard calling in the mountains "in the
+Albanian language", the first time the language is named in writing. In Kosovo itself, the
+earliest written traces of Albanians are in the royal charters of the 14th century: the Deçan
+charters (1330) and the charter of the Holy Archangels near Prizren (about 1348) name Albanian
+villages and herding communities. Historians note that these lists cover only the church's own
+lands, and that most Albanians were Catholic and so rarely appear in Orthodox monastery records:
+the documents show Albanians were there, but not how many.
+*Sources: Dubrovnik Archives; Elsie Lit.; Malcolm ch. 3; the published Deçan charters.*
+[verify: the 1285 wording and date (some give 1284); which villages each charter names; Malcolm's
+argument on under-recording, page] → D11.
+
+**II-4 · Novo Brdo: Albanian miners and priests (14th–15th century).**
+Novo Brdo, one of the richest silver-mining towns of the Balkans, drew miners and craftsmen from
+far away. Records in the Dubrovnik archives name many Albanians there, among them Catholic priests,
+miners and artisans, with Albanian names such as Gjon, Gjin, Progon, Lekë and Gjergj, alongside
+Saxon miners, Ragusan merchants and Serbs.
+*Sources: Dubrovnik Archives; Malcolm ch. 3; Fine LMB.* [verify every name and figure in the
+published archive material before use. A claim found online that a merchant's ledger of the 1430s
+lists about 150 Albanian householders is **not** to be used unless confirmed in print.]
+
+**II-5 · 1389: a Balkan coalition at Kosovo.**
+On 15 June 1389 an Ottoman army under Sultan Murad I met a coalition of Balkan lords on the plain
+of Kosovo, led by Prince Lazar of Serbia, with Bosnian troops. According to the chronicle of the
+Albanian Muzaka family, Albanian lords fought there too, and Teodor Muzaka II died in the battle.
+Lazar and Murad were both killed; Murad was struck down by a Christian knight. Neither side won
+outright, but the Ottoman advance into the Balkans continued.
+*Sources: Emmert; Fine LMB; Malcolm ch. 4; Muzaka.* [verify: the chronicle's passage; Malcolm's
+discussion of it] → D14 (the date, still open), D26.
+
+**II-6 · The Kastrioti and Skanderbeg (about 1400–1468).**
+The lands of the Albanian lord Gjon Kastrioti reached towards Prizren, through the Has region that
+lies across today's Kosovo–Albania border. His son Gjergj Kastrioti, Skanderbeg, rose against the
+Ottomans in 1443 and united Albanian lords in the League of Lezha in 1444. In 1448 he marched to
+join the Hungarian army fighting the Ottomans at Kosovo but was held back and arrived too late. He
+resisted the Ottomans until his death in 1468.
+*Sources: Schmitt; Fine LMB; Malcolm ch. 5; Elsie.* [verify: how far Gjon Kastrioti's lands
+reached towards Prizren (sources differ on the family's origin, so the caption does not state
+it); the 1448 route] → D24.
+
+**II-7 · 1455: the Ottoman conquest.**
+In 1455 Sultan Mehmed II besieged and took Novo Brdo; Prizren and Peja fell the same year. Kosovo
+would stay in the Ottoman Empire for more than four and a half centuries.
+*Sources: Fine LMB; Malcolm ch. 5; Mihailović; Inalcik.* [verify dates] → D27 (the Kanun).
+
+### Decisions for Era II revised
+
+**D11 (reworded) · How to describe the Albanian presence.**
+*Recommendation:* as in II-3: the records show Albanians in Kosovo in the 14th century, the church
+records likely undercount them, and nobody can give the numbers. No population shares in either
+direction. This is the strongest statement the evidence supports, and it holds up to scrutiny.
+
+**D24 · Scenes set outside Kosovo.**
+II-1 (Kruja) and part of II-6 (Lezha, Kruja) take place in today's Albania. Era IV already does
+this with Bujan.
+*Recommendation:* allow it in Era II, saying where each place is, because the Albanian story of the
+Middle Ages cannot be told from inside Kosovo's borders alone.
+
+**D25 · How much of the Serbian state.**
+*Recommendation:* the one scene II-2, plus the mentions II-3 and II-5 need (the charters are Serbian
+royal documents; Lazar led the coalition). Visitors from abroad who know the monasteries will
+expect them; one plain scene keeps the site trustworthy without making it their story. This
+replaces the original II-2 and II-3; D12 (names of the monuments) still applies.
+
+**D26 · Albanians at the battle of 1389, and the knight.** (Replaces D15.)
+The only source for Albanian lords in the battle is the Muzaka chronicle, written about 120 years
+later; Teodor Muzaka's death there is widely repeated but has no contemporary confirmation.
+The knight who killed Murad is Miloš Obilić in Serbian tradition and Millosh Kopiliqi, an Albanian,
+in Albanian tradition; no document settles either.
+*Recommendation:* the caption names Teodor Muzaka II, attributed to the chronicle (as written in
+II-5). For the knight, two options: (a) "a Christian knight" in the caption and both traditions in
+the source tab, or (b) a caption line: *"In Albanian tradition, the knight was Millosh Kopiliqi."*
+Option (b) is accurate as long as it is stated as tradition. Your call.
+
+**D27 · The Kanun of Lekë Dukagjini.**
+Lekë Dukagjini (1410–1481) was a lord of northern Albania; the customary law named after him
+governed Albanian highland life, including western Kosovo, for centuries, and was written down by
+Shtjefën Gjeçovi, who was shot at Zym near Prizren in 1929. The attribution to Lekë is traditional.
+[verify: Gjeçovi's death, 14 October 1929; the 1933 edition]
+*Recommendation:* a scene in Era III (customary law under Ottoman rule) or the Culture channel,
+not Era II, which already has 7 scenes.
+
+**D16, still open, revised recommendation:** drop the sentence on the battle's later myth from
+Era II; it belongs in Era VI, where the 1989 speech at the site is part of the story.
+
+### Images for Era II revised
+
+| Use | File | Licence | Credit |
+|---|---|---|---|
+| II-1 | Kruja castle (photo) | to select on Commons | |
+| II-1 | Map of the Balkans c. 1200 (Shepherd's *Historical Atlas*) | Public domain | William R. Shepherd |
+| II-2 | `Visoki Dečani, exterior view (Julian Nyča).jpg`, 2500×1875 | CC BY-SA 4.0 | Julian Nyča |
+| II-3 | `Charter of Dečani by Stefan Uroš III.png`, 622×929 | Public domain | (document) |
+| II-4, II-7 | `Novo Brdo Fortress (OSCAL19 trip).jpg`, 4912×3264 | CC0 | albinfo |
+| II-5 | `Sultan Murad tomb.jpg`, 3264×2448 | CC BY-SA 3.0 | Arianselmani |
+| II-5 | Muzaka chronicle, Hopf's 1873 edition (page scan) | Public domain | to select |
+| II-6 | 16th-century portrait of Skanderbeg (Uffizi, Giovio series) | Public domain | to select |
+
+Still no AI illustration proposed for Era II.
