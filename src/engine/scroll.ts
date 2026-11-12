@@ -2,20 +2,22 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
 import 'lenis/dist/lenis.css';
-import { locate, type Position } from './sequence';
+import { clamp01, locate, type Position } from './sequence';
 
 /**
  * Owns scrolling. Lenis gives the weighted, smooth feel; one ScrollTrigger
  * watches the whole track and keeps the measurements fresh on resize. The rest
- * of the engine only ever asks "where are we?" via position().
+ * of the engine asks "where are we?" via position() and moves with jumpTo(),
+ * scrollToItem() and seek().
  */
 export function createScroll(track: HTMLElement, sections: HTMLElement[], opts: { smooth: boolean }) {
   gsap.registerPlugin(ScrollTrigger);
 
   let starts: number[] = [];
   let sizes: number[] = [];
-  let y = window.scrollY;
+  let max = 1;
   let locked = false;
+  const measureListeners = new Set<() => void>();
 
   const lenis = opts.smooth ? new Lenis({ lerp: 0.085, wheelMultiplier: 0.9 }) : null;
   if (lenis) {
@@ -30,18 +32,24 @@ export function createScroll(track: HTMLElement, sections: HTMLElement[], opts: 
     // The last section is one screen taller, so its progress reaches 1 exactly
     // when the page cannot scroll any further.
     sizes = sections.map((s, i) => (i === last ? s.offsetHeight - window.innerHeight : s.offsetHeight));
+    max = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+    measureListeners.forEach((fn) => fn());
   }
 
-  ScrollTrigger.create({
-    trigger: track,
-    start: 'top top',
-    end: 'bottom bottom',
-    onRefresh: measure,
-    onUpdate: (self) => {
-      y = self.scroll();
-    },
-  });
+  ScrollTrigger.create({ trigger: track, start: 'top top', end: 'bottom bottom', onRefresh: measure });
   measure();
+
+  function offsetOf(index: number, t: number): number {
+    return Math.round(starts[index]! + sizes[index]! * t);
+  }
+
+  /** Runs fn with scrolling briefly allowed, for moves the engine makes itself. */
+  function unlocked(fn: () => void) {
+    const wasLocked = locked;
+    if (wasLocked) setLocked(false);
+    fn();
+    if (wasLocked) setLocked(true);
+  }
 
   function setLocked(value: boolean) {
     locked = value;
@@ -54,18 +62,44 @@ export function createScroll(track: HTMLElement, sections: HTMLElement[], opts: 
 
   return {
     position(): Position {
-      // Read the live offset: ScrollTrigger's value can lag by a frame.
-      y = window.scrollY;
-      return locate(starts, sizes, y);
+      return locate(starts, sizes, window.scrollY);
     },
-    /** Jump straight to a point inside an item (0 = its start). */
+    /** Whole-page progress, 0 at the top and 1 at the end. */
+    progress(): number {
+      return clamp01(window.scrollY / max);
+    },
+    /** Page progress at a point inside an item. */
+    progressOf(index: number, t = 0): number {
+      return clamp01(offsetOf(index, t) / max);
+    },
+    /** The item and progress at a page progress. */
+    locateProgress(p: number): Position {
+      return locate(starts, sizes, clamp01(p) * max);
+    },
+    /** Jump straight to a point inside an item. */
     jumpTo(index: number, t = 0) {
-      const target = Math.round(starts[index]! + sizes[index]! * t);
-      const wasLocked = locked;
-      if (wasLocked) setLocked(false);
+      const target = offsetOf(index, t);
+      unlocked(() => {
+        if (lenis) lenis.scrollTo(target, { immediate: true, force: true });
+        else window.scrollTo(0, target);
+      });
+    },
+    /** Glide to a point inside an item. */
+    scrollToItem(index: number, t = 0) {
+      if (locked) return;
+      const target = offsetOf(index, t);
+      if (lenis) lenis.scrollTo(target, { duration: 1.1, easing: (x) => 1 - Math.pow(1 - x, 3) });
+      else window.scrollTo({ top: target, behavior: 'auto' });
+    },
+    /** Follow a scrubber: move to a page progress at once. */
+    seek(p: number) {
+      if (locked) return;
+      const target = Math.round(clamp01(p) * max);
       if (lenis) lenis.scrollTo(target, { immediate: true, force: true });
       else window.scrollTo(0, target);
-      if (wasLocked) setLocked(true);
+    },
+    onMeasure(fn: () => void) {
+      measureListeners.add(fn);
     },
     setLocked,
     isLocked: () => locked,

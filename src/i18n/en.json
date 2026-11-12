@@ -16,10 +16,12 @@
     "effects": "Effects",
     "language": "Language",
     "on": "on",
-    "off": "off"
+    "off": "off",
+    "overview": "All scenes",
+    "sq": "Albanian",
+    "en": "English"
   },
   "timeline": {
-    "label": "Timeline",
     "bc": "BC",
     "jumpTo": "Go to"
   },
@@ -46,5 +48,17 @@
   },
   "placeholder": {
     "badge": "Test scene"
+  },
+  "overview": {
+    "scenes": "scenes",
+    "chapters": "chapters",
+    "close": "Close"
+  },
+  "hints": {
+    "scenes": "scenes",
+    "all": "all"
+  },
+  "scrubber": {
+    "label": "Time"
   }
 }

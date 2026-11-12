@@ -50,6 +50,8 @@ export class GLRenderer implements SceneRenderer {
   private lastTime = 0;
   /** Resolution scale, lowered by the main loop on devices that cannot keep up. */
   private quality = 1;
+  /** True while the browser has taken the GPU context away (e.g. a phone tab in the background). */
+  private lost = false;
 
   constructor(canvas: HTMLCanvasElement) {
     this.renderer = new Renderer({
@@ -93,7 +95,10 @@ export class GLRenderer implements SceneRenderer {
 
     // A lost context (common on phones after the tab was in the background)
     // cannot be repaired piecemeal; reloading restores the scroll position.
-    canvas.addEventListener('webglcontextlost', (e) => e.preventDefault());
+    canvas.addEventListener('webglcontextlost', (e) => {
+      e.preventDefault();
+      this.lost = true;
+    });
     canvas.addEventListener('webglcontextrestored', () => location.reload());
 
     this.resize();
@@ -184,6 +189,7 @@ export class GLRenderer implements SceneRenderer {
   }
 
   render(f: Frame): void {
+    if (this.lost) return;
     const u = this.program.uniforms;
     const a = this.entries.get(f.a.image);
     const b = f.b ? this.entries.get(f.b.image) : undefined;

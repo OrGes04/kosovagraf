@@ -26,37 +26,46 @@ function link(url: string, text: string): HTMLAnchorElement {
 }
 
 /**
- * The "Burimi / Source" tab: a small tab that slides up a panel with the
- * sources for the current scene's facts and the credit and licence of its image.
+ * The "Burimi / Source" panel: the sources for the current scene's facts and
+ * the credit and licence of its image. A side panel on wide screens, a sheet
+ * from the bottom on phones. The picture stays visible beside it.
  */
-export function createSourceTab(root: HTMLElement) {
-  const tab = root.querySelector<HTMLButtonElement>('.source__tab')!;
-  const panel = root.querySelector<HTMLElement>('.source__panel')!;
+export function createSourcePanel(root: HTMLElement, trigger: HTMLButtonElement, onToggle: (open: boolean) => void) {
   const body = root.querySelector<HTMLElement>('.source__body')!;
   const close = root.querySelector<HTMLButtonElement>('.source__close')!;
+  const backdrop = root.querySelector<HTMLElement>('.source__backdrop')!;
   let open = false;
   let renderedKey = '';
 
-  function setOpen(value: boolean) {
+  function setOpen(value: boolean, returnFocus = true) {
+    if (value === open) return;
     open = value;
-    root.classList.toggle('is-open', open);
-    tab.setAttribute('aria-expanded', String(open));
-    panel.inert = !open;
-    if (open) close.focus({ preventScroll: true });
+    onToggle(open);
+    trigger.setAttribute('aria-expanded', String(open));
+    if (open) {
+      root.hidden = false;
+      requestAnimationFrame(() => {
+        root.classList.add('is-open');
+        close.focus({ preventScroll: true });
+      });
+    } else {
+      root.classList.remove('is-open');
+      window.setTimeout(() => {
+        if (!open) root.hidden = true;
+      }, 450);
+      if (returnFocus) trigger.focus({ preventScroll: true });
+    }
   }
 
-  tab.addEventListener('click', () => setOpen(!open));
-  close.addEventListener('click', () => {
-    setOpen(false);
-    tab.focus({ preventScroll: true });
-  });
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && open) {
+  trigger.addEventListener('click', () => setOpen(!open));
+  close.addEventListener('click', () => setOpen(false));
+  backdrop.addEventListener('click', () => setOpen(false));
+  root.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      e.stopPropagation();
       setOpen(false);
-      tab.focus({ preventScroll: true });
     }
   });
-  setOpen(false);
 
   return {
     render(scene: SceneData, ui: UiStrings, lang: string) {
@@ -65,20 +74,25 @@ export function createSourceTab(root: HTMLElement) {
       renderedKey = key;
       body.textContent = '';
 
+      body.append(el('h2', 'source__title', scene.title[lang as 'sq' | 'en']));
+
       body.append(el('h3', 'source__heading', ui.source.sources));
       if (scene.sources.length === 0) {
         body.append(el('p', 'source__empty', ui.source.none));
       } else {
         const list = el('ol', 'source__list');
-        for (const source of scene.sources) {
-          const item = el('li');
+        scene.sources.forEach((source, i) => {
+          const item = el('li', 'source__item');
+          item.append(el('span', 'source__num', String(i + 1)));
+          const text = el('span', 'source__text');
           const url = safeUrl(source.url);
-          item.append(url ? link(url, source.title) : el('span', 'source__title', source.title));
+          text.append(url ? link(url, source.title) : el('span', 'source__name', source.title));
           const details = describe(source);
-          if (details) item.append(el('span', 'source__details', details));
-          if (source.note) item.append(el('span', 'source__note', source.note));
+          if (details) text.append(el('span', 'source__details', details));
+          if (source.note) text.append(el('span', 'source__note', source.note));
+          item.append(text);
           list.append(item);
-        }
+        });
         body.append(list);
       }
 
@@ -88,14 +102,18 @@ export function createSourceTab(root: HTMLElement) {
       const creditUrl = safeUrl(scene.imageSourceUrl);
       credit.append(creditUrl ? link(creditUrl, scene.imageCredit) : scene.imageCredit);
       const licence = scene.imageLicenseDetail ?? ui.license[scene.imageLicense];
-      facts.append(el('dt', undefined, ui.source.credit), credit, el('dt', undefined, ui.source.license), el('dd', undefined, licence));
+      facts.append(
+        el('dt', undefined, ui.source.credit),
+        credit,
+        el('dt', undefined, ui.source.license),
+        el('dd', undefined, licence),
+      );
       body.append(facts);
       if (scene.isIllustration) body.append(el('p', 'source__illustration', ui.source.illustration));
     },
-    close() {
-      if (open) setOpen(false);
-    },
+    close: () => setOpen(false, false),
+    isOpen: () => open,
   };
 }
 
-export type SourceTab = ReturnType<typeof createSourceTab>;
+export type SourcePanel = ReturnType<typeof createSourcePanel>;

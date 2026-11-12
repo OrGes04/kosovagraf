@@ -9,3 +9,6 @@ dist/
 Thumbs.db
 *.log
 .claude/settings.local.json
+
+# Owner's design references (copyrighted Pinterest images, never published)
+references/

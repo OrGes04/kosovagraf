@@ -143,6 +143,14 @@ IX 2008-today (independence)
 - Offline scripts in `scripts/`: image optimisation, depth maps, content validator.
 - Licence allow-list for images: public domain, CC0, CC BY, CC BY-SA. No NC or ND.
 
+## Interface design (owner decision, 2026-11-12)
+- `docs/design/ui.md` is the agreed interface spec. It **replaces v1 scope item 2** (the
+  persistent top ruler): time is shown by a mini tick timeline under the caption, a
+  right-edge scrubber that appears while moving, a chapter-change moment and an overview.
+- Accent is ivory (`#EDE6D6`), interface essentially monochrome. Type: Instrument Serif,
+  Geist, Geist Mono. Controls sit in one dark pill with backgrounds.
+- The owner judges the interface by its look: match the agreed sketches closely.
+
 ## Commands
 - `npm run dev` : dev server on http://localhost:4321 (`.claude/launch.json` name: `kosovograf`)
 - `npm run check` : type check (`astro check`) + unit tests (Vitest)
@@ -158,14 +166,21 @@ IX 2008-today (independence)
 - `src/engine/sequence.ts` : pure maths for scroll -> scene, year, ruler, captions (tested).
 - `src/engine/shader/` : `era.frag.glsl` (all effects), `presets.ts` (era weights).
 - `src/engine/renderer/` : WebGL renderer (OGL), plain-image fallback.
-- `src/engine/hud/` : odometer, timeline, captions, source tab, opening.
+- `src/engine/hud/` : interface pieces (see `docs/design/ui.md`): `captions`, `mini` (tick timeline
+  under the caption), `scrubber` (right-edge time handle), `chapter` (chapter-change card),
+  `overview`, `source` (sources panel), `opening`, `odometer`.
 - `src/components/Story.astro` + `src/styles/story.css` : the page and all styling.
 - `src/content/eras/`, `src/content/scenes/<era>/` : content. `src/i18n/` : interface text.
 - `docs/sourcing/` : sourcing notes sent to the owner before each era is drafted.
+- `docs/design/ui.md` : the agreed interface spec.
 
 ## Useful URLs while developing
 - `/?skip` skips the opening. `/?debug` opens the tuning panel (sliders for every shader
   weight, force any era's treatment). `/#<scene-id>` deep-links to a scene.
+- Keys: ← / → scenes, O overview, Esc closes.
+- Testing interactions: the in-app preview pane pauses animation when hidden and renders
+  WebGL slowly. For reliable checks, `npm run build`, serve with `npx astro preview --port 4330`,
+  and drive headless Chrome (puppeteer-core with the installed Chrome) from a scratch folder.
 
 ## State of the build
 - Milestone 1 engine is built and runs on generated **test cards** (`test-01` … `test-13`,

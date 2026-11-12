@@ -16,17 +16,19 @@
     "effects": "Efektet",
     "language": "Gjuha",
     "on": "ndezur",
-    "off": "fikur"
+    "off": "fikur",
+    "overview": "Të gjitha skenat",
+    "sq": "Shqip",
+    "en": "Anglisht"
   },
   "timeline": {
-    "label": "Vija kohore",
     "bc": "p.e.s.",
     "jumpTo": "Shko te"
   },
   "source": {
     "tab": "Burimi",
     "sources": "Burimet",
-    "image": "Fotografia",
+    "image": "Imazhi",
     "credit": "Autori",
     "license": "Licenca",
     "illustration": "Ilustrim",
@@ -46,5 +48,17 @@
   },
   "placeholder": {
     "badge": "Skenë prove"
+  },
+  "overview": {
+    "scenes": "skena",
+    "chapters": "kapituj",
+    "close": "Mbyll"
+  },
+  "hints": {
+    "scenes": "skena",
+    "all": "të gjitha"
+  },
+  "scrubber": {
+    "label": "Koha"
   }
 }

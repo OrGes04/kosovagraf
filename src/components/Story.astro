@@ -3,11 +3,12 @@
  * The whole experience on one page: a fixed stage (canvas + interface) and,
  * behind it, the scroll track. The track holds the story as real, readable
  * HTML, which is also what search engines, screen readers and visitors
- * without JavaScript get.
+ * without JavaScript get. Interface design: docs/design/ui.md.
  */
-import '@fontsource-variable/newsreader';
-import '@fontsource/ibm-plex-mono/400.css';
-import '@fontsource/ibm-plex-mono/500.css';
+import '@fontsource-variable/geist';
+import '@fontsource-variable/geist-mono';
+import '@fontsource/instrument-serif/400.css';
+import '@fontsource/instrument-serif/400-italic.css';
 import '@fontsource/vt323/400.css';
 import '../styles/story.css';
 import { LOCALES } from '../lib/constants';
@@ -23,8 +24,6 @@ interface Props {
 const { data } = Astro.props;
 const lang = data.locale;
 const ui = data.ui[lang];
-const eraById = new Map(data.eras.map((e) => [e.id, e]));
-const firstEra = eraById.get(data.scenes[0]!.era)!;
 const lastScene = data.scenes.length - 1;
 // "<" must not appear raw inside the JSON script block.
 const json = JSON.stringify(data).replace(/</g, '\\u003c');
@@ -39,37 +38,7 @@ const json = JSON.stringify(data).replace(/</g, '\\u003c');
   </div>
   <div class="stage__shade" aria-hidden="true"></div>
 
-  <header class="hud">
-    <p class="chapter">
-      <span class="chapter__number" id="chapter-number">{firstEra.roman}</span>
-      <span class="chapter__title" id="chapter-title">{firstEra.title[lang]}</span>
-    </p>
-
-    <nav class="timeline" id="timeline" data-i18n-label="timeline.label" aria-label={ui.timeline.label}>
-      <div class="timeline__year" id="year"></div>
-      <div class="timeline__ruler">
-        <div class="timeline__strip"></div>
-        <span class="timeline__needle" aria-hidden="true"></span>
-      </div>
-      <div class="timeline__progress" aria-hidden="true"><span class="timeline__progress-fill"></span></div>
-      <div class="timeline__preview" aria-hidden="true"></div>
-    </nav>
-
-    <div class="controls">
-      <button class="control" id="btn-sound" type="button" aria-pressed="false">
-        <span class="control__lamp" aria-hidden="true"></span>
-        <span data-i18n="controls.sound">{ui.controls.sound}</span>
-      </button>
-      <button class="control control--lang" id="btn-lang" type="button" data-i18n-label="controls.language" aria-label={ui.controls.language}>
-        {LOCALES.map((code) => <span data-lang={code} class:list={{ 'is-active': code === lang }}>{code.toUpperCase()}</span>)}
-      </button>
-      <button class="control" id="btn-effects" type="button" aria-pressed="true">
-        <span class="control__lamp" aria-hidden="true"></span>
-        <span data-i18n="controls.effects">{ui.controls.effects}</span>
-      </button>
-    </div>
-  </header>
-
+  <!-- Title screen -->
   <div class="title" id="title">
     <h1 class="title__name" data-i18n="site.title">{ui.site.title}</h1>
     <p class="title__tagline" data-i18n="site.tagline">{ui.site.tagline}</p>
@@ -79,31 +48,120 @@ const json = JSON.stringify(data).replace(/</g, '\\u003c');
     </p>
   </div>
 
+  <!-- Top right: one pill of controls -->
+  <div class="controls" id="controls">
+    <button class="icon-btn" id="btn-overview" type="button" data-i18n-label="controls.overview" aria-label={ui.controls.overview}>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.6"></rect><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"></rect><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"></rect><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"></rect></svg>
+    </button>
+    <button class="icon-btn" id="btn-sound" type="button" aria-pressed="false" data-i18n-label="controls.sound" aria-label={ui.controls.sound}>
+      <svg class="when-off" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"></path><path d="M16 9.5l5 5M21 9.5l-5 5"></path></svg>
+      <svg class="when-on" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"></path><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"></path></svg>
+    </button>
+    <button class="icon-btn" id="btn-effects" type="button" aria-pressed="true" data-i18n-label="controls.effects" aria-label={ui.controls.effects}>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4.5l1.7 4.3 4.3 1.7-4.3 1.7L11 16.5l-1.7-4.3L5 10.5l4.3-1.7z"></path><path d="M17.5 14.5l.8 1.9 1.9.8-1.9.8-.8 1.9-.8-1.9-1.9-.8 1.9-.8z"></path></svg>
+    </button>
+    <div class="lang" role="group" data-i18n-label="controls.language" aria-label={ui.controls.language}>
+      {
+        LOCALES.map((code) => (
+          <button type="button" data-lang={code} aria-pressed={code === lang ? 'true' : 'false'} data-i18n-label={`controls.${code}`} aria-label={ui.controls[code]}>
+            {code.toUpperCase()}
+          </button>
+        ))
+      }
+    </div>
+  </div>
+  <p class="hints" id="hints" aria-hidden="true">
+    <kbd>←</kbd><kbd>→</kbd> <span data-i18n="hints.scenes">{ui.hints.scenes}</span>
+    <kbd class="hints__gap">O</kbd> <span data-i18n="hints.all">{ui.hints.all}</span>
+  </p>
+
   <p class="badge" id="badge"></p>
   <p class="stamp" id="stamp" aria-hidden="true"></p>
 
-  <!-- The same text is in the track below for assistive technology. -->
-  <div class="captions" id="captions" aria-hidden="true">
-    <p class="captions__text"></p>
+  <!-- Bottom left: caption, meta line, mini timeline -->
+  <div class="caption-block" id="caption-block">
+    <!-- The same text is in the track below for assistive technology. -->
+    <div class="captions" id="captions" aria-hidden="true">
+      <p class="captions__text"></p>
+    </div>
+    <div class="meta">
+      <span class="meta__roman" id="meta-roman"></span>
+      <span class="meta__year" id="meta-year"></span>
+      <span class="meta__name" id="meta-name"></span>
+      <button class="meta__source" id="btn-source" type="button" aria-expanded="false" aria-controls="source">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h7l4 4v12H7z"></path><path d="M14 4v4h4M10 13h5M10 16h5"></path></svg>
+        <span data-i18n="source.tab">{ui.source.tab}</span>
+      </button>
+    </div>
+    <div class="mini" id="mini"></div>
   </div>
 
-  <aside class="source" id="source">
-    <button class="source__tab" type="button" aria-expanded="false" aria-controls="source-panel">
-      <span data-i18n="source.tab">{ui.source.tab}</span>
-    </button>
-    <div class="source__panel" id="source-panel" data-lenis-prevent>
-      <button class="source__close" type="button" data-i18n-label="source.close" aria-label={ui.source.close}>×</button>
-      <div class="source__body"></div>
+  <!-- Right edge: the time scrubber -->
+  <div
+    class="scrub"
+    id="scrub"
+    role="slider"
+    tabindex="0"
+    aria-orientation="vertical"
+    aria-valuemin="0"
+    aria-valuemax="100"
+    data-i18n-label="scrubber.label"
+    aria-label={ui.scrubber.label}
+  >
+    <span class="scrub__line"></span>
+    <div class="scrub__marks"></div>
+    <span class="scrub__handle"></span>
+    <div class="scrub__bubble" aria-hidden="true">
+      <img class="scrub__thumb" alt="" width="64" height="36" />
+      <div class="scrub__text">
+        <span class="scrub__year"></span>
+        <span class="scrub__chapter"></span>
+      </div>
     </div>
-  </aside>
+  </div>
 
+  <!-- Chapter change -->
+  <div class="chapter-card" id="chapter-card" hidden aria-hidden="true">
+    <div class="chapter-card__inner">
+      <div class="chapter-card__year"></div>
+      <p class="chapter-card__label"><span class="chapter-card__number"></span><span class="chapter-card__name"></span></p>
+    </div>
+  </div>
+
+  <!-- Overview -->
+  <div class="overview" id="overview" hidden role="dialog" aria-modal="true" data-i18n-label="controls.overview" aria-label={ui.controls.overview} data-lenis-prevent>
+    <div class="overview__top">
+      <span class="overview__count"></span>
+      <button class="icon-btn overview__close" type="button" data-i18n-label="overview.close" aria-label={ui.overview.close}>
+        <kbd>Esc</kbd>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+      </button>
+    </div>
+    <div class="overview__body"></div>
+  </div>
+
+  <!-- Sources -->
+  <div class="source" id="source" hidden>
+    <div class="source__backdrop"></div>
+    <aside class="source__panel" role="dialog" data-i18n-label="source.tab" aria-label={ui.source.tab} data-lenis-prevent>
+      <div class="source__top">
+        <span class="source__kicker" data-i18n="source.tab">{ui.source.tab}</span>
+        <button class="icon-btn source__close" type="button" data-i18n-label="source.close" aria-label={ui.source.close}>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+        </button>
+      </div>
+      <div class="source__body"></div>
+    </aside>
+  </div>
+
+  <!-- Opening -->
   <div class="opening" id="opening" hidden>
     <p class="opening__channel" aria-hidden="true">CH 01</p>
     <div class="opening__prompt">
       <p class="opening__question" data-i18n="opening.soundPrompt">{ui.opening.soundPrompt}</p>
       <div class="opening__choices">
-        <button type="button" class="opening__choice" data-sound="on" data-i18n="opening.withSound">{ui.opening.withSound}</button>
-        <button type="button" class="opening__choice" data-sound="off" data-i18n="opening.withoutSound">{ui.opening.withoutSound}</button>
+        <button type="button" class="pill-btn pill-btn--solid" data-sound="on" data-i18n="opening.withSound">{ui.opening.withSound}</button>
+        <button type="button" class="pill-btn" data-sound="off" data-i18n="opening.withoutSound">{ui.opening.withoutSound}</button>
       </div>
     </div>
     <div class="opening__counter" aria-hidden="true"><div class="opening__year"></div></div>

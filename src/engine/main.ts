@@ -1,39 +1,35 @@
 /**
  * The engine's entry point. Reads the story data embedded in the page, sets
  * up scrolling, the renderer and the on-screen interface, then runs one loop:
- * scroll position in, everything else out.
+ * scroll position in, everything else out. Interface spec: docs/design/ui.md.
  */
 import gsap from 'gsap';
 import { localePath } from '../i18n';
-import { LOCALES, type Locale } from '../lib/constants';
+import type { Locale } from '../lib/constants';
 import type { Debug } from './debug';
 import { createCaptions } from './hud/captions';
-import { createOdometer } from './hud/odometer';
+import { createChapterCard } from './hud/chapter';
+import { createMiniTimeline } from './hud/mini';
 import { createOpening, type Overlay } from './hud/opening';
-import { createSourceTab } from './hud/source';
+import { createOverview } from './hud/overview';
+import { createScrubber } from './hud/scrubber';
+import { createSourcePanel } from './hud/source';
 import { applyI18n, formatStamp, formatYear } from './hud/text';
-import { createTimeline } from './hud/timeline';
 import { FallbackRenderer } from './renderer/fallback';
 import { GLRenderer, webglAvailable } from './renderer/gl';
 import type { Frame, SceneRenderer } from './renderer/types';
 import { createScroll } from './scroll';
-import {
-  buildItems,
-  captionAt,
-  crossfade,
-  rulerAt,
-  smoothstep,
-  treatmentMix,
-  yearAt,
-  type Position,
-} from './sequence';
+import { buildItems, captionAt, crossfade, smoothstep, treatmentMix, type Position } from './sequence';
 import { PRESETS, applyPreferences, lerpWeights, zeroWeights } from './shader/presets';
 import { createStore } from './store';
-import type { SceneData, StoryData } from './types';
+import type { StoryData } from './types';
 
 const BASE_ZOOM = 1.03;
 const ZOOM_TRAVEL = 0.1;
 const PARALLAX = 0.02;
+const IDLE_AFTER = 2500;
+/** Where a jump lands inside a scene: just after its start, so the first caption shows. */
+const LAND = 0.08;
 
 function $<T extends HTMLElement>(selector: string): T {
   const node = document.querySelector<T>(selector);
@@ -47,13 +43,16 @@ function boot() {
   const eraById = new Map(eras.map((e) => [e.id, e]));
   const items = buildItems(scenes);
   const store = createStore(data.locale);
-  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const hasMouse = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
   const params = new URLSearchParams(location.search);
+  const strings = () => data.ui[store.get('lang')];
+  const lang = () => store.get('lang');
 
   const stage = $('#stage');
   const track = $('#track');
   const sections = Array.from(track.querySelectorAll<HTMLElement>('[data-item]'));
-  const scroll = createScroll(track, sections, { smooth: !reducedMotion.matches });
+  const scroll = createScroll(track, sections, { smooth: !reducedMotion });
 
   // --- Renderer -------------------------------------------------------------
   let renderer: SceneRenderer;
@@ -70,51 +69,63 @@ function boot() {
 
   // --- Interface --------------------------------------------------------------
   const overlay: Overlay = { staticAmount: 0, black: 0 };
-  const yearDisplay = createOdometer($('#year'));
-  const captions = createCaptions($('#captions'), { reducedMotion: reducedMotion.matches });
-  const sourceTab = createSourceTab($('#source'));
-  const timeline = createTimeline($('#timeline'), items, scenes, eras, jumpToItem);
-  const chapterNumber = $('#chapter-number');
-  const chapterTitle = $('#chapter-title');
+  const captions = createCaptions($('#captions'), { reducedMotion });
+  const mini = createMiniTimeline($('#mini'), scenes);
+  const chapterCard = createChapterCard($('#chapter-card'), { reducedMotion });
+  const scrubber = createScrubber($('#scrub'), { scroll, items, scenes, eras, ui: strings, lang, land: LAND });
+  const sourcePanel = createSourcePanel($('#source'), $<HTMLButtonElement>('#btn-source'), wake);
+  const overview = createOverview($('#overview'), {
+    scroll,
+    items,
+    scenes,
+    eras,
+    ui: strings,
+    lang,
+    onPick: (index) => jumpToItem(index),
+    onToggle: (open) => {
+      scrubber.setEnabled(!open);
+      wake();
+    },
+  });
+
   const title = $('#title');
+  const captionBlock = $('#caption-block');
+  const metaRoman = $('#meta-roman');
+  const metaYear = $('#meta-year');
+  const metaName = $('#meta-name');
   const stamp = $('#stamp');
   const badge = $('#badge');
   const soundButton = $<HTMLButtonElement>('#btn-sound');
   const effectsButton = $<HTMLButtonElement>('#btn-effects');
-  const langButton = $<HTMLButtonElement>('#btn-lang');
+  const langButtons = Array.from(document.querySelectorAll<HTMLButtonElement>('.lang [data-lang]'));
 
-  const strings = () => data.ui[store.get('lang')];
-  let hudScene: SceneData | null = null;
-  let hudEra = '';
+  let hudItem = -1;
 
   function renderLanguage() {
-    const lang = store.get('lang');
     const ui = strings();
-    document.documentElement.lang = lang;
+    const current = lang();
+    document.documentElement.lang = current;
     document.title = `${ui.site.title} · ${ui.site.tagline}`;
     applyI18n(document, ui);
-    timeline.setLanguage(lang, ui);
-    langButton.querySelectorAll<HTMLElement>('[data-lang]').forEach((node) => {
-      node.classList.toggle('is-active', node.dataset.lang === lang);
-    });
+    langButtons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lang === current)));
     // The readable copy of the story (for screen readers and search engines).
     sections.forEach((section) => {
       const scene = scenes[Number(section.dataset.scene)];
       if (!scene || section.dataset.item !== 'scene') return;
-      section.querySelector('.scene__title')!.textContent = scene.title[lang];
+      section.querySelector('.scene__title')!.textContent = scene.title[current];
       section.querySelector('.scene__year')!.textContent = formatYear(scene.year, ui);
-      section.querySelector('.scene__alt')!.textContent = scene.imageAlt[lang];
+      section.querySelector('.scene__alt')!.textContent = scene.imageAlt[current];
       const lines = section.querySelector('.scene__lines')!;
       lines.textContent = '';
-      for (const text of scene.subtitles[lang]) {
+      for (const text of scene.subtitles[current]) {
         const p = document.createElement('p');
         p.textContent = text;
         lines.append(p);
       }
     });
-    // Force the per-scene interface to redraw in the new language.
-    hudScene = null;
-    hudEra = '';
+    overview.rebuild();
+    scrubber.refreshText();
+    hudItem = -1; // redraw the per-scene interface in the new language
   }
 
   function renderToggles() {
@@ -124,42 +135,54 @@ function boot() {
 
   soundButton.addEventListener('click', () => store.set('sound', !store.get('sound')));
   effectsButton.addEventListener('click', () => store.set('effects', !store.get('effects')));
-  langButton.addEventListener('click', () => {
-    const next = LOCALES[(LOCALES.indexOf(store.get('lang')) + 1) % LOCALES.length] as Locale;
-    store.set('lang', next);
-  });
+  langButtons.forEach((b) => b.addEventListener('click', () => store.set('lang', b.dataset.lang as Locale)));
+  $<HTMLButtonElement>('#btn-overview').addEventListener('click', () => overview.toggle(shownItem));
   store.on('sound', renderToggles);
   store.on('effects', renderToggles);
-  store.on('lang', (lang) => {
+  store.on('lang', (next) => {
     renderLanguage();
-    history.replaceState(null, '', localePath(lang) + location.search + location.hash);
+    history.replaceState(null, '', localePath(next) + location.search + location.hash);
   });
   renderLanguage();
   renderToggles();
 
-  // --- Jumps (timeline dots, deep links) --------------------------------------
+  // --- Jumps (overview, deep links) -----------------------------------------
   let jumping: gsap.core.Timeline | null = null;
 
   /** Like changing channel: a burst of static, the jump, then the picture settles. */
   function jumpToItem(index: number) {
-    sourceTab.close();
+    sourcePanel.close();
     jumping?.kill();
-    const key = reducedMotion.matches ? 'black' : 'staticAmount';
+    const key = reducedMotion ? 'black' : 'staticAmount';
     jumping = gsap
       .timeline()
       .to(overlay, { [key]: 1, duration: 0.22, ease: 'power1.in' })
-      .call(() => scroll.jumpTo(index, 0.02))
+      .call(() => scroll.jumpTo(index, index === 0 ? 0 : LAND))
       .to(overlay, { [key]: 0, duration: 0.55, ease: 'power2.out' }, '+=0.12');
   }
 
   const hashScene = items.findIndex((it) => it.kind === 'scene' && scenes[it.scene]!.id === location.hash.slice(1));
-  if (hashScene > 0) scroll.jumpTo(hashScene, 0.02);
+  if (hashScene > 0) {
+    // Fonts and images change the layout after load; land again on each
+    // re-measure until the visitor moves on their own.
+    let landing = true;
+    const stop = () => (landing = false);
+    for (const type of ['wheel', 'touchstart', 'pointerdown', 'keydown']) window.addEventListener(type, stop, { once: true, passive: true });
+    scroll.onMeasure(() => {
+      if (landing) scroll.jumpTo(hashScene, LAND);
+    });
+    // The browser also scrolls to the matching anchor itself once loading ends.
+    const reland = () => window.setTimeout(() => landing && scroll.jumpTo(hashScene, LAND), 0);
+    if (document.readyState === 'complete') reland();
+    else window.addEventListener('load', reland, { once: true });
+    scroll.jumpTo(hashScene, LAND);
+  }
 
   // --- Opening ----------------------------------------------------------------
   const opening = createOpening($('#opening'), stage, {
     scroll,
     overlay,
-    reducedMotion: reducedMotion.matches,
+    reducedMotion,
     bcLabel: () => strings().timeline.bc,
     onSoundChoice: (sound) => store.set('sound', sound),
   });
@@ -174,12 +197,44 @@ function boot() {
     });
   }
 
-  // --- Pointer (parallax) -------------------------------------------------------
+  // --- Idle controls (mouse devices) ----------------------------------------------
+  let idleTimer = 0;
+  function wake() {
+    if (!hasMouse) return;
+    stage.classList.remove('is-idle');
+    window.clearTimeout(idleTimer);
+    idleTimer = window.setTimeout(() => {
+      const busy = sourcePanel.isOpen() || overview.isOpen() || $('#controls').contains(document.activeElement);
+      if (!busy) stage.classList.add('is-idle');
+    }, IDLE_AFTER);
+  }
+  wake();
+
+  // --- Keyboard ---------------------------------------------------------------------
+  window.addEventListener('keydown', (e) => {
+    wake();
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    const target = e.target as HTMLElement | null;
+    if (target?.closest('input, textarea, select, [contenteditable]')) return;
+    if (!opening.isDone() && !skipOpening) return;
+    if (overview.isOpen() || sourcePanel.isOpen()) return;
+    if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+      e.preventDefault();
+      const next = Math.max(0, Math.min(items.length - 1, shownItem + (e.key === 'ArrowRight' ? 1 : -1)));
+      scroll.scrollToItem(next, next === 0 ? 0 : LAND);
+    } else if (e.key === 'o' || e.key === 'O') {
+      e.preventDefault();
+      overview.toggle(shownItem);
+    }
+  });
+
+  // --- Pointer (parallax, idle) -------------------------------------------------------
   const pointer = { x: 0, y: 0, targetX: 0, targetY: 0 };
   window.addEventListener(
     'pointermove',
     (e) => {
       if (e.pointerType !== 'mouse') return;
+      wake();
       pointer.targetX = (e.clientX / window.innerWidth) * 2 - 1;
       pointer.targetY = (e.clientY / window.innerHeight) * 2 - 1;
     },
@@ -210,6 +265,11 @@ function boot() {
   let lastHeld = -1;
   let lastSignature = '';
   let lastHash = location.hash;
+  /** The item whose picture is mostly on screen. */
+  let shownItem = 0;
+  /** The chapter last announced; '' until the first scene settles. */
+  let shownEra = '';
+  let shownYear = 0;
 
   // Slow device guard: if frames keep arriving late, render at a lower
   // resolution rather than stutter. Checked over two-second windows.
@@ -249,7 +309,7 @@ function boot() {
   }
 
   function zoomFor(pos: Position, offset: number): number {
-    if (reducedMotion.matches) return BASE_ZOOM;
+    if (reducedMotion) return BASE_ZOOM;
     const item = items[pos.index + offset];
     const t = pos.t - offset;
     // The title pulls back slowly; scenes push in. They meet at BASE_ZOOM.
@@ -257,43 +317,55 @@ function boot() {
     return BASE_ZOOM + ZOOM_TRAVEL * t;
   }
 
-  function updateInterface(pos: Position, mix: number) {
+  function updateInterface(now: number, pos: Position, mix: number) {
     const item = items[pos.index]!;
     const next = items[pos.index + 1];
-    const scene = scenes[item.scene]!;
     const ui = strings();
-    const lang = store.get('lang');
+    const current = lang();
+    shownItem = mix > 0.5 && next ? pos.index + 1 : pos.index;
+    const shown = items[shownItem]!;
+    const scene = scenes[shown.scene]!;
+    const onTitle = shown.kind === 'title';
 
-    yearDisplay.set(yearAt(items, pos), ui.timeline.bc);
-    timeline.update(rulerAt(pos, items.length), mix > 0.5 && next ? pos.index + 1 : pos.index);
-
-    // Captions belong to the scene on screen; the title has none.
-    const lines = item.kind === 'scene' ? scene.subtitles[lang] : [];
+    // Captions belong to the item being scrolled through; the title has none.
+    const lines = item.kind === 'scene' ? scenes[item.scene]!.subtitles[current] : [];
     const caption = captionAt(pos.t, lines.length);
     captions.set(caption >= 0 ? lines[caption]! : '');
+    captionBlock.classList.toggle('is-hidden', onTitle);
 
-    // The rest follows whichever scene is more visible.
-    const shown = mix > 0.5 && next ? scenes[next.scene]! : scene;
-    if (shown !== hudScene) {
-      hudScene = shown;
-      sourceTab.render(shown, ui, lang);
-      stamp.textContent = formatStamp(shown.dateStamp, shown.year);
-      badge.textContent = shown.placeholder ? ui.placeholder.badge : ui.source.illustration;
-      badge.classList.toggle('is-visible', shown.isIllustration);
-      if (shown.era !== hudEra) {
-        hudEra = shown.era;
-        const era = eraById.get(shown.era)!;
-        chapterNumber.textContent = era.roman;
-        chapterTitle.textContent = era.title[lang];
-      }
+    if (shownItem !== hudItem) {
+      hudItem = shownItem;
+      const era = eraById.get(scene.era)!;
+      metaRoman.textContent = era.roman;
+      metaYear.textContent = formatYear(scene.year, ui);
+      metaName.textContent = era.title[current];
+      mini.set(onTitle ? -1 : shown.scene);
+      sourcePanel.render(scene, ui, current);
+      badge.textContent = scene.placeholder ? ui.placeholder.badge : ui.source.illustration;
+      badge.classList.toggle('is-visible', scene.isIllustration && !onTitle);
+    }
+
+    // Chapter change: announced once the picture belongs to a new chapter,
+    // but not while dragging through many chapters at once.
+    if (onTitle) {
+      shownEra = scene.era;
+      shownYear = scene.year;
+    } else if (scene.era !== shownEra && !scrubber.isDragging() && !scroll.isLocked()) {
+      if (shownEra !== '') chapterCard.show(eraById.get(scene.era)!, scene.year, shownYear, ui, current);
+      shownEra = scene.era;
+      shownYear = scene.year;
+    } else if (scene.era === shownEra) {
+      shownYear = scene.year;
     }
 
     const titleOpacity = item.kind === 'title' ? 1 - smoothstep(0.08, 0.7, pos.t) : 0;
     title.style.opacity = titleOpacity.toFixed(3);
     title.style.visibility = titleOpacity > 0.001 ? 'visible' : 'hidden';
 
+    scrubber.update(now, scroll.progress(), shownItem);
+
     // Keep the address shareable: #scene-id for scenes, nothing for the title.
-    const hash = item.kind === 'scene' ? `#${scene.id}` : '';
+    const hash = item.kind === 'scene' ? `#${scenes[item.scene]!.id}` : '';
     if (hash !== lastHash && !scroll.isLocked()) {
       lastHash = hash;
       history.replaceState(null, '', location.pathname + location.search + hash);
@@ -329,7 +401,7 @@ function boot() {
     const to = sceneB ? PRESETS[sceneB.treatment] : from;
     lerpWeights(from, to, treatmentMix(pos.t), blended);
     const forced = debug?.weights();
-    applyPreferences(forced ?? blended, { effects: store.get('effects'), reducedMotion: reducedMotion.matches }, weights);
+    applyPreferences(forced ?? blended, { effects: store.get('effects'), reducedMotion }, weights);
     debug?.show(blended);
 
     pointer.x += (pointer.targetX - pointer.x) * 0.06;
@@ -347,14 +419,18 @@ function boot() {
       frame.pointerX = -pointer.x;
       frame.pointerY = pointer.y + (pos.t - 0.5) * 0.8;
     }
-    frame.parallax = reducedMotion.matches ? 0 : PARALLAX;
+    frame.parallax = reducedMotion ? 0 : PARALLAX;
     frame.time = time;
-    frame.tick = reducedMotion.matches ? 0 : Math.floor(time * (24 - 6 * weights.stutter));
+    frame.tick = reducedMotion ? 0 : Math.floor(time * (24 - 6 * weights.stutter));
     frame.staticAmount = overlay.staticAmount;
     frame.black = overlay.black;
 
+    // The camcorder date belongs to whichever scene brings the VHS look.
+    const stampScene = sceneB && PRESETS[sceneB.treatment].stamp > PRESETS[sceneA.treatment].stamp ? sceneB : sceneA;
+    const stampText = formatStamp(stampScene.dateStamp, stampScene.year);
+    if (stamp.textContent !== stampText) stamp.textContent = stampText;
     stamp.style.opacity = weights.stamp.toFixed(3);
-    updateInterface(pos, mix);
+    updateInterface(performance.now(), pos, mix);
 
     // A clean, still picture does not need redrawing every frame.
     const animated =
