@@ -130,6 +130,9 @@ IX 2008-today (independence)
 - Cloudflare deploys automatically on every push to `main` (Git integration, connected in
   the Cloudflare dashboard). Build command `npm run build`, output `dist`.
 - Pages carry `noindex` until the owner says the site is ready to launch.
+- `package.json` pins `packageManager: npm@11.6.2`. Cloudflare's build image defaults to npm
+  10.9.2, which rejects lockfiles written by npm 11 ("not in sync"). If you upgrade npm locally,
+  update this pin to the same exact version.
 
 ## Architecture (approved plan, 2026-11-11)
 - One page, one fixed stage, one scroll track. Lenis + a single GSAP ScrollTrigger produce
