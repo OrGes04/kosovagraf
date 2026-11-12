@@ -1,7 +1,23 @@
 # Sourcing note: Era V (1945–1989) and Era VI (1989–1998)
 
-Status: **waiting for the owner's decisions.** No scene text has been drafted.
-Prepared 2026-11-12.
+Status: **decided by the owner on 2026-11-12, except the D36 wording and the images.** No scene
+text has been drafted. Prepared 2026-11-12.
+
+## Owner decisions (2026-11-12)
+
+| | Decision |
+|---|---|
+| D30 | **"Hundreds of thousands"** emigrated to Turkey. Wording keeps it an estimate: *"many Albanians, by some estimates hundreds of thousands"*; the source tab lists the estimates (about 175,000 in 1952–66 in one scholarly study; up to about 400,000 in Albanian sources) [verify each]. |
+| D31 | As recommended: the 1955–56 campaign stated, no number. |
+| D32 | **Name everyone killed in 1981 whose name is documented**, not only the two on the plaque. A report to the Yugoslav presidency (Kosovo Archives) recorded 9 killed; the Kosovo government's 2026 commemoration names nine people. The list is checked against the archive record and Mertus before use [verify]. |
+| D33 | As recommended: one clause, as the claims Belgrade made. |
+| D34 | **Give the estimate:** the official figure at the time was 21 dead (Yugoslav Interior Ministry, 1989); Albanian counts give 25 demonstrators killed on 27–28 March alone [verify both]. Caption: "at least 21 people, by official count; Albanian counts give 25 demonstrators killed in two days." |
+| D35 | As recommended: no figure, "dismissed en masse". |
+| D36 | **Keep the 1990 poisoning.** Wording still to be agreed (see D36 below). |
+| D37 | **The UÇK are called freedom fighters**, as the Kaçaks are (D7). Its full name, Ushtria Çlirimtare e Kosovës / Kosovo Liberation Army, is given on first mention. |
+| D38 | As recommended: "Metohija" only once, where it was dropped in 1968. |
+| D40 | As recommended: date stamp only when the image is really from that date. |
+| D39 | Images: copyrighted photographs are not used without written permission (brief). See "Images: next step" at the end. |
 
 How to read this (same format as the earlier notes):
 
@@ -208,6 +224,21 @@ it. [verify: what the investigations found]
 *Recommendation:* leave it out of v1, because no finding can be stated as fact. Alternative: one
 sentence saying it happened and that its cause was never established. Your call.
 
+*Owner decision (2026-11-12): keep it; the owner holds that the pupils were poisoned.* What the
+sources found so far say:
+- Thousands of pupils fell ill (figures around 7,000–8,000 [verify]) with breathing difficulty,
+  dizziness and fainting.
+- A federal commission under the Slovenian doctor Anton Dolenc said in April 1990 that it was not
+  poisoning but a psychogenic reaction. Albanian doctors and later Albanian accounts reject this;
+  Kosovo's Institute for War Crimes (IKKL) published a catalogue on the poisonings in 2025.
+- Claims of nerve agents (sarin) rest on a single later statement; no published toxicology confirms
+  a specific substance.
+*Proposed wording* (the strongest the sources support as fact): **"In March 1990 thousands of
+Albanian pupils collapsed in their schools. Albanian doctors held that they had been poisoned;
+the Serbian authorities denied it and called it hysteria."** The source tab gives both sides.
+Stating "they were poisoned" as an established fact needs a published finding to cite; I will look
+for one (IKKL catalogue, medical literature of 1990–91) and change the wording if it exists.
+
 **D37 · Naming the UÇK.**
 The UÇK appears at the end of Era VI and is central to Era VII. You chose "freedom fighters" for
 the Kaçaks (D7).
@@ -271,3 +302,16 @@ Sources found while checking (leads only):
 [1991 referendum](https://en.wikipedia.org/wiki/1991_Kosovan_independence_referendum),
 [HRW 1992](https://www.hrw.org/reports/1992/yugoslavia/),
 [Rankovićism](https://en.wikipedia.org/wiki/Rankovi%C4%87ism).
+
+## Images: next step (2026-11-12)
+
+Looking at copyrighted photographs to choose them is fine; **publishing them is not** without the
+rights holder's written permission (brief: "Never use copyrighted images"; the site is public).
+Plan:
+1. Find the specific photographs each scene needs (1968, 1981, the 1989 miners, 2 July 1990, the
+   reconciliation gatherings, the referendum, house-schools, 1 October 1997) and who holds the
+   rights to each.
+2. Draft a permission request (SQ/EN) for the owner to send.
+3. Add a `permission` licence value to the schema, with the permission recorded in the repo.
+4. Until permissions arrive, scenes use documents, maps, the 1981 plaque and modern photographs
+   of the places.
