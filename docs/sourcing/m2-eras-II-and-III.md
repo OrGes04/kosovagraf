@@ -12,12 +12,14 @@ Prepared 2026-11-12.
 | D21 | **Violence against Serbs in 1878–1912 is not mentioned** (as with D9; not to be re-raised). |
 | Era II | The owner found the first proposal centred on Serbs. It is replaced by **"Era II revised"** at the end of this note; the original Era II section below is kept only for reference. |
 | D24 | **Yes:** scenes may take place outside Kosovo (Kruja, Lezha), saying where each place is. |
-| D25 | **Yes:** one scene on the Serbian state (II-2). It also says when the Slavs, and later the Serbian state, came to the region (one sentence, folded into II-2 rather than a scene of its own). |
+| D25 | **Yes:** one scene on the Serbian state (II-2): its rule from the late 12th century and its churches. **No sentence on when the Slavs arrived** (owner, after review: it could be read as saying they came before the Albanians). |
+| D23, D29 | **No cap on the number of scenes.** The brief's "~40 scenes" was an estimate, not a limit; more scenes and images will be added after v1. |
 | D26 | **Option (b):** the caption of II-5 adds *"In Albanian tradition, the knight was Millosh Kopiliqi."* |
 | D27 | **Include** the Kanun of Lekë Dukagjini, as a scene in Era III (see "Era III revised"). |
 
-Still open: D11 (as reworded in Era II revised), D12, D13, D14, D16, D17, D19, D22, D23,
-and the Era III revision (D18 reworded, D28–D29).
+Era III revised: approved by the owner (2026-11-12), including D18 (reworded) and D28.
+
+Still open: D11 (as reworded in Era II revised), D12, D13, D14, D16, D17, D19, D22.
 
 How to read this (same format as `m1-eras-I-and-IV.md`):
 
@@ -408,22 +410,21 @@ New sources for this version:
 ### Proposed scenes (7)
 
 **II-1 · Arbër: the Albanians enter the written record (11th–12th century).**
-Byzantine writers name the Albanians for the first time in the 11th century: Michael Attaleiates,
-describing events of 1043, and later Anna Komnene, who calls their land *Arbanon*. Around 1190,
+The name "Albanians" first appears in writing in the 11th century, in Byzantine writers: Michael
+Attaleiates, describing events of 1043, and later Anna Komnene, who calls their land *Arbanon*.
+(Wording note: the caption says the *name* first appears in writing, never that the Albanians
+first appear or arrive, so it cannot be read as a date of arrival.) Around 1190,
 Arbër, the first Albanian principality, was founded under Progon, with Kruja as its centre. In
 these centuries Kosovo itself was ruled by Byzantium and, for a time, by Bulgaria.
 *Sources: Ducellier; Fine EMB; Malcolm ch. 3; Elsie.* [verify: the 1043 passage; the date 1190]
 → D24 (a scene set outside Kosovo).
 
 **II-2 · Kosovo under Serbian kings (late 12th–14th century).**
-One scene, plainly told: Slavic peoples settled in the Balkans from the late 6th and 7th centuries.
-The Serbian state reached Kosovo only at the end of the 12th century: from then on Kosovo was part
-of the Serbian kingdom of the Nemanjić dynasty, whose kings built churches here, among them the
-monastery at Deçan, Graçanica and the Patriarchate of Peja, now on UNESCO's World Heritage list.
-*Sources: Fine EMB; Curta; Fine LMB; Malcolm ch. 3; UNESCO 724.* → D25 (decided).
-[verify: the dating of the Slavic settlement; the decade of Nemanja's conquest of Kosovo]
-Note: the sentence states only when the Slavs and the Serbian state arrived. It says nothing about
-who lived here before them; that question is covered by the agreed wording of D3 in Era I.
+One scene, plainly told: from the late 12th century Kosovo was part of the Serbian kingdom of the
+Nemanjić dynasty, whose kings built churches here, among them the monastery at Deçan, Graçanica
+and the Patriarchate of Peja, now on UNESCO's World Heritage list.
+*Sources: Fine LMB; Malcolm ch. 3; UNESCO 724.* → D25 (decided: no sentence on the Slavs' arrival).
+[verify: the decade of Nemanja's conquest of Kosovo]
 
 **II-3 · The first traces in Kosovo (1285–1348).**
 In 1285 a court record in Dubrovnik mentions a voice heard calling in the mountains "in the

@@ -215,6 +215,8 @@ IX 2008-today (independence)
   at its centre; Serbian rule and Serbian churches are mentioned where the history needs them,
   briefly. Violence against Serbs is not included (decisions D9 and D21; do not re-raise).
   Accuracy rules are unchanged: no claim beyond what the sources support.
+- No cap on the number of scenes (owner, 2026-11-12). The brief's "~40 scenes" was an estimate;
+  more scenes and images will be added after v1.
 - Before drafting an era, send the owner a sourcing note: proposed scenes, sources per
   fact, and every point where sources disagree. The owner decides, then SQ and EN drafts
   follow. The owner reviews all Albanian text.
