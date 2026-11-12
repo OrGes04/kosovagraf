@@ -215,8 +215,8 @@ dates from 1461. Conversion to Islam was gradual: slow in the 15th–16th centur
 Prizren, Prishtina, Peja, Gjakova and Vushtrri grew as Ottoman towns with bazaars, mosques, baths
 and bridges: in Prizren the Sinan Pasha Mosque (1615) and the hamam of Gazi Mehmed Pasha. In 1557
 the Serbian Patriarchate of Peja was restored, with the support of the Grand Vizier Mehmed Pasha
-Sokollu (Sokolović), a convert of Bosnian Serb origin. The traveller Evliya Çelebi described Prizren
-and Vushtrri in 1660 and recorded words of Albanian.
+Sokollu (Sokolović), a convert of Bosnian Serb origin. The Ottoman traveller Evliya Çelebi described
+Prizren and Vushtrri in 1660.
 *Sources: Malcolm ch. 6; Evliya; Ćurčić; Elsie.* [verify: mosque and hamam dates; the year of
 Evliya's journey through Kosovo]
 
@@ -232,7 +232,7 @@ Vickers.* [verify: Piccolomini's death in Prizren, November 1689; Bogdani's deat
 
 **III-4 · 1877–78: refugees from the north.**
 In the Serbian–Ottoman war of 1877–78 Serbian forces took the districts of Niš, Prokuplje,
-Kurshumlia and Leskovac, and the Albanian population of those districts was expelled or fled.
+Kuršumlija and Leskovac, and the Albanian population of those districts was expelled or fled.
 Many of these refugees (muhaxhirë) settled in Kosovo. *Sources: Malcolm ch. 11; Vickers; Elsie;
 Jagodić, "The Emigration of Muslims from the New Serbian Regions 1877/1878", Balkanologie 2 (1998).*
 [verify] → see **D19** (numbers).
@@ -252,7 +252,7 @@ building where the delegates met; the date of the Ottoman capture of Prizren in 
 The Vilayet of Kosovo (1877–1912) was governed from Prishtina and, from 1888, from Skopje. Central
 control was weak and the province was insecure for its inhabitants. In 1899 Haxhi Zeka called the
 League of Peja, which again sought Albanian self-government. Schools in Albanian were forbidden by
-the Ottoman authorities, and the language was taught in secret. In 1908 the Young Turk revolution
+the Ottoman authorities, and the language was taught in secret [verify: scope of the ban]. In 1908 the Young Turk revolution
 promised reform; many Albanians first supported it.
 *Sources: Malcolm ch. 12; Gawrych; Skendi; Elsie.* [verify: Vilayet dates; capital moved 1888]
 → see **D21**. *(If v1 must stay near 40 scenes, this scene can be folded into III-5 and III-7.)*
@@ -279,8 +279,8 @@ held for the Culture channel.
 
 **D18 · 1690: the "Great Migration".**
 Serbian tradition and historiography speak of a mass exodus of Serbs from Kosovo under Patriarch
-Arsenije III; the figure of 30,000–40,000 families (or about 37,000) goes back to later
-church tradition, and some writers conclude that Kosovo was emptied of Serbs and resettled by
+Arsenije III; the often-quoted figure of about 37,000 families comes from a later church
+source [verify which], and some writers conclude that Kosovo was emptied of Serbs and resettled by
 Albanians. Malcolm argues the numbers are exaggerated, that most migrants came from further north,
 and that Albanians also took part in the revolt and the flight; Serbian historians reject his
 reading. Contemporary documents do not give a reliable count.
@@ -321,9 +321,10 @@ This is a new period, not the 1941–45 question settled by D9. **Your call.**
 *Recommendation:* Albanian text uses the forms usual in Albanian historiography (Stefan Nemanja,
 Stefan Dushani, Knez Lazari, Sulltan Murati I, Mehmeti II); English text uses the standard English
 forms (Stefan Nemanja, Stephen Dušan, Prince Lazar, Murad I, Mehmed II). Personal names are not
-place names, so D10 does not decide this.
+place names, so D10 does not decide this. Towns outside Kosovo: Albanian forms in Albanian text
+(Nishi, Shkupi), standard English forms in English text (Niš, Skopje).
 
-**D23 · Era II length, and v1's total.**
+**D23 · Scene count, and v1's total.**
 Eras I and IV have 13 scenes; II and III as proposed add 13, leaving about 14 for Eras V–IX if v1
 stays near 40. *Recommendation:* accept 6 + 7 now; if V–IX need more room, fold III-6 into its
 neighbours and II-1 into II-2.
