@@ -37,15 +37,15 @@ export interface SceneRenderer {
 }
 
 export function imageUrl(scene: SceneData, width: number, format: 'avif' | 'webp'): string {
-  return `/media/scenes/${scene.image}/${width}.${format}`;
+  return `${scene.mediaBase}/${scene.image}/${width}.${format}`;
 }
 
 export function depthUrl(scene: SceneData): string {
-  return `/media/scenes/${scene.image}/depth.webp`;
+  return `${scene.mediaBase}/${scene.image}/depth.webp`;
 }
 
 export function thumbUrl(scene: SceneData): string {
-  return `/media/scenes/${scene.image}/thumb.webp`;
+  return `${scene.mediaBase}/${scene.image}/thumb.webp`;
 }
 
 /** Smallest available width that still covers `needed` device pixels. */

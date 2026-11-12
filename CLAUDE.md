@@ -196,7 +196,16 @@ IX 2008-today (independence)
 - Eras II and III have **drafted real scenes** (2026-11-12): 7 + 7 JSON files, Albanian-centred
   per the owner's framing, awaiting review of the Albanian text. Sourcing note and decisions D11–D29:
   `docs/sourcing/m2-eras-II-and-III.md`. Same "[verify]" rule applies.
-- The other eras still run on generated **test cards** (`test-07` … `test-13`,
+- Eras V and VI have **drafted real scenes** (2026-11-12): 6 + 6 JSON files. Decisions D30–D40:
+  `docs/sourcing/m2-eras-V-and-VI.md`. Their public images are free **stand-ins** (modern photos of
+  the places); each scene's `pendingImage` names the archive photo and its owner. The owner has
+  asked the owners for permission.
+- **Photos awaiting permission** (`pendingImage`): kept in git-ignored `media-local/`, shown only in
+  `npm run dev`, never in a production build (`src/lib/story.ts`, guarded by
+  `tests/local-media.test.ts`). Copyrighted photos are never committed or published without written
+  permission; once given, licence `"permission"` and the record in `docs/permissions/`
+  (workflow in `docs/permissions/README.md`).
+- The other eras still run on generated **test cards** (`test-10` … `test-13`,
   `"placeholder": true`, labelled "Skenë prove" on screen). They carry no historical content
   and must be deleted once real scenes exist: remove their JSON files, their images in
   `media-src/`, and their folders in `public/media/scenes/`, then run `npm run images`.

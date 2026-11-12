@@ -1,0 +1,95 @@
+{
+  "era": "06-1989-1998",
+  "year": 1990,
+  "title": {
+    "sq": "1990: Kuvendi shpall, Serbia merr gjithçka",
+    "en": "1990: the Assembly declares, Serbia takes over"
+  },
+  "subtitles": {
+    "sq": [
+      "Në mars 1990, mijëra nxënës shqiptarë u rrëzuan pa ndjenja në shkollat e tyre. Mjekët shqiptarë thanë se ishin helmuar; autoritetet serbe e mohuan dhe e quajtën histeri.",
+      "Më 2 korrik 1990, të përjashtuar nga ndërtesa, deputetët shqiptarë të Kuvendit të Kosovës shpallën në shkallët e saj se Kosova ishte njësi e barabartë e Jugosllavisë.",
+      "Disa ditë më vonë Serbia e shpërndau kuvendin. Më 7 shtator 1990, të mbledhur fshehurazi në Kaçanik, deputetët miratuan kushtetutën e Republikës së Kosovës.",
+      "Serbia mori institucionet: shqiptarët u pushuan masivisht nga puna, nga spitalet dhe fabrikat; gazeta «Rilindja» dhe programet shqipe të Radio Televizionit të Prishtinës u mbyllën."
+    ],
+    "en": [
+      "In March 1990 thousands of Albanian pupils collapsed in their schools. Albanian doctors held that they had been poisoned; the Serbian authorities denied it and called it hysteria.",
+      "On 2 July 1990, locked out of their building, the Albanian members of Kosovo's assembly declared on its steps that Kosovo was an equal unit of Yugoslavia.",
+      "Days later Serbia dissolved the assembly. On 7 September 1990, meeting in secret in Kaçanik, the deputies adopted a constitution for a Republic of Kosova.",
+      "Serbia took over the institutions: Albanians were dismissed en masse from jobs, hospitals and factories; the newspaper Rilindja and the Albanian programmes of Radio Television Prishtina were shut down."
+    ]
+  },
+  "image": "vi2-rilindja",
+  "imageAlt": {
+    "sq": "Pallati i shtypit «Rilindja» në Prishtinë sot.",
+    "en": "The Rilindja press building in Prishtina today."
+  },
+  "imageCredit": "Agron Berisha (2020)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Media-House_%27Rilindja%27_05.jpg",
+  "pendingImage": {
+    "id": "vi2-1990",
+    "holder": "Kosovo State Archives Agency (ASHAK), Rilindja collection; IKKL for the poisoning",
+    "note": "Deputies on the Assembly steps, 2 July 1990; pupils taken ill, March 1990"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.4
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 17. [verify page]"
+    },
+    {
+      "title": "Civil Resistance in Kosovo",
+      "author": "Howard Clark",
+      "publisher": "Pluto Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Yugoslavia: Human Rights Abuses in Kosovo 1990–1992",
+      "author": "Helsinki Watch",
+      "publisher": "Human Rights Watch",
+      "year": 1992,
+      "url": "https://www.hrw.org/reports/1992/yugoslavia/",
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo: War and Revenge",
+      "author": "Tim Judah",
+      "publisher": "Yale University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "The poisoning of Albanian pupils, 1990",
+      "author": "Instituti i Krimeve të Luftës në Kosovë (IKKL)",
+      "year": 2025,
+      "url": "https://ikkl.rks-gov.net/wp-content/uploads/2025/12/IKKL_katalogu_Helmimet.pdf",
+      "note": "Catalogue on the poisonings. A federal commission (Anton Dolenc, April 1990) called it a psychogenic reaction; Albanian doctors rejected this. [verify the number of pupils, about 7,000–8,000]"
+    },
+    {
+      "title": "Dismissals",
+      "note": "No single count exists; sector figures (university staff, teachers) to be added once verified (owner decision D35)."
+    }
+  ],
+  "flags": [
+    "Owner decision D36: the poisoning is kept. Wording as proposed in the V–VI note (doctors' view and the authorities' denial); change to \"were poisoned\" only if a published finding is found.",
+    "Owner decision D35: no figure for dismissals.",
+    "[verify] 2 July 1990; the dissolution (5 July 1990); 7 September 1990 at Kaçanik; the closure of Rilindja and RTP.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12).",
+    "Owner decision D40: no camcorder date stamp, because the image is not from that date."
+  ]
+}

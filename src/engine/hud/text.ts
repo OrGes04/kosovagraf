@@ -33,9 +33,13 @@ export function formatSceneYear(scene: { year: number; yearApprox: boolean }, st
 
 const MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
 
-/** Camcorder-style stamp: "1998-03-05" becomes "MAR 05 1998". */
-export function formatStamp(dateStamp: string | undefined, year: number): string {
-  if (!dateStamp) return String(year);
+/**
+ * Camcorder-style stamp: "1998-03-05" becomes "MAR 05 1998". A scene without a
+ * dateStamp gets no stamp at all: a stamp tells the viewer the footage was shot
+ * that day, so it is only shown for images really from that date (decision D40).
+ */
+export function formatStamp(dateStamp: string | undefined): string {
+  if (!dateStamp) return '';
   const [y, m, d] = dateStamp.split('-');
   const month = m ? MONTHS[Number(m) - 1] : undefined;
   return [month, d, y].filter(Boolean).join(' ');

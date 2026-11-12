@@ -12,3 +12,8 @@ Thumbs.db
 
 # Owner's design references (copyrighted Pinterest images, never published)
 references/
+
+# Photos awaiting their owner's permission: local preview only, never committed or deployed
+media-local/
+public/media-local/
+src/data/media-local.json

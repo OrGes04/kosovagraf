@@ -19,9 +19,11 @@ export const DEFAULT_STORY = 'main';
 /**
  * Image licences we accept. Anything else (NC, ND, "all rights reserved",
  * unknown) must not be used. "own-work" covers images made for this project,
- * e.g. generated test cards and labelled illustrations.
+ * e.g. generated test cards and labelled illustrations. "permission" is a
+ * photo its owner has allowed us to use in writing; the scene records who and
+ * when in imageLicenseDetail, and the permission itself is kept in docs/permissions/.
  */
-export const LICENSES = ['public-domain', 'cc0', 'cc-by', 'cc-by-sa', 'own-work'] as const;
+export const LICENSES = ['public-domain', 'cc0', 'cc-by', 'cc-by-sa', 'own-work', 'permission'] as const;
 export type License = (typeof LICENSES)[number];
 
 /** Era treatments, i.e. named shader presets (see src/engine/shader/presets.ts). */

@@ -1,0 +1,88 @@
+{
+  "era": "06-1989-1998",
+  "year": 1989,
+  "title": {
+    "sq": "1989: autonomia e hequr",
+    "en": "1989: autonomy revoked"
+  },
+  "subtitles": {
+    "sq": [
+      "Në shkurt 1989, minatorët e Trepçës hynë në grevë urie nën tokë, në Stan Tërg, duke kërkuar që autonomia e Kosovës të ruhej.",
+      "Në mars, me tanke rreth ndërtesës, Kuvendi i Kosovës miratoi ndryshimet e kushtetutës së Serbisë që ia hoqën pjesën më të madhe të autonomisë; Kuvendi i Serbisë i miratoi më 28 mars.",
+      "Protestat në gjithë Kosovën u shtypën me forcë: të paktën 21 njerëz u vranë sipas shifrave zyrtare; numërimet shqiptare flasin për 25 demonstrues të vrarë vetëm në dy ditë.",
+      "Më 28 qershor 1989, në 600-vjetorin e Betejës së Kosovës, Millosheviqi i tha një turme të madhe në Gazimestan se as betejat e armatosura nuk mund të përjashtoheshin."
+    ],
+    "en": [
+      "In February 1989 the miners of Trepça went on hunger strike underground, at Stan Tërg, demanding that Kosovo's autonomy be kept.",
+      "In March, with tanks around the building, Kosovo's assembly approved the changes to Serbia's constitution that took away most of its autonomy; Serbia's assembly adopted them on 28 March.",
+      "Protests across Kosovo were put down by force: at least 21 people were killed by official count; Albanian counts give 25 demonstrators killed in two days.",
+      "On 28 June 1989, at the 600th anniversary of the Battle of Kosovo, Milošević told a vast crowd at Gazimestan that armed battles could not be ruled out."
+    ]
+  },
+  "image": "vi1-stanterg",
+  "imageAlt": {
+    "sq": "Shtëpitë e vjetra të minatorëve në Stan Tërg, Trepçë, sot.",
+    "en": "The old miners' houses at Stan Tërg, Trepça, today."
+  },
+  "imageCredit": "KushtrimHoti7 (2025)",
+  "imageLicense": "cc-by",
+  "imageLicenseDetail": "CC BY 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Stant%C3%ABrgu,_Stan_Terg,_Trep%C3%A7a_02.jpg",
+  "pendingImage": {
+    "id": "vi1-1989",
+    "holder": "National Museum of Kosovo / Pro Peace (Korab Krasniqi); Hazir Reka (his own photos, not those taken for Reuters)",
+    "note": "Trepça miners underground, February 1989; the March protests"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.45,
+      0.45
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 17. [verify page]"
+    },
+    {
+      "title": "Kosovo: War and Revenge",
+      "author": "Tim Judah",
+      "publisher": "Yale University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo: How Myths and Truths Started a War",
+      "author": "Julie Mertus",
+      "publisher": "University of California Press",
+      "year": 1999,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo riots leave 21 dead",
+      "author": "The Press (Christchurch), from wire reports",
+      "year": 1989,
+      "url": "https://paperspast.natlib.govt.nz/newspapers/CHP19890330.2.66",
+      "note": "Official toll released by the Yugoslav Interior Ministry, 30 March 1989."
+    },
+    {
+      "title": "Albanian count of 27–28 March 1989",
+      "url": "https://periskopi.com/en/2024/3/kurt-recalls-1989-demonstrations-symbol-kosovos-peoples-resistance-serb-oppression",
+      "note": "25 demonstrators killed and 603 wounded in two days, as given by Kosovo's prime minister on the 35th anniversary (2024). [verify against a published count]"
+    }
+  ],
+  "flags": [
+    "Owner decision D34: the estimate is given, both figures attributed.",
+    "[verify] hunger strike 20–28 February 1989 at the Stari Trg (Stan Tërg) mine; the Kosovo assembly vote, 23 March 1989.",
+    "[verify] the wording of the Gazimestan speech (28 June 1989).",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12).",
+    "Owner decision D40: no camcorder date stamp, because the image is not from that date."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "era": "05-1945-1989",
+  "year": 1968,
+  "title": {
+    "sq": "1968: «Kosova Republikë»",
+    "en": "1968: \"Kosova Republikë\""
+  },
+  "subtitles": {
+    "sq": [
+      "Në korrik 1966, Titoja e rrëzoi Rankoviqin, dhe u pranuan dhunimet e policisë sekrete në Kosovë.",
+      "Më 27 nëntor 1968, studentë dhe të rinj shqiptarë dolën në demonstrata në Prishtinë dhe në qytete të tjera, duke kërkuar universitet dhe që Kosova të bëhej republikë.",
+      "Republika u refuzua, por erdhën reforma: fjala «Metohi» u hoq nga emri i krahinës, dhe flamuri shqiptar u lejua.",
+      "Adem Demaçi, i burgosur më 1958, 1964 dhe 1975, kaloi gjithsej 28 vjet në burgjet jugosllave. Më 1991 mori Çmimin Saharov të Parlamentit Evropian."
+    ],
+    "en": [
+      "In July 1966 Tito removed Ranković, and the abuses of the secret police in Kosovo were admitted.",
+      "On 27 November 1968 Albanian students and young people demonstrated in Prishtina and other towns, demanding a university and that Kosovo become a republic.",
+      "The republic was refused, but reforms followed: the word \"Metohija\" was dropped from the province's name, and the Albanian flag was allowed.",
+      "Adem Demaçi, imprisoned in 1958, 1964 and 1975, spent 28 years in all in Yugoslav prisons. In 1991 he received the European Parliament's Sakharov Prize."
+    ]
+  },
+  "image": "v2-universiteti",
+  "imageAlt": {
+    "sq": "Statuja e Hasan Prishtinës para Universitetit të Prishtinës sot.",
+    "en": "The statue of Hasan Prishtina in front of the University of Prishtina today."
+  },
+  "imageCredit": "Bujar I Gashi (2013)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 3.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hasan_Prishtina_-_Universiteti_i_Prishtines.jpg",
+  "pendingImage": {
+    "id": "v2-1968",
+    "holder": "Kosovo State Archives Agency (ASHAK), Rilindja collection",
+    "note": "The 27 November 1968 demonstration in Prishtina"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.45,
+      0.45
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 16: the Brioni plenum, the 1968 demonstrations and the reforms. [verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entries: Demaçi, Adem; demonstrations of 1968. [verify page]"
+    },
+    {
+      "title": "Historia e popullit shqiptar, vol. IV",
+      "author": "Akademia e Shkencave e Shqipërisë",
+      "publisher": "Toena",
+      "year": 2008,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Sakharov Prize 1991: Adem Demaçi",
+      "author": "European Parliament",
+      "url": "https://www.europarl.europa.eu/sakharovprize/en/adem-demaci-1991-kosovo/products-details/20200330CAN54166"
+    }
+  ],
+  "flags": [
+    "Owner decision D38: \"Metohija\" mentioned only here, as the name that was dropped.",
+    "[verify] the Brioni plenum (1 July 1966); the towns of 27 November 1968; the dates of Demaçi's sentences and the 28-year total.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

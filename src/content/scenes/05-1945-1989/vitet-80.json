@@ -1,0 +1,90 @@
+{
+  "era": "05-1945-1989",
+  "year": 1985,
+  "yearApprox": true,
+  "title": {
+    "sq": "Vitet '80: burgje dhe «diferencim»",
+    "en": "The 1980s: prisons and \"differentiation\""
+  },
+  "subtitles": {
+    "sq": [
+      "Pas vitit 1981, mijëra shqiptarë u arrestuan, dhe shumë u dënuan me vite të gjata burg për «delikt verbal» ose «nacionalizëm».",
+      "Mësues, studentë dhe zyrtarë u përjashtuan nga puna në një fushatë «diferencimi».",
+      "Në Beograd, nacionalistët serbë, mes tyre autorët e Memorandumit të Akademisë Serbe të Shkencave dhe Arteve më 1986, pretendonin se serbët po dëboheshin nga Kosova.",
+      "Mbi këto pretendime, Sllobodan Millosheviqi u ngrit në pushtet nga viti 1987."
+    ],
+    "en": [
+      "After 1981 thousands of Albanians were arrested, and many were sentenced to long prison terms for \"verbal crime\" or \"nationalism\".",
+      "Teachers, students and officials were purged in a campaign of \"differentiation\".",
+      "In Belgrade, Serbian nationalists, among them the authors of the 1986 Memorandum of the Serbian Academy of Sciences and Arts, claimed that Serbs were being driven out of Kosovo.",
+      "On these claims Slobodan Milošević rose to power from 1987."
+    ]
+  },
+  "image": "v6-biblioteka",
+  "imageAlt": {
+    "sq": "Biblioteka Kombëtare në Prishtinë, e përfunduar në vitet '80, sot.",
+    "en": "The National Library in Prishtina, completed in the 1980s, today."
+  },
+  "imageCredit": "Diego Delso (2014)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 3.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Biblioteca_Nacional,_Pristina,_Kosovo,_2014-04-16,_DD_09.JPG",
+  "pendingImage": {
+    "id": "v6-1980",
+    "holder": "to identify",
+    "note": "A political trial of the 1980s"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.45,
+      0.45
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Yugoslavia: Prisoners of Conscience",
+      "author": "Amnesty International",
+      "publisher": "Amnesty International (EUR 48/17/85)",
+      "year": 1985,
+      "url": "https://www.amnesty.org/en/wp-content/uploads/2021/06/eur480171985en.pdf",
+      "note": "Notes that official sources gave up to 11 dead in 1981 and that unofficial sources gave far higher figures. [verify page]"
+    },
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 17. [verify page]"
+    },
+    {
+      "title": "Kosovo: How Myths and Truths Started a War",
+      "author": "Julie Mertus",
+      "publisher": "University of California Press",
+      "year": 1999,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo: War and Revenge",
+      "author": "Tim Judah",
+      "publisher": "Yale University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "The Three Yugoslavias",
+      "author": "Sabrina P. Ramet",
+      "publisher": "Indiana University Press",
+      "year": 2006,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D33: the Serbian claims in one clause, as claims, with no assessment on screen.",
+    "[verify] Amnesty's figures for political prisoners; the year the National Library was completed (1982).",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

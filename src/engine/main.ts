@@ -427,9 +427,9 @@ function boot() {
 
     // The camcorder date belongs to whichever scene brings the VHS look.
     const stampScene = sceneB && PRESETS[sceneB.treatment].stamp > PRESETS[sceneA.treatment].stamp ? sceneB : sceneA;
-    const stampText = formatStamp(stampScene.dateStamp, stampScene.year);
+    const stampText = formatStamp(stampScene.dateStamp);
     if (stamp.textContent !== stampText) stamp.textContent = stampText;
-    stamp.style.opacity = weights.stamp.toFixed(3);
+    stamp.style.opacity = stampText ? weights.stamp.toFixed(3) : '0';
     updateInterface(performance.now(), pos, mix);
 
     // A clean, still picture does not need redrawing every frame.

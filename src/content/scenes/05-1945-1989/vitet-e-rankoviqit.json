@@ -1,0 +1,85 @@
+{
+  "era": "05-1945-1989",
+  "year": 1953,
+  "yearEnd": 1966,
+  "title": {
+    "sq": "Vitet e Rankoviqit",
+    "en": "The Ranković years"
+  },
+  "subtitles": {
+    "sq": [
+      "Pas vitit 1945, Kosova ishte njësi autonome brenda Serbisë, por pushteti i vërtetë ishte në duart e policisë sekrete të Aleksandër Rankoviqit, ministrit jugosllav të Punëve të Brendshme.",
+      "Shqiptarët jetonin nën mbikëqyrje të vazhdueshme. Në dimrin e viteve 1955–1956, një fushatë policore për mbledhjen e armëve solli rrahje dhe arrestime në fshatrat shqiptare.",
+      "Me një marrëveshje me Turqinë nga viti 1953, shumë shqiptarë, sipas disa vlerësimeve qindra mijëra, u shtynë të deklaroheshin turq dhe të shpërnguleshin."
+    ],
+    "en": [
+      "After 1945 Kosovo was an autonomous unit within Serbia, but real power lay with the secret police of Aleksandar Ranković, Yugoslavia's interior minister.",
+      "Albanians lived under constant surveillance. In the winter of 1955–56 a police campaign to seize weapons brought beatings and arrests to Albanian villages.",
+      "Under an arrangement with Turkey from 1953, many Albanians, by some estimates hundreds of thousands, were pressed to declare themselves Turks and emigrate."
+    ]
+  },
+  "image": "v1-fushe-kosove-stacioni",
+  "imageAlt": {
+    "sq": "Stacioni hekurudhor i Fushë Kosovës sot.",
+    "en": "The railway station at Fushë Kosova today."
+  },
+  "imageCredit": "Shpat Buzoku (2013)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 3.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Stacioni_Hekurudhor%C3%AB_-_Fush%C3%AB_Kosov%C3%AB.jpg",
+  "pendingImage": {
+    "id": "v1-turqi-1950",
+    "holder": "Kosovo State Archives Agency (ASHAK)",
+    "note": "Albanian families leaving for Turkey, 1950s (photo to identify)"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.3,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 16: Ranković, the 1955–56 weapons campaign, emigration to Turkey. [verify page]"
+    },
+    {
+      "title": "The Three Yugoslavias",
+      "author": "Sabrina P. Ramet",
+      "publisher": "Indiana University Press",
+      "year": 2006,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Between Serb and Albanian: A History of Kosovo",
+      "author": "Miranda Vickers",
+      "publisher": "Hurst",
+      "year": 1998,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Historia e popullit shqiptar, vol. IV",
+      "author": "Akademia e Shkencave e Shqipërisë",
+      "publisher": "Toena",
+      "year": 2008,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Emigration to Turkey: estimates",
+      "note": "About 175,000 Albanians in 1952–66 in one scholarly study; Turkish records count about 150,000 immigrants from all of Yugoslavia in 1953–60; Albanian sources give up to about 400,000. The caption says \"by some estimates hundreds of thousands\" (owner decision D30). [verify each figure to the page]"
+    }
+  ],
+  "flags": [
+    "Owner decisions D30 (\"hundreds of thousands\", as an estimate) and D31 (no number for the weapons campaign).",
+    "[verify] the 1953 arrangement with Turkey; the winter 1955–56 campaign.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12).",
+    "Modern photograph (2013); it shows a place, not the emigration."
+  ]
+}

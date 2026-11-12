@@ -14,10 +14,12 @@ describe('formatYear', () => {
 
 describe('formatStamp', () => {
   it('formats camcorder dates', () => {
-    expect(formatStamp('1998-03-05', 1998)).toBe('MAR 05 1998');
-    expect(formatStamp('1996-07', 1996)).toBe('JUL 1996');
-    expect(formatStamp('1991', 1991)).toBe('1991');
-    expect(formatStamp(undefined, 1999)).toBe('1999');
+    expect(formatStamp('1998-03-05')).toBe('MAR 05 1998');
+    expect(formatStamp('1996-07')).toBe('JUL 1996');
+    expect(formatStamp('1991')).toBe('1991');
+  });
+  it('shows no stamp without a real date (D40)', () => {
+    expect(formatStamp(undefined)).toBe('');
   });
 });
 

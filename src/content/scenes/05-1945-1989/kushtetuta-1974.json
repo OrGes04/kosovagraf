@@ -1,0 +1,79 @@
+{
+  "era": "05-1945-1989",
+  "year": 1974,
+  "title": {
+    "sq": "Kushtetuta e vitit 1974",
+    "en": "The 1974 constitution"
+  },
+  "subtitles": {
+    "sq": [
+      "Kushtetuta jugosllave e vitit 1974 e bëri Kosovën Krahinë Socialiste Autonome, me pothuajse të njëjtat të drejta si një republikë.",
+      "Kosova kishte kushtetutën, kuvendin, qeverinë dhe gjykatat e veta, si dhe një vend në Kryesinë e federatës.",
+      "Por mbetej pjesë e Serbisë dhe nuk ishte republikë."
+    ],
+    "en": [
+      "The Yugoslav constitution of 1974 made Kosovo a Socialist Autonomous Province, with almost the same powers as a republic.",
+      "Kosovo had its own constitution, assembly, government and courts, and a seat in the federal presidency.",
+      "But it remained part of Serbia, and it was not a republic."
+    ]
+  },
+  "image": "v4-kuvendi",
+  "imageAlt": {
+    "sq": "Ndërtesa e Kuvendit në Prishtinë sot.",
+    "en": "The Assembly building in Prishtina today."
+  },
+  "imageCredit": "Arianit (2020)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Parliament_of_the_Republic_of_Kosovo.jpg",
+  "pendingImage": {
+    "id": "v4-kuvendi-1974",
+    "holder": "Kosovo State Archives Agency (ASHAK)",
+    "note": "The provincial assembly, February 1974 (photo to identify)"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.45,
+      0.4
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 16. [verify page]"
+    },
+    {
+      "title": "The Three Yugoslavias",
+      "author": "Sabrina P. Ramet",
+      "publisher": "Indiana University Press",
+      "year": 2006,
+      "note": "[verify page]"
+    },
+    {
+      "title": "The Kosovo Report",
+      "author": "Independent International Commission on Kosovo",
+      "publisher": "Oxford University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kushtetuta e Krahinës Socialiste Autonome të Kosovës",
+      "author": "Kuvendi i KSA të Kosovës",
+      "publisher": "Gazeta Zyrtare e KSA të Kosovës, nr. 4",
+      "year": 1974,
+      "note": "Published 27 February 1974."
+    }
+  ],
+  "flags": [
+    "[verify] the dates (federal constitution 21 February 1974; Kosovo's 27 February 1974).",
+    "[verify] that this building housed the provincial assembly in 1974; if not, the alt text stays as it is (it names the building today only).",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

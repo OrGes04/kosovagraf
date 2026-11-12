@@ -1,0 +1,90 @@
+{
+  "era": "06-1989-1998",
+  "year": 1997,
+  "title": {
+    "sq": "1995–1997: durimi mbaron",
+    "en": "1995–1997: patience runs out"
+  },
+  "subtitles": {
+    "sq": [
+      "Marrëveshja e Dejtonit, në nëntor 1995, i dha fund luftës në Bosnjë, por e la Kosovën jashtë.",
+      "Një marrëveshje e vitit 1996 për kthimin e nxënësve dhe studentëve shqiptarë në shkollat e tyre nuk u zbatua kurrë.",
+      "Më 1 tetor 1997, mijëra studentë marshuan paqësisht në Prishtinë dhe u shpërndanë nga policia.",
+      "Më 28 nëntor 1997, në varrimin e mësuesit Halit Geci në Llaushë të Drenicës, luftëtarët e lirisë së Ushtrisë Çlirimtare të Kosovës (UÇK) u shfaqën publikisht për herë të parë."
+    ],
+    "en": [
+      "The Dayton agreement of November 1995 ended the war in Bosnia but left Kosovo out.",
+      "A 1996 agreement to return Albanian pupils and students to their schools was never carried out.",
+      "On 1 October 1997 thousands of students marched peacefully in Prishtina and were dispersed by the police.",
+      "On 28 November 1997, at the funeral of the teacher Halit Geci in Llaushë in Drenica, the freedom fighters of the Kosovo Liberation Army (UÇK) appeared in public for the first time."
+    ]
+  },
+  "image": "vi6-filologjia",
+  "imageAlt": {
+    "sq": "Fakulteti i Filologjisë i Universitetit të Prishtinës sot.",
+    "en": "The Faculty of Philology of the University of Prishtina today."
+  },
+  "imageCredit": "Bdx (2012)",
+  "imageLicense": "cc0",
+  "imageLicenseDetail": "CC0 1.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:University_of_Pristina_-_Faculty_of_Philology_2.JPG",
+  "pendingImage": {
+    "id": "vi6-1997",
+    "holder": "Koha Ditore archive; UPSUP; photographer of the 1997 photos published by Periskopi (to identify)",
+    "note": "The 1 October 1997 march; Llaushë, 28 November 1997"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.45
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Kosovo: War and Revenge",
+      "author": "Tim Judah",
+      "publisher": "Yale University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Civil Resistance in Kosovo",
+      "author": "Howard Clark",
+      "publisher": "Pluto Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Yugoslavia: Human Rights Abuses in Kosovo 1990–1992",
+      "author": "Helsinki Watch",
+      "publisher": "Human Rights Watch",
+      "year": 1992,
+      "url": "https://www.hrw.org/reports/1992/yugoslavia/",
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Epilogue to the 1998 edition. [verify page]"
+    },
+    {
+      "title": "20 vjet nga dalja publike e UÇK-së",
+      "author": "Koha",
+      "url": "https://www.koha.net/en/arberi/20-vjet-nga-dalja-publike-e-uck-se",
+      "note": "The first public appearance at Llaushë, 28 November 1997."
+    }
+  ],
+  "flags": [
+    "Owner decision D37: the UÇK are called freedom fighters; full name on first mention.",
+    "[verify] the 1 September 1996 agreement; the size of the 1 October 1997 march (Reuters: some 3,000 dispersed; Albanian accounts: tens of thousands), so the caption says \"thousands\".",
+    "[verify] the Llaushë funeral and Halit Geci.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12).",
+    "Owner decision D40: no camcorder date stamp, because the image is not from that date."
+  ]
+}

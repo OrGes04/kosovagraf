@@ -76,6 +76,22 @@ const scenes = defineCollection({
       imageSourceUrl: z.url().optional(),
       /** True for anything that is not a real photograph or historical artwork. */
       isIllustration: z.boolean().default(false),
+      /**
+       * A photo we have asked its owner to use and are waiting on. It is shown only
+       * in local development, from media-local/ (never committed or deployed); the
+       * public site shows `image`. When the owner agrees, the photo moves to
+       * media-src/scenes/, becomes `image`, and the licence becomes "permission".
+       */
+      pendingImage: z
+        .object({
+          /** File name in media-local/scenes/, without extension. */
+          id: z.string().min(1),
+          /** Who holds the rights, e.g. "Hazir Reka" or "Kosovo State Archives Agency". */
+          holder: z.string().min(1),
+          /** What the photo shows and where it was seen. */
+          note: z.string().optional(),
+        })
+        .optional(),
       /** Whether a depth map exists for the 2.5D parallax. */
       depthMap: z.boolean().default(false),
       /**
@@ -109,6 +125,13 @@ const scenes = defineCollection({
           code: 'custom',
           path: ['imageSourceUrl'],
           message: 'Images from elsewhere must record where they came from.',
+        });
+      }
+      if (scene.imageLicense === 'permission' && !scene.imageLicenseDetail) {
+        ctx.addIssue({
+          code: 'custom',
+          path: ['imageLicenseDetail'],
+          message: 'Say who gave permission and when, e.g. "Permission from Hazir Reka, 2026-11-20".',
         });
       }
       if (scene.imageLicense === 'own-work' && !scene.isIllustration) {

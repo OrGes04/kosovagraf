@@ -9,6 +9,11 @@
  * and writes src/data/media.json, the manifest the engine reads.
  * Outputs are committed, so deploys never need to re-encode images.
  *
+ * Photos awaiting their owner's permission go in media-local/scenes/ instead. They are
+ * encoded to public/media-local/ with their own manifest, src/data/media-local.json.
+ * All three are git-ignored, so they are never committed or deployed, and the site
+ * only uses them in local development (see src/lib/story.ts).
+ *
  *   node scripts/images.ts          only what is missing or out of date
  *   node scripts/images.ts --force  everything
  */
@@ -18,10 +23,18 @@ import sharp from 'sharp';
 import { DEPTH_WIDTH, IMAGE_WIDTHS } from '../src/lib/constants.ts';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
-const SRC = path.join(ROOT, 'media-src/scenes');
-const DEPTH_SRC = path.join(ROOT, 'media-src/depth');
-const OUT = path.join(ROOT, 'public/media/scenes');
-const MANIFEST = path.join(ROOT, 'src/data/media.json');
+const PUBLIC = {
+  src: path.join(ROOT, 'media-src/scenes'),
+  depth: path.join(ROOT, 'media-src/depth'),
+  out: path.join(ROOT, 'public/media/scenes'),
+  manifest: path.join(ROOT, 'src/data/media.json'),
+};
+const LOCAL = {
+  src: path.join(ROOT, 'media-local/scenes'),
+  depth: path.join(ROOT, 'media-local/depth'),
+  out: path.join(ROOT, 'public/media-local'),
+  manifest: path.join(ROOT, 'src/data/media-local.json'),
+};
 const FORCE = process.argv.includes('--force');
 const THUMB_WIDTH = 320;
 
@@ -46,7 +59,12 @@ async function upToDate(src: string, out: string): Promise<boolean> {
   return o > 0 && o >= (await mtime(src));
 }
 
-async function main() {
+async function exists(dir: string): Promise<boolean> {
+  return (await mtime(dir)) > 0;
+}
+
+async function processSet(set: typeof PUBLIC, label: string) {
+  const { src: SRC, depth: DEPTH_SRC, out: OUT, manifest: MANIFEST } = set;
   const files = (await readdir(SRC)).filter((f) => /\.(png|jpe?g|tiff?|webp)$/i.test(f)).sort();
   const manifest: Record<string, MediaEntry> = {};
   let encoded = 0;
@@ -99,7 +117,8 @@ async function main() {
 
   await mkdir(path.dirname(MANIFEST), { recursive: true });
   await writeFile(MANIFEST, JSON.stringify(manifest, null, 2) + '\n');
-  console.log(`${files.length} image(s), ${encoded} file(s) encoded, manifest written.`);
+  console.log(`${label}: ${files.length} image(s), ${encoded} file(s) encoded, manifest written.`);
 }
 
-await main();
+await processSet(PUBLIC, 'public');
+if (await exists(LOCAL.src)) await processSet(LOCAL, 'local preview (never published)');

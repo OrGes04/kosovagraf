@@ -8,6 +8,22 @@ const manifest = media as Record<string, MediaInfo>;
 const DEFAULT_FRAMING: SceneData['framing'] = { focus: [0.5, 0.5], fitLandscape: 0, fitPortrait: 0 };
 
 /**
+ * Photos awaiting their owner's permission (media-local/, git-ignored). Their manifest
+ * only exists on a machine where someone has put such photos in media-local/scenes/ and
+ * run "npm run images", and it is only read in local development: a production build
+ * never uses them, so they can never reach the public site.
+ */
+const localManifest: Record<string, MediaInfo> = import.meta.env.DEV
+  ? ((Object.values(import.meta.glob('../data/media-local.json', { eager: true, import: 'default' }))[0] ??
+      {}) as Record<string, MediaInfo>)
+  : {};
+
+type ImageFields = Pick<
+  SceneData,
+  'image' | 'mediaBase' | 'media' | 'imageCredit' | 'imageLicenseDetail' | 'imageSourceUrl'
+>;
+
+/**
  * Loads one story on one channel, in timeline order. The channel knob and
  * regional chapters (roadmap) are just other arguments to this function.
  */
@@ -42,6 +58,28 @@ export async function getStory(
       if (d.depthMap && !info.depth) {
         throw new Error(`Scene "${entry.id}" says it has a depth map, but none exists for "${d.image}".`);
       }
+
+      const pending = d.pendingImage;
+      const local = pending ? localManifest[pending.id] : undefined;
+      const img: ImageFields =
+        pending && local
+          ? {
+              image: pending.id,
+              mediaBase: '/media-local',
+              media: local,
+              imageCredit: `${pending.holder} (awaiting permission: local preview only)`,
+              imageLicenseDetail: 'Awaiting permission: local preview only, never published',
+              imageSourceUrl: undefined,
+            }
+          : {
+              image: d.image,
+              mediaBase: '/media/scenes',
+              media: { ...info, depth: info.depth && d.depthMap },
+              imageCredit: d.imageCredit,
+              imageLicenseDetail: d.imageLicenseDetail,
+              imageSourceUrl: d.imageSourceUrl,
+            };
+
       return {
         id: entry.id,
         story: d.story,
@@ -53,15 +91,11 @@ export async function getStory(
         dateStamp: d.dateStamp,
         title: d.title,
         subtitles: d.subtitles,
-        image: d.image,
-        media: { ...info, depth: info.depth && d.depthMap },
+        ...img,
         // The schema fills this in, but a stale dev-server cache can hand over entries without it.
         framing: d.framing ?? DEFAULT_FRAMING,
         imageAlt: d.imageAlt,
-        imageCredit: d.imageCredit,
         imageLicense: d.imageLicense,
-        imageLicenseDetail: d.imageLicenseDetail,
-        imageSourceUrl: d.imageSourceUrl,
         isIllustration: d.isIllustration,
         treatment: d.treatment ?? era.treatment,
         sources: d.sources,

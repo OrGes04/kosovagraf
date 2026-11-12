@@ -1,0 +1,87 @@
+{
+  "era": "05-1945-1989",
+  "year": 1981,
+  "title": {
+    "sq": "1981",
+    "en": "1981"
+  },
+  "subtitles": {
+    "sq": [
+      "Në mars 1981, një protestë e studentëve për kushtet në mensën e universitetit u kthye brenda pak javësh në demonstrata në gjithë Kosovën, me thirrjen «Kosova Republikë».",
+      "Autoritetet federale shpallën gjendje të jashtëzakonshme dhe dërguan ushtrinë e policinë.",
+      "Shifrat zyrtare pranuan rreth dhjetë të vrarë; burimet jozyrtare flasin për shumë më tepër.",
+      "Gjatë dhe pas demonstratave u vranë Asllan Pireva, Afrim Abazi, Naser Hajrizi, Ruzhdi Hyseni, Sherif Frangu, Ibrahim Krasniqi, Xhelal Maliqi, Salih Abazi dhe Riza Matoshi."
+    ],
+    "en": [
+      "In March 1981 a student protest about conditions in the university canteen grew within weeks into demonstrations across Kosovo, with the call \"Kosova Republikë\".",
+      "The federal authorities declared a state of emergency and sent in the army and police.",
+      "Official figures admitted about ten dead; unofficial sources speak of many more.",
+      "Killed during and after the demonstrations were Asllan Pireva, Afrim Abazi, Naser Hajrizi, Ruzhdi Hyseni, Sherif Frangu, Ibrahim Krasniqi, Xhelal Maliqi, Salih Abazi and Riza Matoshi."
+    ]
+  },
+  "image": "v5-pllaka-1981",
+  "imageAlt": {
+    "sq": "Pllaka përkujtimore në Prishtinë për Naser Hajrizin dhe Asllan Pirevën, të vrarë më 2 prill 1981.",
+    "en": "Memorial plaque in Prishtina to Naser Hajrizi and Asllan Pireva, killed on 2 April 1981."
+  },
+  "imageCredit": "Andy Mabbett (2013)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 3.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:2_April_1981_memorial,_Pristina.JPG",
+  "pendingImage": {
+    "id": "v5-1981",
+    "holder": "Kosovo State Archives Agency (ASHAK), Rilindja 1981",
+    "note": "The demonstrations in Prishtina, March–April 1981"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.35,
+      0.45
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Kosovo: How Myths and Truths Started a War",
+      "author": "Julie Mertus",
+      "publisher": "University of California Press",
+      "year": 1999,
+      "note": "The 1981 demonstrations. [verify page]"
+    },
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 16. [verify page]"
+    },
+    {
+      "title": "Yugoslavia: Prisoners of Conscience",
+      "author": "Amnesty International",
+      "publisher": "Amnesty International (EUR 48/17/85)",
+      "year": 1985,
+      "url": "https://www.amnesty.org/en/wp-content/uploads/2021/06/eur480171985en.pdf",
+      "note": "Notes that official sources gave up to 11 dead in 1981 and that unofficial sources gave far higher figures. [verify page]"
+    },
+    {
+      "title": "Commemorative Academy for the 45th anniversary of the 1981 demonstrations",
+      "author": "Office of the Prime Minister of Kosovo",
+      "year": 2026,
+      "url": "https://kryeministri.rks-gov.net/en/?p=199408",
+      "note": "Names nine people killed during and after the demonstrations."
+    },
+    {
+      "title": "Report to the Presidency of the SFRY (Kosovo Archives)",
+      "note": "Records 9 killed (8 demonstrators, 1 policeman). Via https://cultural-opposition.eu/courage/individual/n49120 [verify in the archive]"
+    }
+  ],
+  "flags": [
+    "Owner decision D32: name everyone killed whose name is documented.",
+    "[verify] the nine names against the Kosovo Archives record and Mertus before launch.",
+    "[verify] the start of the protests (11 March 1981).",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

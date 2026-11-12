@@ -42,6 +42,8 @@ export interface SceneData {
   title: Localized;
   subtitles: Record<Locale, string[]>;
   image: string;
+  /** URL folder the image files live in: "/media/scenes", or "/media-local" for a local preview. */
+  mediaBase: string;
   media: MediaInfo;
   framing: { focus: [number, number]; fitLandscape: number; fitPortrait: number };
   imageAlt: Localized;

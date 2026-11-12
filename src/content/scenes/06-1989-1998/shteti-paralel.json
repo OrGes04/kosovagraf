@@ -1,0 +1,80 @@
+{
+  "era": "06-1989-1998",
+  "year": 1993,
+  "yearApprox": true,
+  "title": {
+    "sq": "Shteti paralel",
+    "en": "The parallel state"
+  },
+  "subtitles": {
+    "sq": [
+      "Shqiptarët ngritën shtetin e tyre në hije: shkolla dhe universitet në shtëpi private, garazhe e xhami, dhe ambulanca të Shoqatës «Nëna Terezë».",
+      "Një kontribut vullnetar prej 3 për qind, nga njerëzit në Kosovë dhe nga diaspora në Gjermani, Zvicër e gjetiu, paguante mësuesit dhe mjekët.",
+      "Strategjia e Rugovës ishte rezistenca paqësore: të mos pranohej sundimi i Serbisë, pa i dhënë asaj shkak për luftë."
+    ],
+    "en": [
+      "Albanians built their own state in the shadows: schools and a university in private houses, garages and mosques, and clinics run by the Mother Teresa Society.",
+      "A voluntary 3 percent contribution, from people in Kosovo and from the diaspora in Germany, Switzerland and elsewhere, paid the teachers and doctors.",
+      "Rugova's strategy was peaceful resistance: to refuse Serbia's rule without giving it a pretext for war."
+    ]
+  },
+  "image": "vi5-shtepi-shkolle",
+  "imageAlt": {
+    "sq": "Pllaka në një shtëpi-shkollë në Vushtrri (1990–1994): «Simbol i mbijetesës së arsimit shqip në Kosovë».",
+    "en": "Plaque on a house-school in Vushtrri (1990–1994): \"A symbol of the survival of Albanian education in Kosova\"."
+  },
+  "imageCredit": "Drenisa (2023)",
+  "imageLicense": "cc-by",
+  "imageLicenseDetail": "CC BY 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sht%C3%ABpi_shkoll%C3%AB_n%C3%AB_Vushtrri.jpg",
+  "pendingImage": {
+    "id": "vi5-shkolla",
+    "holder": "Oral History Kosovo; Shyqeri Obertinca",
+    "note": "A class in a private house in the 1990s"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.45
+    ],
+    "fitLandscape": 1,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Civil Resistance in Kosovo",
+      "author": "Howard Clark",
+      "publisher": "Pluto Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo: The Politics of Identity and Space",
+      "author": "Denisa Kostovicova",
+      "publisher": "Routledge",
+      "year": 2005,
+      "note": "Parallel education. [verify page]"
+    },
+    {
+      "title": "Kosovo: War and Revenge",
+      "author": "Tim Judah",
+      "publisher": "Yale University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "The Kosovo Report",
+      "author": "Independent International Commission on Kosovo",
+      "publisher": "Oxford University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "[verify] the 3% contribution and how it was collected.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12).",
+    "Owner decision D40: no camcorder date stamp, because the image is not from that date."
+  ]
+}

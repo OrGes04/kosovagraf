@@ -1,0 +1,71 @@
+{
+  "era": "05-1945-1989",
+  "year": 1970,
+  "title": {
+    "sq": "Universiteti i Prishtinës",
+    "en": "The University of Prishtina"
+  },
+  "subtitles": {
+    "sq": [
+      "Në shkurt 1970 u hap Universiteti i Prishtinës, me mësim në shqip dhe në serbokroatisht.",
+      "Në vitet që pasuan u rritën shkollat në gjuhën shqipe, gazeta «Rilindja», Radio Televizioni i Prishtinës dhe Instituti Albanologjik.",
+      "Më 1972, shqiptarët e Kosovës pranuan gjuhën letrare të njësuar, të miratuar në Kongresin e Drejtshkrimit në Tiranë."
+    ],
+    "en": [
+      "In February 1970 the University of Prishtina opened, teaching in Albanian and Serbo-Croatian.",
+      "In the years that followed, Albanian-language schools, the newspaper Rilindja, Radio Television Prishtina and the Albanological Institute grew.",
+      "In 1972 Kosovo's Albanians adopted the unified literary language agreed at the Orthography Congress in Tirana."
+    ]
+  },
+  "image": "v3-rtp",
+  "imageAlt": {
+    "sq": "Ndërtesa e Radio Televizionit të Prishtinës sot.",
+    "en": "The Radio Television Prishtina building today."
+  },
+  "imageCredit": "Agron Berisha (2020)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Radio_and_Television_of_Prishtina_01.jpg",
+  "pendingImage": {
+    "id": "v3-universiteti-1970",
+    "holder": "University of Prishtina / Kosovo State Archives Agency (ASHAK)",
+    "note": "The university in its first years"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.4,
+      0.4
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 16. [verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entries: University of Prishtina; Rilindja; Albanological Institute. [verify page]"
+    },
+    {
+      "title": "Kosovo: The Politics of Identity and Space",
+      "author": "Denisa Kostovicova",
+      "publisher": "Routledge",
+      "year": 2005,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "[verify] the opening date (15 February 1970); the 1972 Orthography Congress and its adoption in Kosovo.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

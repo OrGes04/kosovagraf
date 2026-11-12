@@ -1,0 +1,75 @@
+{
+  "era": "06-1989-1998",
+  "year": 1990,
+  "order": 1,
+  "title": {
+    "sq": "Falja e gjaqeve",
+    "en": "Forgiving the blood"
+  },
+  "subtitles": {
+    "sq": [
+      "Një lëvizje studentësh dhe vullnetarësh, e prirë nga folkloristi Anton Çetta, shkoi fshat më fshat për t'i dhënë fund gjakmarrjes.",
+      "Në tubime me dhjetëra mijëra njerëz, si në Verrat e Llukës më 1 maj 1990, familjet falnin gjakun para të gjithëve.",
+      "U pajtuan qindra gjaqe."
+    ],
+    "en": [
+      "A movement of students and volunteers, led by the folklorist Anton Çetta, went from village to village to end the blood feuds.",
+      "At gatherings of tens of thousands, such as at Verrat e Llukës on 1 May 1990, families forgave the blood in front of everyone.",
+      "Hundreds of feuds were reconciled."
+    ]
+  },
+  "image": "vi3-lluka",
+  "imageAlt": {
+    "sq": "Mejtepi në fshatin Lluka e Epërme, Deçan.",
+    "en": "The old mejtep (village Quran school) in Lluka e Epërme, Deçan."
+  },
+  "imageCredit": "Gashi Bujar (2013)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mejtepi_n%C3%AB_fshatin_Lluka_e_Ep%C3%ABrme.jpg",
+  "pendingImage": {
+    "id": "vi3-pajtimi",
+    "holder": "to identify (photos published by Telegrafi)",
+    "note": "The Verrat e Llukës gathering, 1 May 1990; Anton Çetta"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.4,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Civil Resistance in Kosovo",
+      "author": "Howard Clark",
+      "publisher": "Pluto Press",
+      "year": 2000,
+      "note": "The reconciliation campaign. [verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entry: Çetta, Anton. [verify page]"
+    },
+    {
+      "title": "Historia e popullit shqiptar, vol. IV",
+      "author": "Akademia e Shkencave e Shqipërisë",
+      "publisher": "Toena",
+      "year": 2008,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "[verify] the date and attendance of the Verrat e Llukës gathering; sources give 100,000 to 500,000, so the caption says \"tens of thousands\" at gatherings in general.",
+    "[verify] \"hundreds of feuds\": Albanian sources give about 1,000; no number on screen until checked in Clark.",
+    "[verify] that Lluka e Epërme is the village of Verrat e Llukës.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12).",
+    "Owner decision D40: no camcorder date stamp, because the image is not from that date."
+  ]
+}

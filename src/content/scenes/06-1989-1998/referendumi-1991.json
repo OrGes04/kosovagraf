@@ -1,0 +1,82 @@
+{
+  "era": "06-1989-1998",
+  "year": 1991,
+  "title": {
+    "sq": "Referendumi dhe Republika e Kosovës",
+    "en": "The referendum and the Republic of Kosova"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 22 shtator 1991, kuvendi i nxjerrë jashtë ligjit e shpalli Kosovën të pavarur. Nga 26 deri më 30 shtator u mbajt një referendum në shtëpi private dhe në vende të fshehta.",
+      "Morën pjesë 87 për qind e votuesve, dhe pothuajse të gjithë votuan për pavarësinë.",
+      "Vetëm Shqipëria e njohu Republikën e Kosovës.",
+      "Më 24 maj 1992, në zgjedhje që Serbia i shpalli të paligjshme, Ibrahim Rugova i Lidhjes Demokratike të Kosovës u zgjodh president."
+    ],
+    "en": [
+      "On 22 September 1991 the outlawed assembly declared Kosovo independent. From 26 to 30 September a referendum was held in private homes and secret locations.",
+      "87 percent of voters took part, and nearly all voted for independence.",
+      "Only Albania recognised the Republic of Kosova.",
+      "On 24 May 1992, in elections Serbia declared illegal, Ibrahim Rugova of the Democratic League of Kosovo was elected president."
+    ]
+  },
+  "image": "vi4-rugova",
+  "imageAlt": {
+    "sq": "Monumenti i Ibrahim Rugovës në Prishtinë.",
+    "en": "The monument to Ibrahim Rugova in Prishtina."
+  },
+  "imageCredit": "Diego Delso (2014)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 3.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Monumento_a_Ibrahim_Rugova,_Pristina,_Kosovo,_2014-04-15,_DD_06.JPG",
+  "pendingImage": {
+    "id": "vi4-referendumi",
+    "holder": "Kosovo State Archives Agency (ASHAK) / LDK archive",
+    "note": "Voting in the 1991 referendum; Rugova in the 1990s"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.45,
+      0.45
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 17. [verify page]"
+    },
+    {
+      "title": "Civil Resistance in Kosovo",
+      "author": "Howard Clark",
+      "publisher": "Pluto Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo: War and Revenge",
+      "author": "Tim Judah",
+      "publisher": "Yale University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entries: referendum of 1991; Rugova, Ibrahim. [verify page]"
+    }
+  ],
+  "flags": [
+    "[verify] the official results (sources give 99.87% to 99.98% \"yes\"; the caption says \"nearly all\") and the 87% turnout.",
+    "[verify] Albania's recognition (21–22 October 1991).",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12).",
+    "Owner decision D40: no camcorder date stamp, because the image is not from that date."
+  ]
+}

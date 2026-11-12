@@ -236,36 +236,6 @@
     ],
     "depth": true
   },
-  "test-07": {
-    "width": 2560,
-    "height": 1440,
-    "widths": [
-      960,
-      1600,
-      2560
-    ],
-    "depth": true
-  },
-  "test-08": {
-    "width": 2560,
-    "height": 1440,
-    "widths": [
-      960,
-      1600,
-      2560
-    ],
-    "depth": true
-  },
-  "test-09": {
-    "width": 2560,
-    "height": 1440,
-    "widths": [
-      960,
-      1600,
-      2560
-    ],
-    "depth": true
-  },
   "test-10": {
     "width": 2560,
     "height": 1440,
@@ -299,6 +269,126 @@
   "test-13": {
     "width": 2560,
     "height": 1440,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "v1-fushe-kosove-stacioni": {
+    "width": 3840,
+    "height": 2560,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "v2-universiteti": {
+    "width": 3001,
+    "height": 1995,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "v3-rtp": {
+    "width": 3840,
+    "height": 2553,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "v4-kuvendi": {
+    "width": 3840,
+    "height": 2393,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "v5-pllaka-1981": {
+    "width": 3008,
+    "height": 2000,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "v6-biblioteka": {
+    "width": 3840,
+    "height": 2476,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "vi1-stanterg": {
+    "width": 3840,
+    "height": 2560,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "vi2-rilindja": {
+    "width": 3840,
+    "height": 2553,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "vi3-lluka": {
+    "width": 3696,
+    "height": 2448,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "vi4-rugova": {
+    "width": 3840,
+    "height": 2560,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "vi5-shtepi-shkolle": {
+    "width": 2992,
+    "height": 2992,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "vi6-filologjia": {
+    "width": 4000,
+    "height": 3000,
     "widths": [
       960,
       1600,
