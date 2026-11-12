@@ -1,0 +1,51 @@
+{
+  "era": "01-antiquity",
+  "year": -75,
+  "yearApprox": true,
+  "title": {
+    "sq": "Roma",
+    "en": "Rome"
+  },
+  "subtitles": {
+    "sq": [
+      "Në shekullin I p.e.s., ushtritë romake e nënshtruan Dardaninë.",
+      "Ajo u bë pjesë e provincës së Mezisë, e më vonë e Mezisë së Epërme.",
+      "Minierat e argjendit dhe të plumbit e bënë këtë rajon të vlefshëm për Romën."
+    ],
+    "en": [
+      "In the 1st century BC, Roman armies subdued Dardania.",
+      "It became part of the province of Moesia, and later of Upper Moesia.",
+      "Silver and lead mines made the region valuable to Rome."
+    ]
+  },
+  "image": "i3-moesia-1896",
+  "imageAlt": {
+    "sq": "Hartë e vitit 1896 e provincës romake të Mezisë rreth vitit 250.",
+    "en": "An 1896 map of the Roman province of Moesia around AD 250."
+  },
+  "imageCredit": "Map of Moesia, AD 250, from a book published in 1896. British Library, Mechanical Curator collection",
+  "imageLicense": "public-domain",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_the_roman_province_of_Moesia_(250).jpg",
+  "isIllustration": false,
+  "depthMap": false,
+  "sources": [
+    {
+      "title": "Pannonia and Upper Moesia",
+      "author": "András Mócsy",
+      "publisher": "Routledge",
+      "year": 1974,
+      "note": "[verify page]"
+    },
+    {
+      "title": "The Illyrians",
+      "author": "John Wilkes",
+      "publisher": "Blackwell",
+      "year": 1992,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "[verify] date of the Roman campaign (C. Scribonius Curio, 75–73 BC) and of the division of Moesia (AD 86).",
+    "[verify] silver and lead mining in Roman Dardania (Mócsy)."
+  ]
+}

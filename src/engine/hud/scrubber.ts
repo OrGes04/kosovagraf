@@ -4,7 +4,7 @@ import { thumbUrl } from '../renderer/types';
 import type { Scroll } from '../scroll';
 import { clamp01, type Item } from '../sequence';
 import type { EraData, SceneData } from '../types';
-import { el, formatYear } from './text';
+import { el, formatSceneYear, formatYear } from './text';
 
 const SHOW_FOR = 1000;
 
@@ -66,7 +66,7 @@ export function createScrubber(
     const scene = scenes[item.scene]!;
     if (item.kind === 'title') return { year: formatYear(item.year, ui), chapter: ui.site.title };
     const era = eraById.get(scene.era)!;
-    return { year: formatYear(scene.year, ui), chapter: `${era.roman} · ${era.title[deps.lang()]}` };
+    return { year: formatSceneYear(scene, ui), chapter: `${era.roman} · ${era.title[deps.lang()]}` };
   }
 
   function showItem(index: number, force = false) {

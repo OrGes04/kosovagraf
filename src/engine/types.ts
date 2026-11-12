@@ -37,6 +37,7 @@ export interface SceneData {
   era: string;
   year: number;
   yearEnd?: number;
+  yearApprox: boolean;
   dateStamp?: string;
   title: Localized;
   subtitles: Record<Locale, string[]>;

@@ -1,0 +1,61 @@
+{
+  "era": "04-1912-1945",
+  "year": 1944,
+  "title": {
+    "sq": "Nën pushtimin gjerman",
+    "en": "Under German occupation"
+  },
+  "subtitles": {
+    "sq": [
+      "Pas kapitullimit të Italisë në shtator 1943, Gjermania mori kontrollin e Kosovës.",
+      "Në maj 1944, pjesëtarë të divizionit SS Skënderbeg arrestuan hebrenjtë e Prishtinës; ata u dërguan në kampin Bergen-Belsen, dhe shumë prej tyre nuk mbijetuan.",
+      "Gjatë luftës, familje shqiptare strehuan hebrenj në shtëpitë e tyre; Yad Vashem ka nderuar shumë prej tyre si Të Drejtë mes Kombeve."
+    ],
+    "en": [
+      "After Italy's surrender in September 1943, Germany took control of Kosovo.",
+      "In May 1944, men of the SS Skanderbeg division arrested Prishtina's Jews; they were sent to the Bergen-Belsen camp, and many did not survive.",
+      "During the war, Albanian families sheltered Jews in their homes; Yad Vashem has honoured many of them as Righteous Among the Nations."
+    ]
+  },
+  "image": "iv6-occupation-1941",
+  "imageAlt": {
+    "sq": "Hartë e pushtimit dhe ndarjes së Jugosllavisë.",
+    "en": "Map of the occupation and partition of Yugoslavia."
+  },
+  "imageCredit": "WhiteWriter, after maps by PANONIAN and DIREKTOR (Wikimedia Commons)",
+  "imageLicense": "cc0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Axis_occupation_of_Yugoslavia%2C_1941-43.png",
+  "isIllustration": false,
+  "depthMap": false,
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 15. Gives more than 200 deaths. [verify page]"
+    },
+    {
+      "title": "Kosovo 1941–1944",
+      "url": "https://kosovoholocaust.org",
+      "note": "Dates the arrests to the night of 14 May 1944. [verify]"
+    },
+    {
+      "title": "Righteous Among the Nations: Albania",
+      "publisher": "Yad Vashem",
+      "url": "https://www.yadvashem.org/righteous/stories/albania.html",
+      "note": "[verify]"
+    },
+    {
+      "title": "Albania at War, 1939–1945",
+      "author": "Bernd J. Fischer",
+      "publisher": "Hurst",
+      "year": 1999,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D8: no numbers. Sources disagree: arrests between about 250 and 400; deaths from at least 177 (Cüppers) to more than 200 (Malcolm).",
+    "Needs its own image; reuses the 1941 map for now. A restrained, licensed image of Prishtina in the 1940s would fit."
+  ]
+}

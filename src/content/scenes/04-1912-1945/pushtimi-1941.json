@@ -1,0 +1,50 @@
+{
+  "era": "04-1912-1945",
+  "year": 1941,
+  "title": {
+    "sq": "1941: Pushtimi",
+    "en": "1941: Occupation"
+  },
+  "subtitles": {
+    "sq": [
+      "Në prill 1941, fuqitë e Boshtit pushtuan Jugosllavinë.",
+      "Pjesa më e madhe e Kosovës iu bashkua Shqipërisë nën pushtimin italian; veriu, me minierat e Trepçës, mbeti nën Serbinë e pushtuar nga Gjermania, dhe një brez në lindje nën Bullgarinë.",
+      "Për herë të parë që nga viti 1912, shkollat jepnin mësim në shqip."
+    ],
+    "en": [
+      "In April 1941, the Axis powers invaded Yugoslavia.",
+      "Most of Kosovo was joined to Italian-occupied Albania; the north, with the Trepça mines, stayed under German-occupied Serbia, and a strip in the east under Bulgaria.",
+      "For the first time since 1912, schools taught in Albanian."
+    ]
+  },
+  "image": "iv6-occupation-1941",
+  "imageAlt": {
+    "sq": "Hartë e pushtimit dhe ndarjes së Jugosllavisë në vitin 1941.",
+    "en": "Map of the occupation and partition of Yugoslavia in 1941."
+  },
+  "imageCredit": "WhiteWriter, after maps by PANONIAN and DIREKTOR (Wikimedia Commons)",
+  "imageLicense": "cc0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Axis_occupation_of_Yugoslavia%2C_1941-43.png",
+  "isIllustration": false,
+  "depthMap": false,
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 15. [verify page]"
+    },
+    {
+      "title": "Albania at War, 1939–1945",
+      "author": "Bernd J. Fischer",
+      "publisher": "Hurst",
+      "year": 1999,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decisions D8 and D9: the 1941 expulsions and violence against Serbs and Montenegrins are not mentioned.",
+    "Alternative image: 1941–42 photograph of the \"Skenderbeu\" school in Mitrovica (Commons, marked public domain by the uploader; provenance to check)."
+  ]
+}

@@ -48,6 +48,7 @@ export async function getStory(
         era: era.id,
         year: d.year,
         yearEnd: d.yearEnd,
+        yearApprox: d.yearApprox,
         dateStamp: d.dateStamp,
         title: d.title,
         subtitles: d.subtitles,

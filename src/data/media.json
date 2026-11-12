@@ -1,7 +1,32 @@
 {
-  "test-01": {
-    "width": 2560,
-    "height": 1440,
+  "i1-ortelius-moesia": {
+    "width": 1540,
+    "height": 1182,
+    "widths": [
+      960
+    ],
+    "depth": false
+  },
+  "i2-perthes-dardania": {
+    "width": 1148,
+    "height": 1012,
+    "widths": [
+      960
+    ],
+    "depth": false
+  },
+  "i3-moesia-1896": {
+    "width": 2352,
+    "height": 1559,
+    "widths": [
+      960,
+      1600
+    ],
+    "depth": false
+  },
+  "i4-ulpiana-aerial": {
+    "width": 3840,
+    "height": 2160,
     "widths": [
       960,
       1600,
@@ -9,13 +34,74 @@
     ],
     "depth": true
   },
-  "test-02": {
-    "width": 2560,
-    "height": 1440,
+  "i5-ulpiana-basilica": {
+    "width": 3840,
+    "height": 2571,
     "widths": [
       960,
       1600,
       2560
+    ],
+    "depth": true
+  },
+  "iv1-mitrovica-1912": {
+    "width": 3840,
+    "height": 2777,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "iv2-london-1913": {
+    "width": 1026,
+    "height": 669,
+    "widths": [
+      960
+    ],
+    "depth": false
+  },
+  "iv3-retreat-1915": {
+    "width": 1600,
+    "height": 1138,
+    "widths": [
+      960,
+      1600
+    ],
+    "depth": true
+  },
+  "iv4-galica": {
+    "width": 966,
+    "height": 1282,
+    "widths": [
+      960
+    ],
+    "depth": true
+  },
+  "iv5-kacanik": {
+    "width": 1658,
+    "height": 1164,
+    "widths": [
+      960,
+      1600
+    ],
+    "depth": true
+  },
+  "iv6-occupation-1941": {
+    "width": 1076,
+    "height": 1190,
+    "widths": [
+      960
+    ],
+    "depth": false
+  },
+  "iv8-bujan-kulla": {
+    "width": 2400,
+    "height": 1589,
+    "widths": [
+      960,
+      1600
     ],
     "depth": true
   },
@@ -30,26 +116,6 @@
     "depth": true
   },
   "test-04": {
-    "width": 2560,
-    "height": 1440,
-    "widths": [
-      960,
-      1600,
-      2560
-    ],
-    "depth": true
-  },
-  "test-05": {
-    "width": 2560,
-    "height": 1440,
-    "widths": [
-      960,
-      1600,
-      2560
-    ],
-    "depth": true
-  },
-  "test-06": {
     "width": 2560,
     "height": 1440,
     "widths": [

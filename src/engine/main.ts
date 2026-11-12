@@ -14,7 +14,7 @@ import { createOpening, type Overlay } from './hud/opening';
 import { createOverview } from './hud/overview';
 import { createScrubber } from './hud/scrubber';
 import { createSourcePanel } from './hud/source';
-import { applyI18n, formatStamp, formatYear } from './hud/text';
+import { applyI18n, formatSceneYear, formatStamp } from './hud/text';
 import { FallbackRenderer } from './renderer/fallback';
 import { GLRenderer, webglAvailable } from './renderer/gl';
 import type { Frame, SceneRenderer } from './renderer/types';
@@ -113,7 +113,7 @@ function boot() {
       const scene = scenes[Number(section.dataset.scene)];
       if (!scene || section.dataset.item !== 'scene') return;
       section.querySelector('.scene__title')!.textContent = scene.title[current];
-      section.querySelector('.scene__year')!.textContent = formatYear(scene.year, ui);
+      section.querySelector('.scene__year')!.textContent = formatSceneYear(scene, ui);
       section.querySelector('.scene__alt')!.textContent = scene.imageAlt[current];
       const lines = section.querySelector('.scene__lines')!;
       lines.textContent = '';
@@ -337,7 +337,7 @@ function boot() {
       hudItem = shownItem;
       const era = eraById.get(scene.era)!;
       metaRoman.textContent = era.roman;
-      metaYear.textContent = formatYear(scene.year, ui);
+      metaYear.textContent = formatSceneYear(scene, ui);
       metaName.textContent = era.title[current];
       mini.set(onTitle ? -1 : shown.scene);
       sourcePanel.render(scene, ui, current);

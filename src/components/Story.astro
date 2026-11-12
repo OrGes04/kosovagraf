@@ -14,7 +14,7 @@ import '../styles/story.css';
 import { LOCALES } from '../lib/constants';
 import { SCENE_SPAN, TITLE_SPAN } from '../engine/sequence';
 import { imageUrl, pickWidth } from '../engine/renderer/types';
-import { formatYear } from '../engine/hud/text';
+import { formatSceneYear } from '../engine/hud/text';
 import type { StoryData } from '../engine/types';
 
 interface Props {
@@ -182,7 +182,7 @@ const json = JSON.stringify(data).replace(/</g, '\\u003c');
       >
         <div class="scene__copy">
           <p class="scene__meta">
-            <span class="scene__year">{formatYear(scene.year, ui)}</span>
+            <span class="scene__year">{formatSceneYear(scene, ui)}</span>
           </p>
           <h2 class="scene__title">{scene.title[lang]}</h2>
           <noscript>

@@ -1,0 +1,50 @@
+{
+  "era": "01-antiquity",
+  "year": -200,
+  "yearApprox": true,
+  "title": {
+    "sq": "Bato, biri i Longarit",
+    "en": "Bato, son of Longarus"
+  },
+  "subtitles": {
+    "sq": [
+      "Dardania dhe Maqedonia ishin fqinjë dhe kundërshtarë të vjetër.",
+      "Sipas historianit romak Livi, prijësi dardan Longari kishte luftuar kundër Demetrit, mbretit të Maqedonisë.",
+      "Rreth vitit 200 p.e.s., i biri, Bato, i ofroi Romës ndihmën e dardanëve kundër Filipit V të Maqedonisë."
+    ],
+    "en": [
+      "Dardania and Macedon were neighbours and old rivals.",
+      "According to the Roman historian Livy, the Dardanian leader Longarus had fought Demetrius, king of Macedon.",
+      "Around 200 BC his son Bato offered Rome the Dardanians' help against Philip V of Macedon."
+    ]
+  },
+  "image": "i2-perthes-dardania",
+  "imageAlt": {
+    "sq": "Detaj i një harte të vitit 1865 me emrin Dardania.",
+    "en": "Detail of an 1865 map showing the name Dardania."
+  },
+  "imageCredit": "Spruner-Menke historical atlas, Justus Perthes, Gotha (1865)",
+  "imageLicense": "public-domain",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Roman_Dardania_part_of_Moesia_Superior_part_of_old_map_made_1865.jpg",
+  "isIllustration": false,
+  "depthMap": false,
+  "sources": [
+    {
+      "title": "History of Rome, Book 31, ch. 28",
+      "author": "Livy",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0144:book=31:chapter=28",
+      "note": "Bato, son of Longarus; Longarus fought Demetrius; the consul accepts Dardanian help. Checked 2026-11-12."
+    },
+    {
+      "title": "The Illyrians",
+      "author": "John Wilkes",
+      "publisher": "Blackwell",
+      "year": 1992,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "Livy gives no year; 200 BC is the standard date for the start of the war with Philip V. [verify]",
+    "The image is low resolution (1148 px wide)."
+  ]
+}

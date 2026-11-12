@@ -1,0 +1,61 @@
+{
+  "era": "04-1912-1945",
+  "year": 1945,
+  "title": {
+    "sq": "Bujani dhe fundi i luftës",
+    "en": "Bujan and the end of the war"
+  },
+  "subtitles": {
+    "sq": [
+      "Në Bujan, mes 31 dhjetorit 1943 dhe 2 janarit 1944, rezistenca e udhëhequr nga komunistët shpalli se populli i Kosovës duhej të vendoste vetë për të ardhmen e tij, përfshirë bashkimin me Shqipërinë.",
+      "Udhëheqja jugosllave e hodhi poshtë këtë rezolutë.",
+      "Partizanët morën Kosovën në fund të vitit 1944.",
+      "Në fillim të vitit 1945, kryengritja në Drenicë e udhëhequr nga Shaban Polluzha u shtyp, dhe në Kosovë u vendos administrata ushtarake."
+    ],
+    "en": [
+      "At Bujan, between 31 December 1943 and 2 January 1944, Kosovo's communist-led resistance declared that its people should decide their own future, including union with Albania.",
+      "The Yugoslav leadership rejected the resolution.",
+      "The Partisans took Kosovo at the end of 1944.",
+      "In early 1945, the uprising in Drenica led by Shaban Polluzha was put down, and military rule was imposed on Kosovo."
+    ]
+  },
+  "image": "iv8-bujan-kulla",
+  "imageAlt": {
+    "sq": "Kulla e Manit në Bujan, Tropojë, ku u mbajt Konferenca e Bujanit.",
+    "en": "The Mani tower in Bujan, Tropojë, where the Bujan Conference was held."
+  },
+  "imageCredit": "Pasztilla aka Attila Terbócs (2018)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bujan%2C_Tropoj%C3%AB%2C_Albania_%E2%80%93_Mani_Kulla_2018-05_01.jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 15. [verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entry: Bujan Conference; Polluzha, Shaban. [verify page]"
+    },
+    {
+      "title": "Kosovo: War and Revenge",
+      "author": "Tim Judah",
+      "publisher": "Yale University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D8: no figure for Albanians killed in 1944–45.",
+    "[verify] dates of the Bujan conference and of the Drenica uprising.",
+    "Modern colour photograph (2018) of the place, not of the event."
+  ]
+}

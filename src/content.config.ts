@@ -53,6 +53,8 @@ const scenes = defineCollection({
       /** Negative = BC. */
       year: z.number().int(),
       yearEnd: z.number().int().optional(),
+      /** Shown as "c. 300 BC" / "rreth 300 p.e.s.": the year places the scene, it does not date an event. */
+      yearApprox: z.boolean().default(false),
       /** Tie-break for scenes in the same year. */
       order: z.number().default(0),
       /** ISO date shown as the camcorder stamp in VHS-era scenes, e.g. "1998-03-05". */

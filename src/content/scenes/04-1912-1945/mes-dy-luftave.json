@@ -1,0 +1,58 @@
+{
+  "era": "04-1912-1945",
+  "year": 1938,
+  "title": {
+    "sq": "Mes dy luftërave",
+    "en": "Between the wars"
+  },
+  "subtitles": {
+    "sq": [
+      "Mes dy luftërave, shteti vendosi kolonë nga Serbia dhe Mali i Zi në tokat e Kosovës.",
+      "Shkollat në gjuhën shqipe nuk lejoheshin, dhe shumë shqiptarë u shpërngulën, kryesisht në Turqi.",
+      "Në vitin 1938, Jugosllavia dhe Turqia nënshkruan një marrëveshje për shpërnguljen e 40 000 familjeve; lufta e ndaloi zbatimin e saj."
+    ],
+    "en": [
+      "Between the wars, the state settled colonists from Serbia and Montenegro on land in Kosovo.",
+      "Schools in Albanian were not allowed, and many Albanians emigrated, above all to Turkey.",
+      "In 1938, Yugoslavia and Turkey signed a convention to resettle 40,000 families; the war stopped it from being carried out."
+    ]
+  },
+  "image": "iv5-kacanik",
+  "imageAlt": {
+    "sq": "Grykëderdhja e Kaçanikut, fotografi në pllakë qelqi, 1920–1945.",
+    "en": "Kaçanik gorge, glass-plate photograph, 1920–1945."
+  },
+  "imageCredit": "Photographer unknown. Estate of Dr Julij Felaher, Koroška osrednja knjižnica (Digital Library of Slovenia)",
+  "imageLicense": "public-domain",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Orhranie%2C_Katschanik%2C_Kosovo_1920-45.jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 14. [verify page]"
+    },
+    {
+      "title": "Between Serb and Albanian: A History of Kosovo",
+      "author": "Miranda Vickers",
+      "publisher": "Hurst",
+      "year": 1998,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entry: Colonization; Emigration. [verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D8: no numbers where estimates differ widely (colonists, emigrants).",
+    "[verify] the 40,000 families in the 1938 convention.",
+    "[verify] \"Schools in Albanian were not allowed\": check for exceptions."
+  ]
+}

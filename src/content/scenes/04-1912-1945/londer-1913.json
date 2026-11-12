@@ -1,0 +1,54 @@
+{
+  "era": "04-1912-1945",
+  "year": 1913,
+  "title": {
+    "sq": "Londër, 1913",
+    "en": "London, 1913"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 28 nëntor 1912, në Vlorë u shpall pavarësia e Shqipërisë.",
+      "Në Konferencën e Ambasadorëve në Londër, Fuqitë e Mëdha njohën shtetin shqiptar.",
+      "Por Kosovën ia lanë Serbisë dhe Malit të Zi."
+    ],
+    "en": [
+      "On 28 November 1912, Albania's independence was declared in Vlora.",
+      "At the Conference of Ambassadors in London, the Great Powers recognised an Albanian state.",
+      "But they left Kosovo to Serbia and Montenegro."
+    ]
+  },
+  "image": "iv2-london-1913",
+  "imageAlt": {
+    "sq": "Hartë e ndryshimeve kufitare në Ballkan pas Konferencës së Londrës, 1913.",
+    "en": "Map of the border changes in the Balkans after the London Conference, 1913."
+  },
+  "imageCredit": "Carnegie Endowment, Report of the International Commission on the Balkan Wars (1914)",
+  "imageLicense": "public-domain",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Territorial_Modifications_in_the_Balkans_%E2%80%93_Conference_of_London_1913.JPG",
+  "isIllustration": false,
+  "depthMap": false,
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 13. [verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entry: Conference of Ambassadors (London). [verify page]"
+    },
+    {
+      "title": "Between Serb and Albanian: A History of Kosovo",
+      "author": "Miranda Vickers",
+      "publisher": "Hurst",
+      "year": 1998,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": []
+}

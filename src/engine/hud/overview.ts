@@ -4,7 +4,7 @@ import { thumbUrl } from '../renderer/types';
 import type { Scroll } from '../scroll';
 import type { Item } from '../sequence';
 import type { EraData, SceneData } from '../types';
-import { el, formatYear } from './text';
+import { el, formatSceneYear } from './text';
 
 /**
  * The overview: every scene at once, one row per chapter, the current scene
@@ -51,7 +51,7 @@ export function createOverview(
 
       for (const { item, index } of members) {
         const scene = scenes[item.scene]!;
-        const year = formatYear(scene.year, ui);
+        const year = formatSceneYear(scene, ui);
         const button = el('button', 'overview__scene');
         button.type = 'button';
         button.dataset.index = String(index);

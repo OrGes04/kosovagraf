@@ -1,0 +1,68 @@
+{
+  "era": "04-1912-1945",
+  "year": 1912,
+  "title": {
+    "sq": "1912: Lufta e Parë Ballkanike",
+    "en": "1912: The First Balkan War"
+  },
+  "subtitles": {
+    "sq": [
+      "Në tetor 1912, ushtritë e Serbisë dhe të Malit të Zi morën Kosovën nga Perandoria Osmane.",
+      "Vëzhguesit e kohës, mes tyre Komisioni Carnegie dhe gazetari Leon Trocki, raportuan vrasje të civilëve shqiptarë dhe djegie fshatrash.",
+      "Leo Freundlich, në një dokumentim të botuar në Vjenë më 1913, vlerësoi rreth 25 000 shqiptarë të vrarë në vilajetin e Kosovës gjatë muajve të parë të luftës.",
+      "Vilajeti osman i Kosovës ishte më i madh se Kosova e sotme."
+    ],
+    "en": [
+      "In October 1912, the armies of Serbia and Montenegro took Kosovo from the Ottoman Empire.",
+      "Observers at the time, among them the Carnegie Commission and the journalist Leon Trotsky, reported the killing of Albanian civilians and the burning of villages.",
+      "Leo Freundlich, in a record published in Vienna in 1913, estimated that about 25,000 Albanians were killed in the province of Kosovo in the first months of the war.",
+      "That Ottoman province was larger than today's Kosovo."
+    ]
+  },
+  "image": "iv1-mitrovica-1912",
+  "imageAlt": {
+    "sq": "Trupa serbe në një tren në Mitrovicë, 1912.",
+    "en": "Serbian troops on a train at Mitrovica, 1912."
+  },
+  "imageCredit": "Agence Rol (1912). Bibliothèque nationale de France",
+  "imageLicense": "public-domain",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Transport_de_troupes_serbes_de_Mitrovica_(sur_un_train)_-_btv1b53114491v.jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "sources": [
+    {
+      "title": "Report of the International Commission to Inquire into the Causes and Conduct of the Balkan Wars",
+      "publisher": "Carnegie Endowment for International Peace",
+      "year": 1914,
+      "url": "https://archive.org/details/reportofinternat00inteuoft",
+      "note": "[verify the passages on Kosovo]"
+    },
+    {
+      "title": "The War Correspondence of Leon Trotsky: The Balkan Wars, 1912–13",
+      "author": "Leon Trotsky",
+      "publisher": "Monad Press",
+      "year": 1980,
+      "note": "[verify the passages on Kosovo]"
+    },
+    {
+      "title": "Albaniens Golgatha",
+      "author": "Leo Freundlich",
+      "publisher": "Vienna",
+      "year": 1913,
+      "url": "https://archive.org/details/albaniensgolgath00freu",
+      "note": "Source of the estimate. Freundlich wrote as an advocate of the Albanian cause, which is why the figure is attributed to him by name. [verify the figure and its scope in the text]"
+    },
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 13. [verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D6: estimate given, attributed.",
+    "[verify] month: Prishtina is usually dated 22 October 1912.",
+    "Photographs of executions exist on Commons; deliberately not used (brief: restraint)."
+  ]
+}

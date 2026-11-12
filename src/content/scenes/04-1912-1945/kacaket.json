@@ -1,0 +1,60 @@
+{
+  "era": "04-1912-1945",
+  "year": 1920,
+  "yearApprox": true,
+  "title": {
+    "sq": "Kaçakët",
+    "en": "The Kaçaks"
+  },
+  "subtitles": {
+    "sq": [
+      "Pas vitit 1918, luftëtarët shqiptarë të lirisë, kaçakët, u ngritën me armë kundër shtetit të ri.",
+      "Emri vjen nga turqishtja dhe do të thotë \"i arratisur\". Kështu i quanin autoritetet; populli i Drenicës e bëri emër nderi.",
+      "Në Drenicë i prinë Azem Galica dhe, pas vdekjes së tij më 1924, gruaja e tij, Shote Galica."
+    ],
+    "en": [
+      "After 1918, Albanian freedom fighters known as the Kaçaks took up arms against the new state.",
+      "The name comes from Turkish and means \"fugitive\": the authorities' word, which the people of Drenica made a name of honour.",
+      "In Drenica they were led by Azem Galica and, after his death in 1924, by his wife Shote Galica."
+    ]
+  },
+  "image": "iv4-galica",
+  "imageAlt": {
+    "sq": "Azem Galica dhe Shote Galica, rreth vitit 1920.",
+    "en": "Azem Galica and Shote Galica, around 1920."
+  },
+  "imageCredit": "Kel Marubi (c. 1920)",
+  "imageLicense": "public-domain",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Azem_Galica_and_Shota_Galica.jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 14. [verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entry: Kaçak movement; Galica, Azem; Galica, Shote. [verify page]"
+    },
+    {
+      "title": "Between Serb and Albanian: A History of Kosovo",
+      "author": "Miranda Vickers",
+      "publisher": "Hurst",
+      "year": 1998,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D7: \"freedom fighters\" throughout.",
+    "[verify] Shote Galica leading after Azem Galica's death in 1924.",
+    "[verify] attribution of the photograph to Kel Marubi.",
+    "Portrait image, 966 × 1282 px: small for full screen."
+  ]
+}

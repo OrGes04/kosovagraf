@@ -25,6 +25,12 @@ export function formatYear(year: number, strings: UiStrings): string {
   return y < 0 ? `${-y} ${strings.timeline.bc}` : String(y);
 }
 
+/** A scene's year, with "c." / "rreth" when it is approximate. */
+export function formatSceneYear(scene: { year: number; yearApprox: boolean }, strings: UiStrings): string {
+  const year = formatYear(scene.year, strings);
+  return scene.yearApprox ? `${strings.timeline.circa} ${year}` : year;
+}
+
 const MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
 
 /** Camcorder-style stamp: "1998-03-05" becomes "MAR 05 1998". */

@@ -183,7 +183,11 @@ IX 2008-today (independence)
   and drive headless Chrome (puppeteer-core with the installed Chrome) from a scratch folder.
 
 ## State of the build
-- Milestone 1 engine is built and runs on generated **test cards** (`test-01` … `test-13`,
+- Eras I and IV have **drafted real scenes** (2026-11-12): 5 + 8 JSON files, awaiting the owner's
+  review of the Albanian text. Each scene's `flags` lists what still needs checking in print
+  ("[verify]"); nothing marked [verify] may launch unchecked. Images: Wikimedia Commons, credit
+  and licence recorded per scene.
+- The other eras still run on generated **test cards** (`test-03`, `test-04`, `test-07` … `test-13`,
   `"placeholder": true`, labelled "Skenë prove" on screen). They carry no historical content
   and must be deleted once real scenes exist: remove their JSON files, their images in
   `media-src/`, and their folders in `public/media/scenes/`, then run `npm run images`.

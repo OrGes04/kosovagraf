@@ -1,0 +1,57 @@
+{
+  "era": "01-antiquity",
+  "year": 110,
+  "yearApprox": true,
+  "title": {
+    "sq": "Ulpiana",
+    "en": "Ulpiana"
+  },
+  "subtitles": {
+    "sq": [
+      "Pranë Prishtinës së sotme lulëzoi qyteti romak i Ulpianës.",
+      "Nën perandorin Trajan (98–117), ai mori statusin e municipiumit dhe emrin e familjes së tij, Ulpius.",
+      "Gërmimet arkeologjike vazhdojnë edhe sot."
+    ],
+    "en": [
+      "Near today's Prishtina, the Roman city of Ulpiana flourished.",
+      "Under Emperor Trajan (98–117) it became a municipium and took the name of his family, the Ulpii.",
+      "Archaeologists are still excavating it today."
+    ]
+  },
+  "image": "i4-ulpiana-aerial",
+  "imageAlt": {
+    "sq": "Pamje nga ajri e parkut arkeologjik të Ulpianës.",
+    "en": "Aerial view of the Ulpiana archaeological park."
+  },
+  "imageCredit": "Arianit",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ulpiana_archeological_site_from_the_drone.jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "sources": [
+    {
+      "title": "Pannonia and Upper Moesia",
+      "author": "András Mócsy",
+      "publisher": "Routledge",
+      "year": 1974,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entry: Ulpiana. [verify page]"
+    },
+    {
+      "title": "Buildings, Book 4, ch. 1, §28",
+      "author": "Procopius",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Procopius/Buildings/4A*.html",
+      "note": "\"A certain city among the Dardanians, dating from ancient times, which was named Ulpiana.\" Checked 2026-11-12."
+    }
+  ],
+  "flags": [
+    "[verify] municipium status under Trajan."
+  ]
+}

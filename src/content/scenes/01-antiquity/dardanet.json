@@ -1,0 +1,64 @@
+{
+  "era": "01-antiquity",
+  "year": -300,
+  "yearApprox": true,
+  "title": {
+    "sq": "Dardanët",
+    "en": "The Dardanians"
+  },
+  "subtitles": {
+    "sq": [
+      "Autorët e lashtë grekë e romakë e quanin këtë vend Dardani, dhe banorët e tij dardanë.",
+      "Dardanët ishin një popull ilir; trojet e tyre përfshinin pjesën më të madhe të Kosovës së sotme.",
+      "Studiuesit shqiptarë, dhe shumë gjuhëtarë jashtë vendit, e lidhin gjuhën shqipe me ilirët e këtyre trojeve."
+    ],
+    "en": [
+      "Ancient Greek and Roman writers called this land Dardania, and its people the Dardanians.",
+      "The Dardanians were an Illyrian people; their lands included most of today's Kosovo.",
+      "Albanian scholars, and many linguists abroad, trace the Albanian language back to the Illyrians of this land."
+    ]
+  },
+  "image": "i1-ortelius-moesia",
+  "imageAlt": {
+    "sq": "Hartë e vjetër e Dakisë dhe Mezisë nga Abraham Ortelius.",
+    "en": "An old map of Dacia and Moesia by Abraham Ortelius."
+  },
+  "imageCredit": "Abraham Ortelius, Theatrum Orbis Terrarum (c. 1608). Folger Shakespeare Library",
+  "imageLicense": "public-domain",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_Dacia_and_Moesia_by_Abraham_Ortelius.jpeg",
+  "isIllustration": false,
+  "depthMap": false,
+  "sources": [
+    {
+      "title": "Geography, Book 7, ch. 5",
+      "author": "Strabo",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/7E.html",
+      "note": "Ancient description of the Dardanians. [verify passage]"
+    },
+    {
+      "title": "The Illyrians",
+      "author": "John Wilkes",
+      "publisher": "Blackwell",
+      "year": 1992,
+      "note": "[verify page]"
+    },
+    {
+      "title": "The Central Balkan Tribes in Pre-Roman Times",
+      "author": "Fanula Papazoglu",
+      "publisher": "Hakkert",
+      "year": 1978,
+      "note": "Some scholars see Thracian influence in eastern Dardania. [verify page]"
+    },
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 2. On the origins of the Albanian language. [verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decisions D1 and D3 applied (2026-11-12).",
+    "The year c. 300 BC places the scene on the timeline; it does not date an event."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "era": "01-antiquity",
+  "year": 518,
+  "title": {
+    "sq": "Justiniana Secunda",
+    "en": "Justiniana Secunda"
+  },
+  "subtitles": {
+    "sq": [
+      "Në vitin 518, një tërmet goditi Dardaninë.",
+      "Perandori Justinian, i lindur në Taurision \"ndër dardanët\", e rindërtoi Ulpianën dhe e quajti Justiniana Secunda.",
+      "Nga fundi i shekullit VI, sulmet e avarëve dhe të sllavëve i dhanë fund jetës qytetare këtu."
+    ],
+    "en": [
+      "In 518, an earthquake struck Dardania.",
+      "Emperor Justinian, born at Taurisium \"among the Dardanians\", rebuilt Ulpiana and named it Justiniana Secunda.",
+      "From the late 6th century, Avar and Slav raids brought city life here to an end."
+    ]
+  },
+  "image": "i5-ulpiana-basilica",
+  "imageAlt": {
+    "sq": "Themelet e bazilikës së Ulpianës gjatë gërmimeve.",
+    "en": "The foundations of Ulpiana's basilica during excavation."
+  },
+  "imageCredit": "Robin Dürr",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:D%C3%BCrr_Kosovo_Ulpiana_01.jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "sources": [
+    {
+      "title": "Buildings, Book 4, ch. 1, §17 and §28–30",
+      "author": "Procopius",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Procopius/Buildings/4A*.html",
+      "note": "Justinian born at Taurisium \"among the Dardanians\"; Ulpiana renamed Justiniana Secunda. Checked 2026-11-12."
+    },
+    {
+      "title": "Chronicle, year 518",
+      "author": "Marcellinus Comes",
+      "note": "Earthquake in Dardania. [verify]"
+    },
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 2. End of urban life in the late 6th century. [verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D3: emperors described by birthplace only."
+  ]
+}

@@ -23,7 +23,8 @@
   },
   "timeline": {
     "bc": "BC",
-    "jumpTo": "Go to"
+    "jumpTo": "Go to",
+    "circa": "c."
   },
   "source": {
     "tab": "Source",

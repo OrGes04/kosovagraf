@@ -1,0 +1,49 @@
+{
+  "era": "04-1912-1945",
+  "year": 1915,
+  "title": {
+    "sq": "Lufta e Parë Botërore",
+    "en": "The First World War"
+  },
+  "subtitles": {
+    "sq": [
+      "Në vitin 1915, ushtria serbe u tërhoq nëpër Kosovë drejt bregut të Adriatikut.",
+      "Austro-Hungaria dhe Bullgaria e pushtuan Kosovën deri në vitin 1918; në zonën austro-hungareze u hapën shkolla në gjuhën shqipe.",
+      "Në vitin 1918, Kosova u bë pjesë e Mbretërisë së re të Serbëve, Kroatëve dhe Sllovenëve."
+    ],
+    "en": [
+      "In 1915, the Serbian army retreated through Kosovo towards the Adriatic coast.",
+      "Austria-Hungary and Bulgaria occupied Kosovo until 1918; in the Austro-Hungarian zone, Albanian-language schools opened.",
+      "In 1918, Kosovo became part of the new Kingdom of Serbs, Croats and Slovenes."
+    ]
+  },
+  "image": "iv3-retreat-1915",
+  "imageAlt": {
+    "sq": "Ushtarë serbë gjatë tërheqjes nga Kosova, dhjetor 1915.",
+    "en": "Serbian soldiers during the retreat from Kosovo, December 1915."
+  },
+  "imageCredit": "Photographer unknown. Imperial War Museums (Q 52311)",
+  "imageLicense": "public-domain",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Serbian_soldiers_during_the_retreat_from_Kosovo_December_1915.jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 14. [verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entry: World War I. [verify page]"
+    }
+  ],
+  "flags": [
+    "[verify] Albanian-language schools in the Austro-Hungarian zone."
+  ]
+}
