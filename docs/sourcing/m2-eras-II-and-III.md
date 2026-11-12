@@ -19,7 +19,12 @@ Prepared 2026-11-12.
 
 Era III revised: approved by the owner (2026-11-12), including D18 (reworded) and D28.
 
-Still open: D11 (as reworded in Era II revised), D12, D13, D14, D16, D17, D19, D22.
+The remaining points were applied **as recommended** when the owner said "good to go"
+(2026-11-12); the owner can overrule any of them while reviewing the drafts:
+D11 (reworded: Albanians in the records, likely undercounted, no numbers), D12 (Albanian names of
+the monuments), D13 (the monuments after 1999 belong to Era VIII), D14 ("15 June 1389"),
+D16 (no sentence on the later myth in Era II), D17 (wording on conversion), D19 (no figure for
+1877–78), D22 (names of people).
 
 How to read this (same format as `m1-eras-I-and-IV.md`):
 

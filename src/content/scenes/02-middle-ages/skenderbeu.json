@@ -1,0 +1,76 @@
+{
+  "era": "02-middle-ages",
+  "year": 1444,
+  "title": {
+    "sq": "Kastriotët dhe Skënderbeu",
+    "en": "The Kastriotis and Skanderbeg"
+  },
+  "subtitles": {
+    "sq": [
+      "Tokat e fisnikut shqiptar Gjon Kastrioti shtriheshin drejt Prizrenit, përmes Hasit, krahinës që sot e ndan kufiri mes Kosovës dhe Shqipërisë.",
+      "I biri, Gjergj Kastrioti Skënderbeu, u ngrit kundër osmanëve më 1443, dhe më 1444 bashkoi fisnikët shqiptarë në Lidhjen e Lezhës.",
+      "Më 1448 u nis për t'iu bashkuar ushtrisë hungareze që luftonte osmanët në Kosovë, por u pengua dhe mbërriti vonë.",
+      "Skënderbeu i qëndroi Perandorisë Osmane deri në vdekjen e tij, më 1468."
+    ],
+    "en": [
+      "The lands of the Albanian lord Gjon Kastrioti reached towards Prizren, through Has, a district that today's Kosovo–Albania border divides.",
+      "His son, Gjergj Kastrioti Skanderbeg, rose against the Ottomans in 1443, and in 1444 united the Albanian lords in the League of Lezha.",
+      "In 1448 he set out to join the Hungarian army fighting the Ottomans in Kosovo, but was held back and arrived too late.",
+      "Skanderbeg resisted the Ottoman Empire until his death in 1468."
+    ]
+  },
+  "image": "ii6-skanderbeg",
+  "imageAlt": {
+    "sq": "Portreti i Skënderbeut nga Cristofano dell'Altissimo, shekulli XVI, Galeria Uffizi në Firence.",
+    "en": "Portrait of Skanderbeg by Cristofano dell'Altissimo, 16th century, Uffizi Gallery, Florence."
+  },
+  "imageCredit": "Cristofano dell'Altissimo (1552–1568), Gallerie degli Uffizi",
+  "imageLicense": "public-domain",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ritratto_di_Giorgio_Scanderbeg.jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.3
+    ],
+    "fitLandscape": 1,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Skanderbeg: Der neue Alexander auf dem Balkan",
+      "author": "Oliver Jens Schmitt",
+      "publisher": "Pustet",
+      "year": 2009,
+      "note": "[verify page]"
+    },
+    {
+      "title": "The Late Medieval Balkans",
+      "author": "John V. A. Fine",
+      "publisher": "University of Michigan Press",
+      "year": 1987,
+      "note": "Skanderbeg and the 1448 campaign. [verify page]"
+    },
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 5. [verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entries: Kastrioti; Skanderbeg. [verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D24: scene partly outside Kosovo (Lezha, Kruja).",
+    "[verify] how far Gjon Kastrioti's lands reached towards Prizren and Has. Sources differ on the family's origin, so the caption does not state it.",
+    "[verify] the 1448 route and what held Skanderbeg back.",
+    "The portrait was painted about 90 years after Skanderbeg's death."
+  ]
+}

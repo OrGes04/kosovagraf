@@ -193,7 +193,10 @@ IX 2008-today (independence)
   review of the Albanian text. Each scene's `flags` lists what still needs checking in print
   ("[verify]"); nothing marked [verify] may launch unchecked. Images: Wikimedia Commons, credit
   and licence recorded per scene.
-- The other eras still run on generated **test cards** (`test-03`, `test-04`, `test-07` … `test-13`,
+- Eras II and III have **drafted real scenes** (2026-11-12): 7 + 7 JSON files, Albanian-centred
+  per the owner's framing, awaiting review of the Albanian text. Sourcing note and decisions D11–D29:
+  `docs/sourcing/m2-eras-II-and-III.md`. Same "[verify]" rule applies.
+- The other eras still run on generated **test cards** (`test-07` … `test-13`,
   `"placeholder": true`, labelled "Skenë prove" on screen). They carry no historical content
   and must be deleted once real scenes exist: remove their JSON files, their images in
   `media-src/`, and their folders in `public/media/scenes/`, then run `npm run images`.

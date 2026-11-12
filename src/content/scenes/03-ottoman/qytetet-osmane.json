@@ -1,0 +1,76 @@
+{
+  "era": "03-ottoman",
+  "year": 1615,
+  "title": {
+    "sq": "Çarshi, xhami dhe ura",
+    "en": "Bazaars, mosques and bridges"
+  },
+  "subtitles": {
+    "sq": [
+      "Prizreni, Gjakova, Peja, Prishtina dhe Vushtrria u rritën si qytete osmane, me çarshi, xhami, hamame dhe ura guri.",
+      "Në Prizren u ngrit Xhamia e Sinan Pashës (1615); në Gjakovë, Xhamia e Hadumit dhe çarshia e saj e gjatë.",
+      "Udhëtari osman Evlija Çelebiu e përshkroi Prizrenin dhe Vushtrrinë më 1660."
+    ],
+    "en": [
+      "Prizren, Gjakova, Peja, Prishtina and Vushtrri grew into Ottoman towns, with bazaars, mosques, baths and stone bridges.",
+      "In Prizren the Sinan Pasha Mosque was built (1615); in Gjakova, the Hadum Mosque and its long bazaar.",
+      "The Ottoman traveller Evliya Çelebi described Prizren and Vushtrri in 1660."
+    ]
+  },
+  "image": "iii2-sinan-pasha",
+  "imageAlt": {
+    "sq": "Prizreni në perëndim të diellit, me Xhaminë e Sinan Pashës dhe malet pas.",
+    "en": "Prizren at sunset, with the Sinan Pasha Mosque and the mountains behind."
+  },
+  "imageCredit": "Tom.whitehead337 (2022)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_over_Sinan_Pasha_Mosque,_Accursed_Mountains.jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "treatment": "parchment",
+  "framing": {
+    "focus": [
+      0.75,
+      0.6
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 6: Ottoman towns. [verify page]"
+    },
+    {
+      "title": "Evliya Çelebi in Albania and Adjacent Regions (Kosovo, Montenegro, Ohrid)",
+      "author": "R. Dankoff and R. Elsie (eds.)",
+      "publisher": "Brill",
+      "year": 2000,
+      "note": "Evliya's descriptions of Prizren and Vushtrri. [verify year of the journey and pages]"
+    },
+    {
+      "title": "Architecture in the Balkans from Diocletian to Süleyman the Magnificent",
+      "author": "Slobodan Ćurčić",
+      "publisher": "Yale University Press",
+      "year": 2010,
+      "note": "Ottoman architecture of Prizren. [verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entries: Prizren; Gjakova. [verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D28: the restored Serbian Patriarchate (1557) is not mentioned here.",
+    "[verify] Sinan Pasha Mosque 1615; the Hadum Mosque's date and founder; the year of Evliya's journey (1660).",
+    "Treatment set to parchment: no photography existed in this period.",
+    "Modern colour photograph (2022)."
+  ]
+}

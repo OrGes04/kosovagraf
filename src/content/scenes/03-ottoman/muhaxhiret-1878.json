@@ -1,0 +1,80 @@
+{
+  "era": "03-ottoman",
+  "year": 1878,
+  "order": 0,
+  "title": {
+    "sq": "1877–1878: të dëbuarit",
+    "en": "1877–78: the expelled"
+  },
+  "subtitles": {
+    "sq": [
+      "Në luftën serbo-osmane të viteve 1877–1878, forcat serbe morën krahinat e Nishit, Prokuplës, Kurshumlisë dhe Leskocit.",
+      "Popullsia shqiptare e këtyre krahinave u dëbua ose iku.",
+      "Shumë prej tyre, muhaxhirët, u vendosën në Kosovë.",
+      "Në verën e vitit 1878, Kongresi i Berlinit ia la këto toka Serbisë."
+    ],
+    "en": [
+      "In the Serbian–Ottoman war of 1877–78, Serbian forces took the districts of Niš, Prokuplje, Kuršumlija and Leskovac.",
+      "The Albanian population of these districts was expelled or fled.",
+      "Many of them, the muhaxhirë (refugees), settled in Kosovo.",
+      "In the summer of 1878 the Congress of Berlin left these lands to Serbia."
+    ]
+  },
+  "image": "iii5-berlin-1878",
+  "imageAlt": {
+    "sq": "Hartë amerikane e vitit 1878 që tregon kufijtë e rinj të Ballkanit pas Kongresit të Berlinit.",
+    "en": "An American map of 1878 showing the new Balkan borders after the Congress of Berlin."
+  },
+  "imageCredit": "Samuel Augustus Mitchell Jr., \"Map of Turkey in Europe, illustrating the Berlin Congress Treaty\" (1878)",
+  "imageLicense": "public-domain",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_Turkey_in_Europe._Illustrating_The_Berlin_Congress_Treaty,_July_1878.jpg",
+  "isIllustration": false,
+  "depthMap": false,
+  "framing": {
+    "focus": [
+      0.4,
+      0.4
+    ],
+    "fitLandscape": 1,
+    "fitPortrait": 1
+  },
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 11: the expulsions of 1877–78. [verify page]"
+    },
+    {
+      "title": "Between Serb and Albanian: A History of Kosovo",
+      "author": "Miranda Vickers",
+      "publisher": "Hurst",
+      "year": 1998,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entry: muhaxhir. [verify page]"
+    },
+    {
+      "title": "The Emigration of Muslims from the New Serbian Regions 1877/1878",
+      "author": "Miloš Jagodić",
+      "publisher": "Balkanologie 2(2)",
+      "year": 1998,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Numbers",
+      "note": "Estimates of the number expelled differ widely between sources; no figure is given on screen (owner decision D19)."
+    }
+  ],
+  "flags": [
+    "Owner decision D19 (as recommended): no figure.",
+    "Owner decision D22: towns outside Kosovo in Albanian form in Albanian text, standard English form in English text.",
+    "[verify] the districts named and the dates."
+  ]
+}

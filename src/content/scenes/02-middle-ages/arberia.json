@@ -1,0 +1,88 @@
+{
+  "era": "02-middle-ages",
+  "year": 1190,
+  "yearApprox": true,
+  "title": {
+    "sq": "Arbëria",
+    "en": "Arbër"
+  },
+  "subtitles": {
+    "sq": [
+      "Emri i shqiptarëve shfaqet për herë të parë me shkrim në shekullin XI, te shkrimtarët bizantinë.",
+      "Mihail Ataliati i përmend kur tregon ngjarjet e vitit 1043; më vonë Ana Komnena e quan vendin e tyre Arbanon.",
+      "Rreth vitit 1190, me qendër në Krujë, u krijua Arbëria, principata e parë shqiptare.",
+      "Kosovën, në këto shekuj, e sundonte Bizanti dhe, për një kohë, Bullgaria."
+    ],
+    "en": [
+      "The name of the Albanians first appears in writing in the 11th century, in Byzantine authors.",
+      "Michael Attaleiates mentions them when he tells the events of 1043; later, Anna Komnene calls their land Arbanon.",
+      "Around 1190, with Kruja as its centre, Arbër was founded: the first Albanian principality.",
+      "In these centuries Kosovo was ruled by Byzantium and, for a time, by Bulgaria."
+    ]
+  },
+  "image": "ii1-kruja",
+  "imageAlt": {
+    "sq": "Kalaja e Krujës sot, me malet pas saj.",
+    "en": "Kruja castle today, with the mountains behind it."
+  },
+  "imageCredit": "Arianit (2024)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kruja_Castle_13.jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.25,
+      0.45
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "History",
+      "author": "Michael Attaleiates",
+      "note": "Earliest mention of the Albanians (Albanoi), in the account of the events of 1043. [verify passage]"
+    },
+    {
+      "title": "The Alexiad",
+      "author": "Anna Komnene",
+      "note": "\"Arbanon\". [verify passage]"
+    },
+    {
+      "title": "La façade maritime de l'Albanie au Moyen Âge",
+      "author": "Alain Ducellier",
+      "publisher": "Institute for Balkan Studies, Thessaloniki",
+      "year": 1981,
+      "note": "Arbanon and the principality of Arbër under Progon. [verify page]"
+    },
+    {
+      "title": "The Early Medieval Balkans",
+      "author": "John V. A. Fine",
+      "publisher": "University of Michigan Press",
+      "year": 1983,
+      "note": "Byzantine and Bulgarian rule over the central Balkans. [verify page]"
+    },
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 3. [verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entry: Arbër. [verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D24: scenes may take place outside Kosovo; Kruja is in today's Albania.",
+    "Wording: the NAME first appears in writing; never \"the Albanians first appear\" (owner, 2026-11-12).",
+    "[verify] the 1043 passage in Attaleiates; the date c. 1190 and Progon; the dates of Bulgarian rule.",
+    "Modern colour photograph (2024) of the place, not of the period."
+  ]
+}

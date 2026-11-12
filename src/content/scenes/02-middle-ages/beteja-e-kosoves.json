@@ -1,0 +1,87 @@
+{
+  "era": "02-middle-ages",
+  "year": 1389,
+  "title": {
+    "sq": "Beteja e Kosovës",
+    "en": "The Battle of Kosovo"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 15 qershor 1389, në Fushën e Kosovës, ushtria osmane e Sulltan Muratit I u ndesh me një koalicion fisnikësh ballkanikë, të prirë nga Knez Lazari i Serbisë, me trupa nga Bosnja.",
+      "Sipas kronikës së familjes shqiptare Muzaka, aty luftuan edhe fisnikë shqiptarë, dhe Teodor Muzaka II ra në betejë.",
+      "U vranë edhe Lazari, edhe Murati: sulltanin e goditi për vdekje një kalorës i krishterë.",
+      "Sipas traditës shqiptare, kalorësi ishte Millosh Kopiliqi.",
+      "Asnjëra palë nuk fitoi qartë, por përparimi osman në Ballkan vazhdoi."
+    ],
+    "en": [
+      "On 15 June 1389, on the plain of Kosovo, the Ottoman army of Sultan Murad I met a coalition of Balkan lords led by Prince Lazar of Serbia, with troops from Bosnia.",
+      "According to the chronicle of the Albanian Muzaka family, Albanian lords fought there too, and Teodor Muzaka II fell in the battle.",
+      "Both Lazar and Murad were killed: the Sultan was struck down by a Christian knight.",
+      "In Albanian tradition, the knight was Millosh Kopiliqi.",
+      "Neither side won outright, but the Ottoman advance into the Balkans went on."
+    ]
+  },
+  "image": "ii5-hunername",
+  "imageAlt": {
+    "sq": "Miniaturë osmane e Betejës së Kosovës, nga libri Hünername (1584–1588).",
+    "en": "An Ottoman miniature of the Battle of Kosovo, from the Hünername (1584–1588)."
+  },
+  "imageCredit": "Nakkaş Osman, Hünername (1584–1588)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "Public-domain artwork; the scan is tagged CC BY-SA 4.0 on Wikimedia Commons",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Slaying_of_Serbian_knight_at_Kosovo,_by_Nakka%C5%9F_Osman.png",
+  "isIllustration": false,
+  "depthMap": false,
+  "framing": {
+    "focus": [
+      0.5,
+      0.4
+    ],
+    "fitLandscape": 1,
+    "fitPortrait": 1
+  },
+  "sources": [
+    {
+      "title": "Serbian Golgotha: Kosovo, 1389",
+      "author": "Thomas A. Emmert",
+      "publisher": "East European Monographs",
+      "year": 1990,
+      "note": "The battle and its sources. [verify page]"
+    },
+    {
+      "title": "The Late Medieval Balkans",
+      "author": "John V. A. Fine",
+      "publisher": "University of Michigan Press",
+      "year": 1987,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 4: the battle, its participants, and the later reports of Albanian lords. [verify page]"
+    },
+    {
+      "title": "Breve memoria de li discendenti de nostra casa Musachi (1510–1515)",
+      "author": "Gjon Muzaka",
+      "publisher": "in C. Hopf, Chroniques gréco-romanes, Berlin",
+      "year": 1873,
+      "note": "Source for Albanian lords at the battle and the death of Teodor Muzaka II; written about 120 years later, no contemporary confirmation. [verify passage]"
+    },
+    {
+      "title": "Calendar note",
+      "note": "The battle was fought on 15 June 1389 in the Julian calendar then in use. It is commemorated on 28 June because the Serbian Orthodox Church still uses the Julian calendar, which today runs 13 days behind."
+    },
+    {
+      "title": "The knight",
+      "note": "Serbian tradition names him Miloš Obilić (earlier Kobilić); Albanian tradition, Millosh Kopiliqi. Both names appear only in later sources."
+    }
+  ],
+  "flags": [
+    "Owner decisions D14 (date), D16 (no sentence on the later myth), D26 (the Kopiliqi line).",
+    "[verify] the Muzaka chronicle's passage on the battle.",
+    "[verify] what exactly the miniature shows (the Commons description reads \"Murad I martyred by Miloš\").",
+    "The miniature was painted almost 200 years after the battle."
+  ]
+}

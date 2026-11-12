@@ -1,0 +1,74 @@
+{
+  "era": "03-ottoman",
+  "year": 1750,
+  "yearApprox": true,
+  "title": {
+    "sq": "Kanuni",
+    "en": "The Kanun"
+  },
+  "subtitles": {
+    "sq": [
+      "Nën sundimin osman, malësitë shqiptare, përfshirë Rrafshin e Dukagjinit, qeveriseshin kryesisht vetë, me të drejtën zakonore: Kanunin.",
+      "Ai mban emrin e Lekë Dukagjinit (1410–1481), fisnik i Shqipërisë së Veriut që luftoi kundër osmanëve në kohën e Skënderbeut.",
+      "Kanuni rregullonte familjen, tokën, mikpritjen, besën dhe gjakmarrjen.",
+      "U përcoll gojë më gojë derisa e shkroi prifti Shtjefën Gjeçovi, i cili u vra në Zym, afër Prizrenit, më 1929; vepra e tij u botua më 1933."
+    ],
+    "en": [
+      "Under Ottoman rule the Albanian highlands, including the Dukagjin plain, largely governed themselves by customary law: the Kanun.",
+      "It is named after Lekë Dukagjini (1410–1481), a lord of northern Albania who fought the Ottomans in Skanderbeg's time.",
+      "The Kanun governed family, land, hospitality, the given word (besa) and the blood feud.",
+      "It was passed down by word of mouth until the priest Shtjefën Gjeçovi wrote it down. He was shot at Zym, near Prizren, in 1929; his work was published in 1933."
+    ]
+  },
+  "image": "iii4-kulla-mazrekaj",
+  "imageAlt": {
+    "sq": "Kulla e Mazrekajve në Drenoc të Deçanit.",
+    "en": "The Mazrekaj kulla (tower house) in Drenoc, Deçan."
+  },
+  "imageCredit": "Bujar I Gashi (2026)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Mazrrekaj_Tower.jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "treatment": "parchment",
+  "framing": {
+    "focus": [
+      0.6,
+      0.45
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Kanuni i Lekë Dukagjinit",
+      "author": "Shtjefën Gjeçovi (ed.)",
+      "publisher": "Shkodër",
+      "year": 1933,
+      "note": "English translation by Leonard Fox, The Code of Lekë Dukagjini (Gjonlekaj, 1989). [verify edition details]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entries: Kanun; Dukagjini, Lekë; Gjeçovi, Shtjefën. [verify page]"
+    },
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Customary law in Kosovo. [verify chapter and page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D27: the Kanun is included in Era III.",
+    "The attribution to Lekë Dukagjini is traditional; the caption says \"named after\".",
+    "[verify] Lekë Dukagjini's dates (1410–1481).",
+    "[verify] Gjeçovi's death (14 October 1929, Zym) and the 1933 edition.",
+    "[verify] how far the Kanun applied in the Kosovo lowlands as well as the highlands.",
+    "Modern colour photograph (2026) of a historic kulla; it illustrates the setting, not a dated event."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "era": "03-ottoman",
+  "year": 1689,
+  "title": {
+    "sq": "1689: shqiptarët dhe fushata austriake",
+    "en": "1689: Albanians and the Austrian campaign"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 1689, gjatë një lufte të madhe mes Habsburgëve dhe osmanëve, një ushtri austriake arriti në Kosovë dhe në Prizren.",
+      "Pjetër Bogdani, kryepeshkop katolik dhe autor i «Çetës së profetëve» (1685), një nga librat e parë të mëdhenj në shqip, u bëri thirrje shqiptarëve ta përkrahnin, dhe shumë e bënë.",
+      "Bogdani vdiq në Prishtinë po atë dimër.",
+      "Kur osmanët u kthyen më 1690, pasuan hakmarrje, dhe shumë të krishterë vendas ikën në veri me ushtrinë që tërhiqej, të prirë nga patriku serb Arsenije III."
+    ],
+    "en": [
+      "In 1689, during a great war between the Habsburgs and the Ottomans, an Austrian army reached Kosovo and Prizren.",
+      "Pjetër Bogdani, Catholic archbishop and author of the \"Band of the Prophets\" (1685), one of the first great books written in Albanian, called on Albanians to support it, and many did.",
+      "Bogdani died in Prishtina that same winter.",
+      "When the Ottomans returned in 1690, reprisals followed, and many local Christians fled north with the retreating army, led by the Serbian Patriarch Arsenije III."
+    ]
+  },
+  "image": "iii3-cuneus",
+  "imageAlt": {
+    "sq": "Faqja e titullit të «Cuneus Prophetarum» (Çeta e profetëve) nga Pjetër Bogdani, Padova, 1685.",
+    "en": "The title page of Pjetër Bogdani's Cuneus Prophetarum (\"Band of the Prophets\"), Padua, 1685."
+  },
+  "imageCredit": "Pjetër Bogdani, Cuneus Prophetarum (Padua, 1685)",
+  "imageLicense": "public-domain",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cuneus_Prophetarum_Title_Page.jpg",
+  "isIllustration": false,
+  "depthMap": false,
+  "treatment": "parchment",
+  "framing": {
+    "focus": [
+      0.5,
+      0.4
+    ],
+    "fitLandscape": 1,
+    "fitPortrait": 1
+  },
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 8: the war of 1689–90 and Albanian participation. His reading is disputed by Serbian historians. [verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entries: Bogdani, Pjetër; Arsenije III. [verify page]"
+    },
+    {
+      "title": "Albanian Literature: A Short History",
+      "author": "Robert Elsie",
+      "publisher": "I.B. Tauris",
+      "year": 2005,
+      "note": "Cuneus Prophetarum. [verify page]"
+    },
+    {
+      "title": "The 1690 migration",
+      "note": "Numbers are disputed: a figure of about 37,000 families comes from a later church source; contemporary documents give no reliable count. No figure is given on screen (owner decision D18)."
+    }
+  ],
+  "flags": [
+    "Owner decision D18 (reworded): told through Bogdani and the Albanians; the Serbian departure in one clause, no figure.",
+    "[verify] Bogdani's death in Prishtina (December 1689).",
+    "[verify] the extent of Albanian participation; it rests mainly on Malcolm, so the caption says \"many\" and gives no number.",
+    "Treatment set to parchment."
+  ]
+}

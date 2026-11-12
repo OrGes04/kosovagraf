@@ -44,6 +44,137 @@
     ],
     "depth": true
   },
+  "ii1-kruja": {
+    "width": 4000,
+    "height": 2250,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "ii2-decan": {
+    "width": 2500,
+    "height": 1875,
+    "widths": [
+      960,
+      1600
+    ],
+    "depth": true
+  },
+  "ii3-charter": {
+    "width": 622,
+    "height": 929,
+    "widths": [
+      960
+    ],
+    "depth": false
+  },
+  "ii4-novoberda": {
+    "width": 3840,
+    "height": 2552,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "ii5-hunername": {
+    "width": 740,
+    "height": 1204,
+    "widths": [
+      960
+    ],
+    "depth": false
+  },
+  "ii6-skanderbeg": {
+    "width": 1805,
+    "height": 2420,
+    "widths": [
+      960,
+      1600
+    ],
+    "depth": true
+  },
+  "ii7-prizren-kalaja": {
+    "width": 3840,
+    "height": 2560,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "iii1-fatih": {
+    "width": 3840,
+    "height": 2560,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "iii2-sinan-pasha": {
+    "width": 3840,
+    "height": 2390,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "iii3-cuneus": {
+    "width": 1242,
+    "height": 1983,
+    "widths": [
+      960
+    ],
+    "depth": false
+  },
+  "iii4-kulla-mazrekaj": {
+    "width": 3840,
+    "height": 2560,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "iii5-berlin-1878": {
+    "width": 3840,
+    "height": 5455,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": false
+  },
+  "iii6-lidhja": {
+    "width": 2180,
+    "height": 1420,
+    "widths": [
+      960,
+      1600
+    ],
+    "depth": true
+  },
+  "iii7-kacanik-1910": {
+    "width": 2846,
+    "height": 2397,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
   "iv1-mitrovica-1912": {
     "width": 3840,
     "height": 2777,
@@ -102,26 +233,6 @@
     "widths": [
       960,
       1600
-    ],
-    "depth": true
-  },
-  "test-03": {
-    "width": 2560,
-    "height": 1440,
-    "widths": [
-      960,
-      1600,
-      2560
-    ],
-    "depth": true
-  },
-  "test-04": {
-    "width": 2560,
-    "height": 1440,
-    "widths": [
-      960,
-      1600,
-      2560
     ],
     "depth": true
   },

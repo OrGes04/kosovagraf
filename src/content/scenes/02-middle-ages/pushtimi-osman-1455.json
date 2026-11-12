@@ -1,0 +1,73 @@
+{
+  "era": "02-middle-ages",
+  "year": 1455,
+  "title": {
+    "sq": "Pushtimi osman",
+    "en": "The Ottoman conquest"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 1455, Sulltan Mehmeti II rrethoi dhe mori Novobërdën.",
+      "Po atë vit ranë Prizreni dhe Peja.",
+      "Kosova do të mbetej në Perandorinë Osmane për më shumë se katër shekuj e gjysmë."
+    ],
+    "en": [
+      "In 1455 Sultan Mehmed II besieged and took Novobërda.",
+      "Prizren and Peja fell the same year.",
+      "Kosovo would remain in the Ottoman Empire for more than four and a half centuries."
+    ]
+  },
+  "image": "ii7-prizren-kalaja",
+  "imageAlt": {
+    "sq": "Prizreni, i parë nga kalaja e tij.",
+    "en": "Prizren, seen from its fortress."
+  },
+  "imageCredit": "Tom.whitehead337 (2022)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Prizren_Fortress_(Kalaja_e_Prizrenit).jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "The Late Medieval Balkans",
+      "author": "John V. A. Fine",
+      "publisher": "University of Michigan Press",
+      "year": 1987,
+      "note": "The fall of Novo Brdo, Prizren and Peć, 1455. [verify page]"
+    },
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 5. [verify page]"
+    },
+    {
+      "title": "Memoirs of a Janissary",
+      "author": "Konstantin Mihailović, trans. Benjamin Stolz",
+      "publisher": "University of Michigan",
+      "year": 1975,
+      "note": "Eyewitness account of the siege of Novo Brdo. [verify page]"
+    },
+    {
+      "title": "The Ottoman Empire: The Classical Age 1300–1600",
+      "author": "Halil İnalcık",
+      "publisher": "Weidenfeld & Nicolson",
+      "year": 1973,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "[verify] the dates in 1455 for Novobërda, Prizren and Peja.",
+    "Modern colour photograph (2022) of the place."
+  ]
+}

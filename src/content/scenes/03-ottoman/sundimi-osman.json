@@ -1,0 +1,72 @@
+{
+  "era": "03-ottoman",
+  "year": 1461,
+  "title": {
+    "sq": "Sundimi osman dhe një besim i ri",
+    "en": "Ottoman rule, and a new faith"
+  },
+  "subtitles": {
+    "sq": [
+      "Pas vitit 1455, Kosova u nda në sanxhaqe osmane. Xhamia e Mbretit në Prishtinë, e Sulltan Mehmetit II, daton nga viti 1461.",
+      "Gjatë dy shekujve, shumica e shqiptarëve u bënë myslimanë, kryesisht për taksat më të ulëta dhe për karrierat që u hapte Islami; herë-herë nën trysni.",
+      "Disa mbetën katolikë; disa familje jetonin si myslimanë para botës dhe e ruanin besimin e krishterë në shtëpi.",
+      "Shqiptarë arritën poste të larta në gjithë Perandorinë, mes tyre disa vezirë të mëdhenj."
+    ],
+    "en": [
+      "After 1455 Kosovo was divided into Ottoman districts, or sanjaks. Sultan Mehmed II's Imperial Mosque in Prishtina dates from 1461.",
+      "Over two centuries most Albanians became Muslim, mainly for the lower taxes and the careers Islam opened; at times under pressure.",
+      "Some remained Catholic; some families lived as Muslims in public and kept their Christian faith at home.",
+      "Albanians rose to high office across the Empire, several of them as grand viziers."
+    ]
+  },
+  "image": "iii1-fatih",
+  "imageAlt": {
+    "sq": "Xhamia e Mbretit (e Sulltan Mehmet Fatihut) në Prishtinë sot.",
+    "en": "The Imperial Mosque (Sultan Mehmed Fatih Mosque) in Prishtina today."
+  },
+  "imageCredit": "Eraalickaj (2014)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 3.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sultan_Murat_Fatih_Mosque_in_Prishtina,_Kosovo.JPG",
+  "isIllustration": false,
+  "depthMap": true,
+  "treatment": "parchment",
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "The Ottoman Empire: The Classical Age 1300–1600",
+      "author": "Halil İnalcık",
+      "publisher": "Weidenfeld & Nicolson",
+      "year": 1973,
+      "note": "Sanjaks and the timar system. [verify page]"
+    },
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapters 5–7: Ottoman administration and conversion to Islam. [verify pages]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entries: Fatih Mosque; Islam; crypto-Christians (laramanë). [verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D17 (as recommended): wording on conversion.",
+    "[verify] the mosque's inscription date (865 AH = 1461).",
+    "[verify] which grand viziers of Albanian origin could be named, each from a published source; until then, none is named.",
+    "Treatment set to parchment: no photography existed in this period.",
+    "Modern colour photograph (2014) of the building."
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "era": "03-ottoman",
+  "year": 1878,
+  "order": 1,
+  "title": {
+    "sq": "Lidhja e Prizrenit",
+    "en": "The League of Prizren"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 10 qershor 1878, delegatë nga trojet shqiptare u mblodhën në Prizren dhe themeluan Lidhjen e Prizrenit.",
+      "Ishte momenti themelues i lëvizjes kombëtare shqiptare.",
+      "Lidhja u ngrit kundër vendimeve të Shën Stefanit dhe të Berlinit, që u jepnin toka shqiptare Malit të Zi dhe Serbisë, dhe luftoi për Plavën e Gucinë.",
+      "Nën Abdyl Frashërin, Ymer Prizrenin dhe Sulejman Vokshin, kërkoi një vilajet shqiptar autonom. Më 1881, ushtria e sulltanit e shtypi."
+    ],
+    "en": [
+      "On 10 June 1878, delegates from the Albanian lands met in Prizren and founded the League of Prizren.",
+      "It was the founding moment of the Albanian national movement.",
+      "The League rose against the decisions of San Stefano and Berlin, which gave Albanian lands to Montenegro and Serbia, and fought to keep Plav and Gusinje.",
+      "Under Abdyl Frashëri, Ymer Prizreni and Sulejman Vokshi, it demanded an autonomous Albanian province. In 1881 the Sultan's army crushed it."
+    ]
+  },
+  "image": "iii6-lidhja",
+  "imageAlt": {
+    "sq": "Ndërtesa e Lidhjes së Prizrenit sot.",
+    "en": "The League of Prizren building today."
+  },
+  "imageCredit": "Pudelek (Marcin Szala) (2014)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:League_of_Prizren_building_(by_Pudelek).JPG",
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.45,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "The Albanian National Awakening, 1878–1912",
+      "author": "Stavro Skendi",
+      "publisher": "Princeton University Press",
+      "year": 1967,
+      "note": "The League of Prizren. [verify page]"
+    },
+    {
+      "title": "The Crescent and the Eagle: Ottoman Rule, Islam and the Albanians, 1874–1913",
+      "author": "George W. Gawrych",
+      "publisher": "I.B. Tauris",
+      "year": 2006,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Lidhja Shqiptare e Prizrenit 1878–1881",
+      "author": "Kristo Frashëri",
+      "publisher": "Tirana",
+      "year": 1997,
+      "note": "The standard Albanian account. [verify page]"
+    },
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 12. [verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entries: League of Prizren; Frashëri, Abdyl; Prizreni, Ymer; Vokshi, Sulejman. [verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D20: the founding moment of the Albanian national movement.",
+    "[verify] the founding date (10 June 1878) and the building where the delegates met.",
+    "[verify] the Ottoman capture of Prizren, April 1881.",
+    "Modern colour photograph (2014). The building was destroyed in 1999 and rebuilt [verify]; if so, the alt text should say so."
+  ]
+}

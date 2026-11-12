@@ -25,13 +25,11 @@ interface TestScene {
   treatment?: string;
 }
 
+/**
+ * Only eras without real scenes keep test cards. Remove an era's entries here
+ * when its real scenes are drafted (test-01 … test-06 are gone: eras I–IV).
+ */
 const SCENES: TestScene[] = [
-  { n: 1, era: '01-antiquity', year: -300, hue: 38 },
-  { n: 2, era: '01-antiquity', year: 100, hue: 24 },
-  { n: 3, era: '02-middle-ages', year: 1300, hue: 280 },
-  { n: 4, era: '03-ottoman', year: 1878, hue: 130 },
-  { n: 5, era: '04-1912-1945', year: 1912, hue: 16 },
-  { n: 6, era: '04-1912-1945', year: 1941, hue: 200 },
   { n: 7, era: '05-1945-1989', year: 1968, hue: 340 },
   { n: 8, era: '05-1945-1989', year: 1981, hue: 95 },
   { n: 9, era: '06-1989-1998', year: 1996, hue: 215, dateStamp: '1996-07-14' },

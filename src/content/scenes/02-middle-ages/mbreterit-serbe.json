@@ -1,0 +1,75 @@
+{
+  "era": "02-middle-ages",
+  "year": 1300,
+  "yearApprox": true,
+  "title": {
+    "sq": "Nën mbretërit serbë",
+    "en": "Under Serbian kings"
+  },
+  "subtitles": {
+    "sq": [
+      "Nga fundi i shekullit XII, Kosova u bë pjesë e mbretërisë serbe të dinastisë Nemanjiq.",
+      "Mbretërit e saj ndërtuan këtu kisha e manastire: Manastirin e Deçanit, Graçanicën dhe Patrikanën e Pejës.",
+      "Sot ato janë në listën e trashëgimisë botërore të UNESCO-s."
+    ],
+    "en": [
+      "From the late 12th century, Kosovo was part of the Serbian kingdom of the Nemanjić dynasty.",
+      "Its kings built churches and monasteries here: the Deçan monastery, Graçanica and the Patriarchate of Peja.",
+      "Today they are on UNESCO's World Heritage list."
+    ]
+  },
+  "image": "ii2-decan",
+  "imageAlt": {
+    "sq": "Kisha e Manastirit të Deçanit, e ndërtuar në shekullin XIV.",
+    "en": "The church of the Deçan monastery, built in the 14th century."
+  },
+  "imageCredit": "Julian Nyča (2008)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Visoki_De%C4%8Dani,_exterior_view_(Julian_Ny%C4%8Da).jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.6,
+      0.45
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "The Late Medieval Balkans",
+      "author": "John V. A. Fine",
+      "publisher": "University of Michigan Press",
+      "year": 1987,
+      "note": "The Nemanjić state and its expansion into Kosovo. [verify page]"
+    },
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 3. [verify page]"
+    },
+    {
+      "title": "Architecture in the Balkans from Diocletian to Süleyman the Magnificent",
+      "author": "Slobodan Ćurčić",
+      "publisher": "Yale University Press",
+      "year": 2010,
+      "note": "Deçan (1327–1335), Graçanica (c. 1321), the Patriarchate of Peja. [verify pages]"
+    },
+    {
+      "title": "Medieval Monuments in Kosovo (World Heritage List, site 724)",
+      "author": "UNESCO",
+      "url": "https://whc.unesco.org/en/list/724",
+      "note": "Inscribed 2004 (Deçan), extended 2006; on the List of World Heritage in Danger since 2006. Listed by UNESCO under its official title."
+    }
+  ],
+  "flags": [
+    "Owner decision D25: one scene on the Serbian state; no sentence on when the Slavs arrived.",
+    "Owner decision D12: Albanian names of the monuments in both languages.",
+    "[verify] the decade in which the Nemanjić state took Kosovo (\"late 12th century\").",
+    "Modern colour photograph (2008) of the building."
+  ]
+}

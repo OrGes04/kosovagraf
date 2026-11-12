@@ -1,0 +1,80 @@
+{
+  "era": "03-ottoman",
+  "year": 1910,
+  "yearEnd": 1912,
+  "title": {
+    "sq": "Nga Lidhja e Pejës te kryengritja e 1912-s",
+    "en": "From the League of Peja to the uprising of 1912"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 1899, Haxhi Zeka thirri Lidhjen e Pejës.",
+      "Shkollat shqipe ishin të ndaluara, dhe gjuha mësohej fshehurazi.",
+      "Më 1910 Kosova u ngrit kundër qeverisë xhonturke; Idriz Seferi mbajti grykën e Kaçanikut.",
+      "Më 1912, një kryengritje e përgjithshme e prirë nga Hasan Prishtina, Isa Boletini dhe Bajram Curri mori Prishtinën dhe Shkupin, dhe qeveria pranoi shumicën e kërkesave.",
+      "Dy muaj më vonë filluan Luftërat Ballkanike."
+    ],
+    "en": [
+      "In 1899 Haxhi Zeka called the League of Peja.",
+      "Albanian schools were forbidden, and the language was taught in secret.",
+      "In 1910 Kosovo rose against the Young Turk government; Idriz Seferi held the Kaçanik gorge.",
+      "In 1912 a general uprising led by Hasan Prishtina, Isa Boletini and Bajram Curri took Prishtina and Skopje, and the government accepted most of its demands.",
+      "Two months later the Balkan Wars began."
+    ]
+  },
+  "image": "iii7-kacanik-1910",
+  "imageAlt": {
+    "sq": "Kryengritës ndalojnë një tren pranë grykës së Kaçanikut, 1910. Ilustrim në revistën vjeneze «Das interessante Blatt».",
+    "en": "Insurgents stop a train near the Kaçanik gorge, 1910. Illustration in the Viennese magazine Das interessante Blatt."
+  },
+  "imageCredit": "Das interessante Blatt, Vienna, 5 May 1910 (Austrian National Library, ANNO)",
+  "imageLicense": "public-domain",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_uprising_in_Albania_-_Rebels_halt_a_train_near_Kacanik_Pass,_1910.jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.45
+    ],
+    "fitLandscape": 0.4,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "The Crescent and the Eagle: Ottoman Rule, Islam and the Albanians, 1874–1913",
+      "author": "George W. Gawrych",
+      "publisher": "I.B. Tauris",
+      "year": 2006,
+      "note": "The revolts of 1910–1912. [verify page]"
+    },
+    {
+      "title": "The Albanian National Awakening, 1878–1912",
+      "author": "Stavro Skendi",
+      "publisher": "Princeton University Press",
+      "year": 1967,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 12. [verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entries: League of Peja; Zeka, Haxhi; Seferi, Idriz; Prishtina, Hasan; Boletini, Isa; Curri, Bajram. [verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D21: no mention of violence against Serbs in 1878–1912.",
+    "[verify] the scope of the ban on Albanian schooling.",
+    "[verify] Idriz Seferi at the Kaçanik gorge in 1910.",
+    "[verify] the date the insurgents entered Skopje (about 12 August 1912) and the demands accepted.",
+    "A press illustration of 1910, not a photograph."
+  ]
+}

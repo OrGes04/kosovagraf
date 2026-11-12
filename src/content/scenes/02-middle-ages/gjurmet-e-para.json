@@ -1,0 +1,75 @@
+{
+  "era": "02-middle-ages",
+  "year": 1330,
+  "title": {
+    "sq": "Gjurmët e para",
+    "en": "The first traces"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 1285, një dokument gjyqësor në Dubrovnik përmend një zë që thërriste në mal «në gjuhën shqipe»: hera e parë që gjuha shqipe përmendet me shkrim.",
+      "Në vetë Kosovën, gjurmët e para të shkruara të shqiptarëve gjenden në kartat mbretërore të shekullit XIV.",
+      "Kartat e Deçanit (nga viti 1330) dhe karta e manastirit të Kryeengjëjve të Shenjtë pranë Prizrenit (rreth 1348) përmendin fshatra dhe bashkësi blegtorësh shqiptarë.",
+      "Këto lista përfshijnë vetëm tokat e kishës, dhe shumica e shqiptarëve ishin katolikë, ndaj rrallë dalin në dokumentet e manastireve ortodokse.",
+      "Dokumentet tregojnë se shqiptarët ishin këtu, por jo sa ishin."
+    ],
+    "en": [
+      "In 1285 a court record in Dubrovnik mentions a voice calling in the mountains \"in the Albanian language\": the first time the language is named in writing.",
+      "In Kosovo itself, the earliest written traces of the Albanians are in the royal charters of the 14th century.",
+      "The Deçan charters (from 1330) and the charter of the Holy Archangels monastery near Prizren (about 1348) name Albanian villages and herding communities.",
+      "These lists cover only church land, and most Albanians were Catholic, so they rarely appear in the records of Orthodox monasteries.",
+      "The documents show that Albanians were here, but not how many."
+    ]
+  },
+  "image": "ii3-charter",
+  "imageAlt": {
+    "sq": "Fillimi i kartës mbretërore të Deçanit, rreth vitit 1330.",
+    "en": "The opening of the Deçan royal charter, around 1330."
+  },
+  "imageCredit": "Charter of King Stefan Uroš III (c. 1330), Archive of the Serbian Academy of Sciences and Arts",
+  "imageLicense": "public-domain",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Charter_of_De%C4%8Dani_by_Stefan_Uro%C5%A1_III.png",
+  "isIllustration": false,
+  "depthMap": false,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 1,
+    "fitPortrait": 1
+  },
+  "sources": [
+    {
+      "title": "Albanian Literature: A Short History",
+      "author": "Robert Elsie",
+      "publisher": "I.B. Tauris",
+      "year": 2005,
+      "note": "The 1285 Dubrovnik record (\"in lingua albanesca\"). [verify page; some give 1284]"
+    },
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 3: Albanians in the Deçan and Holy Archangels charters, and why monastery records undercount them. [verify page]"
+    },
+    {
+      "title": "The Deçan charters (chrysobulls), 1330–1345",
+      "note": "Published edition to be confirmed. [verify which villages and communities each charter names]"
+    },
+    {
+      "title": "The Late Medieval Balkans",
+      "author": "John V. A. Fine",
+      "publisher": "University of Michigan Press",
+      "year": 1987,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D11 (as recommended): no population shares; the records likely undercount Albanians.",
+    "[verify] the wording and year of the 1285 record (some sources give 1284).",
+    "[verify] which Albanian villages and communities each charter names.",
+    "[verify] Malcolm's argument that Catholic Albanians rarely appear in Orthodox monastery records."
+  ]
+}

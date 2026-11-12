@@ -1,0 +1,65 @@
+{
+  "era": "02-middle-ages",
+  "year": 1350,
+  "yearApprox": true,
+  "title": {
+    "sq": "Novobërda",
+    "en": "Novobërda"
+  },
+  "subtitles": {
+    "sq": [
+      "Novobërda ishte një nga qytetet më të pasura të Ballkanit, falë minierave të argjendit.",
+      "Aty punonin minatorë sasë nga Evropa Qendrore dhe tregtonin tregtarë nga Dubrovniku.",
+      "Dokumentet e arkivit të Dubrovnikut përmendin edhe shumë shqiptarë: minatorë, zejtarë dhe priftërinj katolikë, me emra si Gjon, Gjin, Progon e Gjergj."
+    ],
+    "en": [
+      "Novobërda was one of the richest towns in the Balkans, thanks to its silver mines.",
+      "Saxon miners from Central Europe worked there, and merchants from Dubrovnik traded there.",
+      "The records of the Dubrovnik archives also name many Albanians: miners, craftsmen and Catholic priests, with names such as Gjon, Gjin, Progon and Gjergj."
+    ]
+  },
+  "image": "ii4-novoberda",
+  "imageAlt": {
+    "sq": "Rrënojat e kalasë së Novobërdës sot.",
+    "en": "The ruins of Novobërda fortress today."
+  },
+  "imageCredit": "albinfo (2019)",
+  "imageLicense": "cc0",
+  "imageLicenseDetail": "CC0 1.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Novo_Brdo_Fortress_(OSCAL19_trip).jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.35
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Kosovo: A Short History",
+      "author": "Noel Malcolm",
+      "publisher": "Macmillan",
+      "year": 1998,
+      "note": "Chapter 3: Novo Brdo, its Saxon miners and Ragusan merchants. [verify page]"
+    },
+    {
+      "title": "The Late Medieval Balkans",
+      "author": "John V. A. Fine",
+      "publisher": "University of Michigan Press",
+      "year": 1987,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Published records of the State Archives in Dubrovnik on Novo Brdo",
+      "note": "Edition to be confirmed. [verify every name before publication]"
+    }
+  ],
+  "flags": [
+    "Owner decision D10: Albanian place name (Novobërda) in both languages.",
+    "[verify] every personal name against the published archive records. A figure found online (about 150 Albanian householders in a 1430s ledger) is NOT used unless confirmed in print.",
+    "Modern colour photograph (2019) of the ruins."
+  ]
+}
