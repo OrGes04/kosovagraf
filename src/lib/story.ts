@@ -5,6 +5,7 @@ import type { EraData, MediaInfo, SceneData, StoryData } from '../engine/types';
 import { DEFAULT_CHANNEL, DEFAULT_STORY, type Channel, type Locale } from './constants';
 
 const manifest = media as Record<string, MediaInfo>;
+const DEFAULT_FRAMING: SceneData['framing'] = { focus: [0.5, 0.5], fitLandscape: 0, fitPortrait: 0 };
 
 /**
  * Loads one story on one channel, in timeline order. The channel knob and
@@ -54,7 +55,8 @@ export async function getStory(
         subtitles: d.subtitles,
         image: d.image,
         media: { ...info, depth: info.depth && d.depthMap },
-        framing: d.framing,
+        // The schema fills this in, but a stale dev-server cache can hand over entries without it.
+        framing: d.framing ?? DEFAULT_FRAMING,
         imageAlt: d.imageAlt,
         imageCredit: d.imageCredit,
         imageLicense: d.imageLicense,

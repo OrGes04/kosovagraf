@@ -178,6 +178,9 @@ IX 2008-today (independence)
 - `/?skip` skips the opening. `/?debug` opens the tuning panel (sliders for every shader
   weight, force any era's treatment). `/#<scene-id>` deep-links to a scene.
 - Keys: ← / → scenes, O overview, Esc closes.
+- **Restart `npm run dev` after changing the content schema or deleting scene files.** The dev
+  server keeps old content in memory and the page breaks in confusing ways (missing images,
+  missing fields). The production build is not affected.
 - Testing interactions: the in-app preview pane pauses animation when hidden and renders
   WebGL slowly. For reliable checks, `npm run build`, serve with `npx astro preview --port 4330`,
   and drive headless Chrome (puppeteer-core with the installed Chrome) from a scratch folder.
