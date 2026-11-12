@@ -81,6 +81,10 @@ export class GLRenderer implements SceneRenderer {
       uMix: { value: 0 },
       uZoomA: { value: 1 },
       uZoomB: { value: 1 },
+      uFocusA: { value: [0.5, 0.5] },
+      uFocusB: { value: [0.5, 0.5] },
+      uFitA: { value: 0 },
+      uFitB: { value: 0 },
       uPointer: { value: [0, 0] },
       uParallax: { value: 0 },
       uTime: { value: 0 },
@@ -210,6 +214,16 @@ export class GLRenderer implements SceneRenderer {
     u.uMix.value = bReady ? f.mix : 0;
     u.uZoomA.value = f.zoomA;
     u.uZoomB.value = f.zoomB;
+    // Framing depends on the screen's shape. Textures are flipped, so y counts from the bottom.
+    const tall = this.gl.drawingBufferHeight > this.gl.drawingBufferWidth;
+    const fa = f.a.framing;
+    u.uFocusA.value = [fa.focus[0], 1 - fa.focus[1]];
+    u.uFitA.value = tall ? fa.fitPortrait : fa.fitLandscape;
+    if (f.b) {
+      const fb = f.b.framing;
+      u.uFocusB.value = [fb.focus[0], 1 - fb.focus[1]];
+      u.uFitB.value = tall ? fb.fitPortrait : fb.fitLandscape;
+    }
     u.uPointer.value = [f.pointerX, f.pointerY];
     u.uParallax.value = f.parallax;
     u.uTime.value = f.time;

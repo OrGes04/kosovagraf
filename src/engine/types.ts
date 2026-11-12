@@ -43,6 +43,7 @@ export interface SceneData {
   subtitles: Record<Locale, string[]>;
   image: string;
   media: MediaInfo;
+  framing: { focus: [number, number]; fitLandscape: number; fitPortrait: number };
   imageAlt: Localized;
   imageCredit: string;
   imageLicense: License;

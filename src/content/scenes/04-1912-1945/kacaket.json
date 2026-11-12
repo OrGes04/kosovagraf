@@ -28,6 +28,14 @@
   "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Azem_Galica_and_Shota_Galica.jpg",
   "isIllustration": false,
   "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.3
+    ],
+    "fitLandscape": 0.25,
+    "fitPortrait": 1
+  },
   "sources": [
     {
       "title": "Kosovo: A Short History",
@@ -54,7 +62,6 @@
   "flags": [
     "Owner decision D7: \"freedom fighters\" throughout.",
     "[verify] Shote Galica leading after Azem Galica's death in 1924.",
-    "[verify] attribution of the photograph to Kel Marubi.",
-    "Portrait image, 966 × 1282 px: small for full screen."
+    "[verify] attribution of the photograph to Kel Marubi."
   ]
 }

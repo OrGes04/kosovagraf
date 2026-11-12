@@ -21,6 +21,10 @@ uniform float uDpr;
 uniform float uMix;        // crossfade A -> B
 uniform float uZoomA;
 uniform float uZoomB;
+uniform vec2 uFocusA;      // the part of the image to keep in frame, in texture uv
+uniform vec2 uFocusB;
+uniform float uFitA;       // 0 = fill the screen (crop), 1 = show the whole image
+uniform float uFitB;
 uniform vec2 uPointer;     // parallax direction, each axis -1..1
 uniform float uParallax;   // parallax strength
 uniform float uTime;       // seconds
@@ -84,18 +88,36 @@ float luma(vec3 c) {
   return dot(c, vec3(0.299, 0.587, 0.114));
 }
 
-// Maps screen uv to image uv so the image covers the screen, like CSS object-fit: cover.
-vec2 coverUv(vec2 uv, vec2 size, float zoom) {
+// Maps screen uv to image uv. fit 0 fills the screen like CSS object-fit: cover,
+// fit 1 shows the whole image like contain; focus keeps that point of the
+// image in frame when the image is cropped.
+vec2 fitUv(vec2 uv, vec2 size, float zoom, vec2 focus, float fit) {
   float screen = uRes.x / uRes.y;
   float image = size.x / size.y;
-  vec2 scale = screen > image ? vec2(1.0, image / screen) : vec2(screen / image, 1.0);
-  return (uv - 0.5) * scale / zoom + 0.5;
+  vec2 cover = screen > image ? vec2(1.0, image / screen) : vec2(screen / image, 1.0);
+  vec2 contain = screen > image ? vec2(screen / image, 1.0) : vec2(1.0, image / screen);
+  vec2 scale = mix(cover, contain, fit) / zoom;
+  vec2 lo = min(scale * 0.5, vec2(0.5));
+  return (uv - 0.5) * scale + clamp(focus, lo, 1.0 - lo);
 }
 
-vec3 pick(vec2 ua, vec2 ub, vec2 offset) {
-  vec3 a = texture2D(tA, ua + offset).rgb;
+// Outside a whole-image fit, the empty space shows a darkened, blurred copy of the picture.
+vec3 sampleImage(sampler2D t, vec2 p, vec2 back) {
+  if (p.x < 0.0 || p.x > 1.0 || p.y < 0.0 || p.y > 1.0) {
+    vec3 s = vec3(0.0);
+    for (int i = 0; i < 9; i++) {
+      vec2 o = vec2(float(i - (i / 3) * 3) - 1.0, float(i / 3) - 1.0) * 0.04;
+      s += texture2D(t, back + o).rgb;
+    }
+    return s / 9.0 * 0.3;
+  }
+  return texture2D(t, p).rgb;
+}
+
+vec3 pick(vec2 ua, vec2 ub, vec2 backA, vec2 backB, vec2 offset) {
+  vec3 a = sampleImage(tA, ua + offset, backA);
   if (uMix > 0.001) {
-    vec3 b = texture2D(tB, ub + offset).rgb;
+    vec3 b = sampleImage(tB, ub + offset, backB);
     a = mix(a, b, uMix);
   }
   return a;
@@ -131,8 +153,10 @@ void main() {
 
   // --- Image --------------------------------------------------------------
 
-  vec2 ua = coverUv(uv, uSizeA, uZoomA);
-  vec2 ub = coverUv(uv, uSizeB, uZoomB);
+  vec2 ua = fitUv(uv, uSizeA, uZoomA, uFocusA, uFitA);
+  vec2 ub = fitUv(uv, uSizeB, uZoomB, uFocusB, uFitB);
+  vec2 backA = fitUv(uv, uSizeA, uZoomA, uFocusA, 0.0);
+  vec2 backB = fitUv(uv, uSizeB, uZoomB, uFocusB, 0.0);
 
   // 2.5D parallax: near things (bright in the depth map) move further.
   if (uParallax > 0.0) {
@@ -140,19 +164,19 @@ void main() {
     if (uHasDepthB > 0.5 && uMix > 0.001) ub += (texture2D(tDepthB, ub).r - 0.5) * uPointer * uParallax;
   }
 
-  vec3 col = pick(ua, ub, vec2(0.0));
+  vec3 col = pick(ua, ub, backA, backB, vec2(0.0));
 
   // RGB fringing, growing towards the edges of the tube.
   float fringe = wFringe * (0.0012 + 0.006 * dot(centred, centred));
   if (fringe > 0.00005) {
-    col.r = pick(ua, ub, vec2(fringe, 0.0)).r;
-    col.b = pick(ua, ub, vec2(-fringe, 0.0)).b;
+    col.r = pick(ua, ub, backA, backB, vec2(fringe, 0.0)).r;
+    col.b = pick(ua, ub, backA, backB, vec2(-fringe, 0.0)).b;
   }
 
   // VHS colour bleed: colour smears sideways while brightness stays put.
   if (wBleed > 0.001) {
     float y0 = luma(col);
-    vec3 smear = pick(ua, ub, vec2(-0.006, 0.0)) + pick(ua, ub, vec2(-0.013, 0.0));
+    vec3 smear = pick(ua, ub, backA, backB, vec2(-0.006, 0.0)) + pick(ua, ub, backA, backB, vec2(-0.013, 0.0));
     smear = (smear + col) / 3.0;
     vec3 chroma = smear - luma(smear);
     col = mix(col, vec3(y0) + chroma * 1.15, wBleed);

@@ -54,6 +54,7 @@ export async function getStory(
         subtitles: d.subtitles,
         image: d.image,
         media: { ...info, depth: info.depth && d.depthMap },
+        framing: d.framing,
         imageAlt: d.imageAlt,
         imageCredit: d.imageCredit,
         imageLicense: d.imageLicense,

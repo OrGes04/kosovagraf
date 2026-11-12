@@ -61,6 +61,7 @@ export function createOverview(
         img.alt = '';
         img.loading = 'lazy';
         img.decoding = 'async';
+        img.style.objectPosition = `${scene.framing.focus[0] * 100}% ${scene.framing.focus[1] * 100}%`;
         img.width = 320;
         img.height = Math.round((320 * scene.media.height) / scene.media.width);
         const tip = el('span', 'overview__tip');

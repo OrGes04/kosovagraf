@@ -52,6 +52,13 @@ export class FallbackRenderer implements SceneRenderer {
       this.shownB = b;
       this.imgB.src = this.url(f.b!);
     }
+    const tall = window.innerHeight > window.innerWidth;
+    for (const [img, scene] of [[this.imgA, f.a], [this.imgB, f.b]] as const) {
+      if (!scene) continue;
+      const { focus, fitLandscape, fitPortrait } = scene.framing;
+      img.style.objectPosition = `${focus[0] * 100}% ${focus[1] * 100}%`;
+      img.style.objectFit = (tall ? fitPortrait : fitLandscape) > 0.5 ? 'contain' : 'cover';
+    }
     this.imgA.style.transform = `scale(${f.zoomA.toFixed(4)})`;
     this.imgB.style.transform = `scale(${f.zoomB.toFixed(4)})`;
     this.imgB.style.opacity = b ? f.mix.toFixed(3) : '0';

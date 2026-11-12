@@ -78,6 +78,18 @@ const scenes = defineCollection({
       isIllustration: z.boolean().default(false),
       /** Whether a depth map exists for the 2.5D parallax. */
       depthMap: z.boolean().default(false),
+      /**
+       * How the image sits on screen. focus: the point to keep in frame, as
+       * [x, y] from the top left (0–1). fitLandscape / fitPortrait: 0 fills the
+       * screen (cropping), 1 shows the whole image over a blurred copy of itself.
+       */
+      framing: z
+        .object({
+          focus: z.tuple([z.number().min(0).max(1), z.number().min(0).max(1)]).default([0.5, 0.5]),
+          fitLandscape: z.number().min(0).max(1).default(0),
+          fitPortrait: z.number().min(0).max(1).default(0),
+        })
+        .default({ focus: [0.5, 0.5], fitLandscape: 0, fitPortrait: 0 }),
       /** Overrides the era's treatment for this scene. */
       treatment: z.enum(TREATMENTS).optional(),
 
