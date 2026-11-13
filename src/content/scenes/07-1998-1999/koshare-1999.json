@@ -16,28 +16,23 @@
       "Among the fallen were the commanders Agim Ramadani and Sali Çeku."
     ]
   },
-  "image": "vii18-koshare",
+  "image": "vii18-koshare-1999",
   "imageAlt": {
-    "sq": "Kazermat e ish-ushtrisë jugosllave pranë Koshares.",
-    "en": "The former Yugoslav army barracks near Koshare."
+    "sq": "Cenë Aliçkaj, luftëtar i UÇK-së, në Koshare, 1999.",
+    "en": "Cenë Aliçkaj, a UÇK fighter, at Koshare, 1999."
   },
-  "imageCredit": "Arianit Dobroshi",
-  "imageLicense": "cc-by-sa",
-  "imageLicenseDetail": "CC BY-SA 3.0",
-  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Arianit_Koshare_IMG_0049.JPG",
-  "pendingImage": {
-    "id": "vii18-koshare",
-    "holder": "to identify (veterans' archives, Kosovo photographers)",
-    "note": "UÇK fighters at Koshare, 1999"
-  },
+  "imageCredit": "Riza Shabanaj (1999)",
+  "imageLicense": "cc0",
+  "imageLicenseDetail": "CC0 1.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cen%C3%AB_Ali%C3%A7kaj.jpg",
   "isIllustration": false,
   "depthMap": true,
   "framing": {
     "focus": [
       0.5,
-      0.5
+      0.4
     ],
-    "fitLandscape": 0.4,
+    "fitLandscape": 1,
     "fitPortrait": 0
   },
   "sources": [
@@ -67,7 +62,6 @@
     "Owner request 2026-11-13: more of the UÇK.",
     "[verify] the dates (9 April – 10/14 June 1999), the names, and the unit (later the 138th \"Agim Ramadani\" brigade).",
     "Owner decision D48: quiet VHS look, no date stamp.",
-    "Owner decision D44: no photographs of the dead or wounded.",
-    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+    "Owner decision D44: no photographs of the dead or wounded."
   ]
 }

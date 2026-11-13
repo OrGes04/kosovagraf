@@ -18,15 +18,15 @@
       "Among those who fell that year were Fehmi and Xhevë Lladrovci, husband and wife."
     ]
   },
-  "image": "vii05-junik-kulla",
+  "image": "vii05-uck-1999",
   "imageAlt": {
-    "sq": "Kulla e Brahim Hoxhës në Junik.",
-    "en": "The kulla of Brahim Hoxha in Junik."
+    "sq": "Luftëtarë të UÇK-së marshojnë me flamurin shqiptar nëpër Koretin, mes banorëve, 21 qershor 1999.",
+    "en": "UÇK fighters march with the Albanian flag through Koretin, among the villagers, 21 June 1999."
   },
-  "imageCredit": "Sali Shoshi (2013)",
-  "imageLicense": "cc-by-sa",
-  "imageLicenseDetail": "CC BY-SA 4.0",
-  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kulla_e_Brahim_Hoxh%C3%ABs,_Junik.jpg",
+  "imageCredit": "Craig J. Shell, US Marine Corps (1999)",
+  "imageLicense": "public-domain",
+  "imageLicenseDetail": "Public domain (work of the US government)",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Members_of_the_local_KLA,_Kosovo_Liberation_Army,_march_through_the_streets_of_Koretin,_Kosovo_to_honor_Marines_from_the_26th_Marine_Expeditionary_Unit_(MEU)._The_Marines_and_sailor_-_DPLA_-_e009958adda18dfc83470a075fb838a9.jpeg",
   "pendingImage": {
     "id": "vii05-uck",
     "holder": "to identify (Kosovo photographers, 1998)",
@@ -37,7 +37,7 @@
   "framing": {
     "focus": [
       0.5,
-      0.5
+      0.45
     ],
     "fitLandscape": 0,
     "fitPortrait": 0

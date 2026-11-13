@@ -415,13 +415,21 @@
     ],
     "depth": true
   },
-  "vii05-junik-kulla": {
-    "width": 3840,
-    "height": 2560,
+  "vii04-rogova": {
+    "width": 1884,
+    "height": 2574,
     "widths": [
       960,
-      1600,
-      2560
+      1600
+    ],
+    "depth": true
+  },
+  "vii05-uck-1999": {
+    "width": 1920,
+    "height": 1287,
+    "widths": [
+      960,
+      1600
     ],
     "depth": true
   },
@@ -480,14 +488,6 @@
     ],
     "depth": true
   },
-  "vii13-krusha-grate": {
-    "width": 960,
-    "height": 720,
-    "widths": [
-      960
-    ],
-    "depth": true
-  },
   "vii14-kampi-1999": {
     "width": 1280,
     "height": 849,
@@ -521,29 +521,31 @@
     ],
     "depth": false
   },
-  "vii18-koshare": {
-    "width": 1024,
-    "height": 768,
+  "vii18-koshare-1999": {
+    "width": 1106,
+    "height": 1106,
     "widths": [
       960
     ],
     "depth": true
   },
-  "vii19-kukes-eksodi": {
-    "width": 1280,
-    "height": 849,
+  "vii19-gjonaj-1999": {
+    "width": 1920,
+    "height": 1340,
     "widths": [
-      960
+      960,
+      1600
     ],
     "depth": true
   },
-  "vii20-refugjate-1999": {
-    "width": 1280,
-    "height": 975,
+  "vii20-shenja-1999": {
+    "width": 1744,
+    "height": 1172,
     "widths": [
-      960
+      960,
+      1600
     ],
-    "depth": false
+    "depth": true
   },
   "vii21-pashtrik": {
     "width": 3840,
@@ -563,9 +565,18 @@
     ],
     "depth": true
   },
-  "vii23-zegra-1999": {
+  "vii22-varri-1999": {
     "width": 1920,
-    "height": 1248,
+    "height": 1442,
+    "widths": [
+      960,
+      1600
+    ],
+    "depth": true
+  },
+  "vii23-kfor-12-qershor": {
+    "width": 1920,
+    "height": 1280,
     "widths": [
       960,
       1600

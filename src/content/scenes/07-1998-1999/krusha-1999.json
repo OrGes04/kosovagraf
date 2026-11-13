@@ -16,20 +16,15 @@
       "The women of Krusha e Madhe rebuilt their lives without their men."
     ]
   },
-  "image": "vii13-krusha-grate",
+  "image": "vii22-krusha-1999",
   "imageAlt": {
-    "sq": "Gratë e Krushës së Madhe, 2005.",
-    "en": "The women of Krusha e Madhe, 2005."
+    "sq": "Krusha e Madhe, shtator 1999: fotografitë e burrave të vrarë dhe të zhdukur.",
+    "en": "Krusha e Madhe, September 1999: photographs of the men who were killed or went missing."
   },
-  "imageCredit": "Ola Syla (2005)",
+  "imageCredit": "Nduraku (1999)",
   "imageLicense": "cc-by-sa",
   "imageLicenseDetail": "CC BY-SA 3.0",
-  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Women_of_Krusha_e_Madhe.jpg",
-  "pendingImage": {
-    "id": "vii13-krusha",
-    "holder": "to identify",
-    "note": "Krusha e Madhe, 1999"
-  },
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Missing_Men_of_Krusha_e_Madhe_(Burrat_e_Krushes_se_Madhe).jpg",
   "isIllustration": false,
   "depthMap": true,
   "framing": {
@@ -65,7 +60,6 @@
   "flags": [
     "[verify] each village's figure in the ICTY judgments before any number is added.",
     "Owner decision D48: quiet VHS look, no date stamp.",
-    "Owner decision D44: no photographs of the dead or wounded.",
-    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+    "Owner decision D44: no photographs of the dead or wounded."
   ]
 }

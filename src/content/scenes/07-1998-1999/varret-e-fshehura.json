@@ -18,23 +18,23 @@
       "The tribunal in The Hague convicted the Serbian police general Vlastimir Đorđević, among other crimes, for his part in hiding the bodies."
     ]
   },
-  "image": "vii22-krusha-1999",
+  "image": "vii22-varri-1999",
   "imageAlt": {
-    "sq": "Krusha e Madhe, shtator 1999: fotografitë e burrave të vrarë dhe të zhdukur.",
-    "en": "Krusha e Madhe, September 1999: photographs of the men who were killed or went missing."
+    "sq": "Ekspertë kanadezë të mjekësisë ligjore hetojnë një varr në një fshat të Kosovës, 1 korrik 1999.",
+    "en": "Canadian forensic experts investigate a grave in a Kosovo village, 1 July 1999."
   },
-  "imageCredit": "Nduraku (1999)",
-  "imageLicense": "cc-by-sa",
-  "imageLicenseDetail": "CC BY-SA 3.0",
-  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Missing_Men_of_Krusha_e_Madhe_(Burrat_e_Krushes_se_Madhe).jpg",
+  "imageCredit": "Craig J. Shell, US Marine Corps (1999)",
+  "imageLicense": "public-domain",
+  "imageLicenseDetail": "Public domain (work of the US government)",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:RCMP_in_Kosovo.jpg",
   "isIllustration": false,
   "depthMap": true,
   "framing": {
     "focus": [
-      0.5,
+      0.45,
       0.5
     ],
-    "fitLandscape": 0.5,
+    "fitLandscape": 0,
     "fitPortrait": 0
   },
   "sources": [

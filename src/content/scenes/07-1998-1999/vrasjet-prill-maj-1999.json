@@ -18,29 +18,24 @@
       "Serbian forces also used rape against Albanian women."
     ]
   },
-  "image": "vii20-refugjate-1999",
+  "image": "vii20-shenja-1999",
   "imageAlt": {
-    "sq": "Njerëz të zhvendosur në Kosovë, parë nga ajri, prill 1999.",
-    "en": "Displaced people in Kosovo, seen from the air, April 1999."
+    "sq": "Një shenjë e pikturuar nga forcat jugosllave në një shtëpi, për të treguar se ishte «pastruar», 1999.",
+    "en": "A mark painted by Yugoslav forces on a house to show it had been \"cleared\", 1999."
   },
-  "imageCredit": "US Department of Defense (1999)",
-  "imageLicense": "public-domain",
-  "imageLicenseDetail": "Public domain (work of the US government)",
-  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Defense.gov_News_Photo_990428-O-9999K-008.jpg",
-  "pendingImage": {
-    "id": "vii20-vrasjet",
-    "holder": "to identify",
-    "note": "Places of the killings, 1999"
-  },
+  "imageCredit": "Filius humanitas (1999)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 3.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kosovo_074.jpg",
   "isIllustration": false,
-  "depthMap": false,
+  "depthMap": true,
   "framing": {
     "focus": [
-      0.5,
-      0.5
+      0.45,
+      0.45
     ],
-    "fitLandscape": 1,
-    "fitPortrait": 1
+    "fitLandscape": 0,
+    "fitPortrait": 0
   },
   "sources": [
     {
@@ -74,7 +69,6 @@
     "Owner decision D45: the estimate of 20,000 women raped is given in the final scene.",
     "Aerial photo shown by the Pentagon on 28 April 1999.",
     "Owner decision D48: quiet VHS look, no date stamp.",
-    "Owner decision D44: no photographs of the dead or wounded.",
-    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+    "Owner decision D44: no photographs of the dead or wounded."
   ]
 }

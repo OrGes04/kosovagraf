@@ -18,28 +18,23 @@
       "The women's protests of March 1998 turned the world's attention to Drenica."
     ]
   },
-  "image": "v1-fushe-kosove-stacioni",
+  "image": "vii04-rogova",
   "imageAlt": {
-    "sq": "Fushë Kosova sot, ku policia e ndali marshimin.",
-    "en": "Fushë Kosova today, where the police stopped the march."
+    "sq": "Igballe Rogova, një nga organizatoret e protestave të grave në mars 1998, më 2017.",
+    "en": "Igballe Rogova, one of the organisers of the women's protests of March 1998, in 2017."
   },
-  "imageCredit": "Shpat Buzoku (2013)",
+  "imageCredit": "Alter Habitus (2017)",
   "imageLicense": "cc-by-sa",
-  "imageLicenseDetail": "CC BY-SA 3.0",
-  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Stacioni_Hekurudhor%C3%AB_-_Fush%C3%AB_Kosov%C3%AB.jpg",
-  "pendingImage": {
-    "id": "vii04-buka",
-    "holder": "Probably EPA (photographer Anja Niedringhaus) [verify]; Kosovo photographers Eliza Hoxha and Ridvan Slivova also photographed the march",
-    "note": "Women holding up bread, placards \"We are a nation in danger\" and \"Drenica we are coming\", Prishtina, 16 March 1998"
-  },
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Igballe_rogova_2017.jpg",
   "isIllustration": false,
   "depthMap": true,
   "framing": {
     "focus": [
       0.5,
-      0.5
+      0.3
     ],
-    "fitLandscape": 0,
+    "fitLandscape": 1,
     "fitPortrait": 0
   },
   "sources": [
@@ -53,12 +48,18 @@
       "author": "Periskopi",
       "year": 2017,
       "url": "https://periskopi.com/en/2017/7/edita-tahiri-pristina-women-set-send-bread-drenica-video"
+    },
+    {
+      "title": "Women's Protests in the 1990s in Kosovo: The Story of Igo Rogova",
+      "author": "Dealing with the Past Balkan",
+      "url": "https://dwp-balkan.org/womens-protests-in-the-1990s-in-kosovo-the-story-of-igo-rogova/"
     }
   ],
   "flags": [
     "[verify] the date (16 March 1998) and where the march was stopped.",
     "Owner decision D48: quiet VHS look, no date stamp.",
     "Owner decision D44: no photographs of the dead or wounded.",
-    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+    "[verify] Igballe Rogova's role in organising the March 1998 women's protests (see dwp-balkan.org, \"Women's Protests in the 1990s in Kosovo: The Story of Igo Rogova\").",
+    "Stand-in photo until the archive photo in pendingImage is licensed."
   ]
 }

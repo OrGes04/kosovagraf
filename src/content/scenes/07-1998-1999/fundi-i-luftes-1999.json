@@ -22,20 +22,20 @@
       "About 1,600 people are still missing."
     ]
   },
-  "image": "vii23-zegra-1999",
+  "image": "vii23-kfor-12-qershor",
   "imageAlt": {
-    "sq": "Trupat e KFOR-it në Zhegër, 27 qershor 1999.",
-    "en": "KFOR troops in Zhegër, 27 June 1999."
+    "sq": "Refugjatë nga kampi i Bërazdës brohorasin trupat britanike që hyjnë në Kosovë, 12 qershor 1999.",
+    "en": "Refugees from the Brazda camp cheer British troops entering Kosovo, 12 June 1999."
   },
-  "imageCredit": "Craig J. Shell, US Marine Corps (1999)",
-  "imageLicense": "public-domain",
-  "imageLicenseDetail": "Public domain (work of the US government)",
-  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:USMC_LAV-25s_in_Zegra,_Kosovo_(June_27,_1999).jpg",
+  "imageCredit": "Capt. Jim Gallagher, British Army (1999), UK Ministry of Defence",
+  "imageLicense": "ogl",
+  "imageLicenseDetail": "Open Government Licence v1.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:WARRIOR_ARMOURED_PERSONNEL_CARRIERS_ARE_CHEERED_ON_AS_THEY_PASS_REFUGEES._SOUTHERN_KOSOVO_BORDER._12-09-1999_MOD_45108827.jpg",
   "isIllustration": false,
   "depthMap": true,
   "framing": {
     "focus": [
-      0.5,
+      0.45,
       0.5
     ],
     "fitLandscape": 0,

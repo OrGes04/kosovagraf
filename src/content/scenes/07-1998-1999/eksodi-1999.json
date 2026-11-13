@@ -18,23 +18,23 @@
       "Albanian families and the diaspora took in the refugees; camps rose at Kukës, Stenkovec and elsewhere."
     ]
   },
-  "image": "vii19-kukes-eksodi",
+  "image": "vii19-gjonaj-1999",
   "imageAlt": {
-    "sq": "Refugjatë nga Kosova në Kukës, 1999.",
-    "en": "Refugees from Kosovo in Kukës, 1999."
+    "sq": "Gjonaj, 2 maj 1999: njerëz në kodrat e kufirit.",
+    "en": "Gjonaj, 2 May 1999: people on the hills at the border."
   },
-  "imageCredit": "Jonuz Kola (1999)",
+  "imageCredit": "Lala Meredith-Vula (1999)",
   "imageLicense": "cc-by-sa",
   "imageLicenseDetail": "CC BY-SA 4.0",
-  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Eksodi_99_Kukes.JPG",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Blood_memory,_Gjonaj,_Kosova,_2nd_May_1999.jpg",
   "isIllustration": false,
   "depthMap": true,
   "framing": {
     "focus": [
       0.5,
-      0.5
+      0.45
     ],
-    "fitLandscape": 0.4,
+    "fitLandscape": 0,
     "fitPortrait": 0
   },
   "sources": [
