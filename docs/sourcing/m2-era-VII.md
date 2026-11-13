@@ -1,6 +1,6 @@
 # Sourcing note: Era VII (1998–1999, the war)
 
-Status: **decided by the owner on 2026-11-13; scene list expanded to 22 at the owner's request
+Status: **decided by the owner on 2026-11-13; scene list expanded to 23 at the owner's request
 ("Era VII expanded" at the end of this note), awaiting the owner's look at it.** No scene text has
 been drafted. Prepared 2026-11-13.
 
@@ -236,7 +236,7 @@ Sources found while checking (leads only):
 
 ---
 
-## Era VII expanded: 22 scenes (proposed 2026-11-13)
+## Era VII expanded: 23 scenes (proposed 2026-11-13)
 
 Same rules as above: ICTY and HRW first; numbers only where a judgment or a named count fixes
 them, otherwise "dozens" or "hundreds"; no photographs of the dead or wounded. Additional sources:
@@ -302,9 +302,11 @@ Serbian forces separated the men from the women and children and killed them. *S
 Milutinović (Orahovac/Rahovec municipality); HRW Under Orders.* [verify each village's figure in
 the judgment]
 
-**14 · Suhareka (26 March).** Members of the Berisha family, most of them women and children,
-were killed in a pizzeria in Suhareka. *Sources: ICTY Milutinović (Suva Reka); HRW Under Orders.*
-[verify the number, usually given as over 40]
+**14 · Suhareka (26 March).** Serbian police killed 48 people in Suhareka, nearly all of them
+members of the Berisha family, most of them women and children. *Sources: ICTY Milutinović and ICTY
+Đorđević (Suva Reka: Lukić and Đorđević convicted for it); HRW Under Orders; HLC.* [verify: 48 is
+the most cited figure (46 of them Berishas, 14 under fifteen); the HLC counts 49 Berishas; the
+prosecution alleged at least 47. Owner decision 2026-11-13: give "48".]
 
 **15 · Izbica and Podujeva (28 March).** At Izbica in Drenica, men were separated from a crowd of
 refugees and shot; in Podujeva, women and children of the Gashi family and others were killed.
@@ -337,7 +339,23 @@ where inmates were killed (May). *Sources: ICTY Milutinović; ICTY Đorđević; 
 border, with NATO air support. *Sources: Pettifer; Perritt; IICK.* [verify the dates; the name
 "Operation Arrow" (Operacioni Shigjeta) is used only if a published source confirms it]
 
-**22 · June 1999: the end, and the toll.** As VII-8 above, with the figures below.
+**22 · The hidden graves.** To hide the killings, Serbian forces dug up bodies of Albanians in
+Kosovo and took them to Serbia in refrigerated trucks, where they were buried in secret. Since 2001,
+graves holding the bodies of 941 Kosovo Albanians, mostly civilians, have been found at four sites
+in Serbia: Batajnica near Belgrade (744), Lake Perućac (84), Petrovo Selo (at least 61) and
+Rudnica (at least 52, found from 2013). The ICTY convicted the Serbian police general Vlastimir
+Đorđević, among other crimes, for his part in hiding the bodies. Inside Kosovo, investigators
+exhumed mass graves across the country after the war.
+*Sources: ICTY Đorđević (the concealment of bodies); HLC, "The Concealment of Bodies Operation"
+(dossier, https://www.hlc-rdc.org/en/publications/dossier-the-cover-up-of-evidence-of-crimes-during-the-war-in-kosovo-the-concealment-of-bodies-operation/);
+HLC, "Rudnica" (dossier).* [verify each site's figure in the HLC dossier; ICTY's own finding on the
+refrigerated truck found in the Danube near Tekija (April 1999); the number exhumed inside Kosovo
+(ICTY forensic teams, 1999–2000)] Added at the owner's request, 2026-11-13.
+
+**23 · June 1999: the end, and the toll.** As VII-8 above, with the figures below: Albanians
+killed, children killed, people who went missing, those still missing, and the estimated number of
+women raped, each with its source (owner decision D42, 2026-11-13). Where the register gives
+"killed" and "missing" separately, the caption gives both numbers.
 
 ### Figures (D42, D43, D45), with their sources
 
