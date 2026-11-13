@@ -1,0 +1,66 @@
+{
+  "era": "07-1998-1999",
+  "year": 1999,
+  "order": 12,
+  "title": {
+    "sq": "Varret e fshehura",
+    "en": "The hidden graves"
+  },
+  "subtitles": {
+    "sq": [
+      "Për t'i fshehur vrasjet, forcat serbe i zhvarrosën trupat e shqiptarëve në Kosovë dhe i dërguan në Serbi me kamionë frigoriferë, ku i varrosën fshehurazi.",
+      "Që nga viti 2001, në katër vende në Serbi janë gjetur varre me trupat e 941 shqiptarëve të Kosovës, shumica civilë: Batajnica pranë Beogradit (744), liqeni i Perućacit (84), Petrovo Sello (të paktën 61) dhe Rudnica (të paktën 52).",
+      "Gjykata e Hagës e dënoi gjeneralin e policisë serbe Vllastimir Gjorgjeviq, ndër të tjera, për rolin e tij në fshehjen e trupave."
+    ],
+    "en": [
+      "To hide the killings, Serbian forces dug up the bodies of Albanians in Kosovo and took them to Serbia in refrigerated trucks, where they buried them in secret.",
+      "Since 2001, graves holding the bodies of 941 Kosovo Albanians, most of them civilians, have been found at four sites in Serbia: Batajnica near Belgrade (744), Lake Perućac (84), Petrovo Selo (at least 61) and Rudnica (at least 52).",
+      "The tribunal in The Hague convicted the Serbian police general Vlastimir Đorđević, among other crimes, for his part in hiding the bodies."
+    ]
+  },
+  "image": "vii22-krusha-1999",
+  "imageAlt": {
+    "sq": "Krusha e Madhe, shtator 1999: fotografitë e burrave të vrarë dhe të zhdukur.",
+    "en": "Krusha e Madhe, September 1999: photographs of the men who were killed or went missing."
+  },
+  "imageCredit": "Nduraku (1999)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 3.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Missing_Men_of_Krusha_e_Madhe_(Burrat_e_Krushes_se_Madhe).jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0.5,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Prosecutor v. Đorđević, Trial Judgment",
+      "author": "ICTY",
+      "year": 2011,
+      "note": "[verify paragraph]"
+    },
+    {
+      "title": "The Cover-Up of Evidence of Crimes during the War in Kosovo: The Concealment of Bodies Operation",
+      "author": "Humanitarian Law Center",
+      "year": 2017,
+      "url": "https://www.hlc-rdc.org/en/publications/dossier-the-cover-up-of-evidence-of-crimes-during-the-war-in-kosovo-the-concealment-of-bodies-operation/",
+      "note": "Site figures: Batajnica 744, Lake Perućac 84, Petrovo Selo at least 61, Rudnica at least 52. [verify]"
+    },
+    {
+      "title": "Dossier: Rudnica",
+      "author": "Humanitarian Law Center",
+      "url": "https://www.hlc-rdc.org/wp-content/uploads/2025/05/Dosije_Rudnica_eng.pdf"
+    }
+  ],
+  "flags": [
+    "Added at the owner's request, 2026-11-13.",
+    "[verify] each site's figure in the HLC dossier; the ICTY's finding on the refrigerated truck found in the Danube near Tekija (April 1999).",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded."
+  ]
+}

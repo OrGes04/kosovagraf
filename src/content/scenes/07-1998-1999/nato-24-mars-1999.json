@@ -1,0 +1,66 @@
+{
+  "era": "07-1998-1999",
+  "year": 1999,
+  "order": 2,
+  "title": {
+    "sq": "24 mars 1999",
+    "en": "24 March 1999"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 24 mars 1999, NATO filloi sulmet ajrore kundër Jugosllavisë, nën komandën e gjeneralit amerikan Wesley Clark.",
+      "Po në ato ditë, forcat serbe nisën një fushatë vrasjesh dhe dëbimesh masive kundër shqiptarëve të Kosovës."
+    ],
+    "en": [
+      "On 24 March 1999 NATO began air strikes against Yugoslavia, under the command of the US general Wesley Clark.",
+      "In the same days, Serbian forces began a campaign of killing and mass expulsion against Kosovo's Albanians."
+    ]
+  },
+  "image": "vii12-clark",
+  "imageAlt": {
+    "sq": "Gjenerali Wesley Clark flet me ushtarë, 9 maj 1999.",
+    "en": "General Wesley Clark talks to soldiers, 9 May 1999."
+  },
+  "imageCredit": "Mitch Fuqua, US Air Force (1999)",
+  "imageLicense": "public-domain",
+  "imageLicenseDetail": "Public domain (work of the US government)",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Clark_briefs_NATO_May_9.JPEG",
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "The Kosovo Report",
+      "author": "Independent International Commission on Kosovo",
+      "publisher": "Oxford University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo: War and Revenge",
+      "author": "Tim Judah",
+      "publisher": "Yale University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Prosecutor v. Milutinović et al. (Šainović et al.), Trial Judgment",
+      "author": "ICTY",
+      "year": 2009,
+      "url": "https://www.icty.org/x/cases/milutinovic/tjug/en/jud090226-e2of4.pdf",
+      "note": "[verify paragraph]"
+    }
+  ],
+  "flags": [
+    "Owner decisions D46 (NATO civilian casualties not mentioned) and D51 (no \"Operation Horseshoe\").",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded."
+  ]
+}

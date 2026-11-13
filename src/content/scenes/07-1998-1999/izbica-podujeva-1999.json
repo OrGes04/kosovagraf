@@ -1,0 +1,66 @@
+{
+  "era": "07-1998-1999",
+  "year": 1999,
+  "order": 5,
+  "title": {
+    "sq": "Izbica dhe Podujeva",
+    "en": "Izbica and Podujeva"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 28 mars 1999, në Izbicë të Drenicës, burrat u ndanë nga një turmë refugjatësh dhe u pushkatuan.",
+      "Po atë ditë, në Podujevë, u vranë gra e fëmijë."
+    ],
+    "en": [
+      "On 28 March 1999, at Izbica in Drenica, men were separated from a crowd of refugees and shot.",
+      "The same day, in Podujeva, women and children were killed."
+    ]
+  },
+  "image": "vii15-malisheva-1999",
+  "imageAlt": {
+    "sq": "Njerëz të zhvendosur në zonën e Malishevës, parë nga ajri, prill 1999.",
+    "en": "Displaced people in the Malisheva area, seen from the air, April 1999."
+  },
+  "imageCredit": "US Department of Defense (1999)",
+  "imageLicense": "public-domain",
+  "imageLicenseDetail": "Public domain (work of the US government)",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Defense.gov_News_Photo_990410-O-0000M-002.jpg",
+  "pendingImage": {
+    "id": "vii15-izbica",
+    "holder": "to identify",
+    "note": "Izbica, 1999"
+  },
+  "isIllustration": false,
+  "depthMap": false,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 1,
+    "fitPortrait": 1
+  },
+  "sources": [
+    {
+      "title": "Prosecutor v. Milutinović et al. (Šainović et al.), Trial Judgment",
+      "author": "ICTY",
+      "year": 2009,
+      "url": "https://www.icty.org/x/cases/milutinovic/tjug/en/jud090226-e2of4.pdf",
+      "note": "[verify paragraph]"
+    },
+    {
+      "title": "Under Orders: War Crimes in Kosovo",
+      "author": "Human Rights Watch",
+      "year": 2001,
+      "url": "https://www.hrw.org/reports/2001/kosovo/",
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "[verify] the numbers at Izbica and Podujeva before any is added; the Podujeva families.",
+    "Aerial photo shown by the Pentagon on 10 April 1999; it shows the Malisheva area, not Izbica.",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

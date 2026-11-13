@@ -1,0 +1,75 @@
+{
+  "era": "07-1998-1999",
+  "year": 1998,
+  "order": 2,
+  "title": {
+    "sq": "Prekazi",
+    "en": "Prekaz"
+  },
+  "subtitles": {
+    "sq": [
+      "Nga 5 deri më 7 mars 1998, policia dhe forcat speciale serbe rrethuan shtëpitë e familjes Jashari në Prekaz.",
+      "Adem Jashari, një nga themeluesit e UÇK-së, i nderuar në Kosovë si Komandanti Legjendar, u vra bashkë me pothuajse gjithë familjen e tij, mes tyre gra dhe fëmijë. Mbijetoi vetëm një vajzë njëmbëdhjetëvjeçare, Besarta.",
+      "Pas Prekazit, mijëra të rinj shqiptarë iu bashkuan UÇK-së."
+    ],
+    "en": [
+      "From 5 to 7 March 1998 Serbian police and special forces besieged the houses of the Jashari family in Prekaz.",
+      "Adem Jashari, a founder of the UÇK, honoured in Kosovo as the Legendary Commander, was killed with almost his entire family, among them women and children. Only an eleven-year-old girl, Besarta, survived.",
+      "After Prekaz, thousands of young Albanians joined the UÇK."
+    ]
+  },
+  "image": "vii03-prekaz",
+  "imageAlt": {
+    "sq": "Kompleksi Memorial «Adem Jashari» në Prekaz sot.",
+    "en": "The Adem Jashari Memorial Complex in Prekaz today."
+  },
+  "imageCredit": "KushtrimHoti7 (2025)",
+  "imageLicense": "cc-by",
+  "imageLicenseDetail": "CC BY 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kompleksi_Memorial_Adem_Jashari_n%C3%AB_Prekaz,_Skenderaj.jpg",
+  "pendingImage": {
+    "id": "vii03-jashari",
+    "holder": "The Jashari family / Adem Jashari Memorial Complex",
+    "note": "Portraits of Adem Jashari and his family"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Humanitarian Law Violations in Kosovo",
+      "author": "Human Rights Watch",
+      "year": 1998,
+      "url": "https://www.hrw.org/legacy/reports98/kosovo/Kos9810-04.htm",
+      "note": "\"Jashari's entire family, save an eleven-year-old girl, was killed.\" [verify page]"
+    },
+    {
+      "title": "Kosovo: War and Revenge",
+      "author": "Tim Judah",
+      "publisher": "Yale University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entry: Jashari, Adem. [verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decisions D49 (photos of people) and D50 (wording).",
+    "[verify] the number killed (commonly 58, including women and children) before any number is added; the survivor's name.",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

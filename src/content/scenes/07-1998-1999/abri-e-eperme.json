@@ -1,0 +1,64 @@
+{
+  "era": "07-1998-1999",
+  "year": 1998,
+  "order": 6,
+  "title": {
+    "sq": "Abri e Epërme",
+    "en": "Abri e Epërme"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 26 shtator 1998, në pyjet e Abrisë së Epërme, forcat serbe vranë 21 anëtarë të familjes Deliaj, mes tyre gra e fëmijë.",
+      "Në Golluboc, aty pranë, u ekzekutuan burra."
+    ],
+    "en": [
+      "On 26 September 1998, in the woods of Abri e Epërme, Serbian forces killed 21 members of the Deliaj family, among them women and children.",
+      "At nearby Golluboc, men were executed."
+    ]
+  },
+  "image": "vii07-drenica",
+  "imageAlt": {
+    "sq": "Lumi Drenica.",
+    "en": "The Drenica river."
+  },
+  "imageCredit": "Drenisa (2019)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lumi_Drenica.jpg",
+  "pendingImage": {
+    "id": "vii07-abri",
+    "holder": "to identify",
+    "note": "Abri e Epërme, September 1998"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "A Week of Terror in Drenica",
+      "author": "Human Rights Watch",
+      "year": 1999,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Humanitarian Law Violations in Kosovo",
+      "author": "Human Rights Watch",
+      "year": 1998,
+      "url": "https://www.hrw.org/legacy/reports98/kosovo/",
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "[verify] 21 at Abri e Epërme; the number at Golluboc (13 in HRW) before it is added.",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

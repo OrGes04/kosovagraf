@@ -27,10 +27,9 @@ interface TestScene {
 
 /**
  * Only eras without real scenes keep test cards. Remove an era's entries here
- * when its real scenes are drafted (test-01 … test-09 are gone: eras I–VI).
+ * when its real scenes are drafted (test-01 … test-10 are gone: eras I–VII).
  */
 const SCENES: TestScene[] = [
-  { n: 10, era: '07-1998-1999', year: 1998, hue: 250 },
   { n: 11, era: '08-1999-2008', year: 2003, hue: 172 },
   { n: 12, era: '09-2008-today', year: 2008, hue: 48, treatment: 'digital' },
   { n: 13, era: '09-2008-today', year: 2026, hue: 205 },

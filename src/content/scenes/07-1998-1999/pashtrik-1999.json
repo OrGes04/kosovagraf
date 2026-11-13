@@ -1,0 +1,71 @@
+{
+  "era": "07-1998-1999",
+  "year": 1999,
+  "order": 11,
+  "title": {
+    "sq": "Pashtriku",
+    "en": "Pashtrik"
+  },
+  "subtitles": {
+    "sq": [
+      "Në fund të majit 1999, UÇK-ja hapi një front në malin e Pashtrikut, pranë kufirit me Shqipërinë, me mbështetjen ajrore të NATO-s."
+    ],
+    "en": [
+      "In late May 1999 the UÇK opened a front on Mount Pashtrik, near the Albanian border, with NATO air support."
+    ]
+  },
+  "image": "vii21-pashtrik",
+  "imageAlt": {
+    "sq": "Mali i Pashtrikut.",
+    "en": "Mount Pashtrik."
+  },
+  "imageCredit": "albinfo (2019)",
+  "imageLicense": "cc0",
+  "imageLicenseDetail": "CC0 1.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pashtrik_1_(OSCAL19_trip).jpg",
+  "pendingImage": {
+    "id": "vii21-pashtrik",
+    "holder": "to identify (veterans' archives)",
+    "note": "UÇK fighters at Pashtrik, 1999"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "The Kosova Liberation Army: Underground War to Balkan Insurgency, 1948–2001",
+      "author": "James Pettifer",
+      "publisher": "Hurst",
+      "year": 2012,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo Liberation Army: The Inside Story of an Insurgency",
+      "author": "Henry H. Perritt",
+      "publisher": "University of Illinois Press",
+      "year": 2008,
+      "note": "[verify page]"
+    },
+    {
+      "title": "The Kosovo Report",
+      "author": "Independent International Commission on Kosovo",
+      "publisher": "Oxford University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "Owner request 2026-11-13: more of the UÇK.",
+    "[verify] the dates; \"Operation Arrow\" is not named unless a published source confirms it.",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

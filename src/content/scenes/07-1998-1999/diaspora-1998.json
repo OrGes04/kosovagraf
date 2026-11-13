@@ -1,0 +1,66 @@
+{
+  "era": "07-1998-1999",
+  "year": 1998,
+  "order": 8,
+  "yearEnd": 1999,
+  "title": {
+    "sq": "Diaspora",
+    "en": "The diaspora"
+  },
+  "subtitles": {
+    "sq": [
+      "Shqiptarët në Gjermani, Zvicër, SHBA dhe gjetiu dolën në rrugët e qyteteve të tyre.",
+      "Ata derdhën para në fondin «Vendlindja Thërret», dhe disa shkuan të luftonin, mes tyre një njësit vullnetarësh nga Shtetet e Bashkuara, «Atlantiku»."
+    ],
+    "en": [
+      "Albanians in Germany, Switzerland, the US and elsewhere marched in the streets of their cities.",
+      "They paid into the \"Homeland Calling\" fund, and some went to fight, among them a volunteer unit from the United States, \"Atlantiku\"."
+    ]
+  },
+  "image": "vii09-kukes-sheshi",
+  "imageAlt": {
+    "sq": "Sheshi i Kukësit gjatë eksodit, 1999.",
+    "en": "The main square in Kukës during the exodus, 1999."
+  },
+  "imageCredit": "Jonuz Kola (1999)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sheshi_Skenderbej_Bashkia_Kukes_gjate_Eksodit_te_kosovareve_1999.JPG",
+  "pendingImage": {
+    "id": "vii09-diaspora",
+    "holder": "Diaspora associations and photographers (to identify)",
+    "note": "A Kosovo demonstration in Germany or Switzerland, 1998–99"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Kosovo Liberation Army: The Inside Story of an Insurgency",
+      "author": "Henry H. Perritt",
+      "publisher": "University of Illinois Press",
+      "year": 2008,
+      "note": "The diaspora and the Homeland Calling fund. [verify page]"
+    },
+    {
+      "title": "Kosovo: War and Revenge",
+      "author": "Tim Judah",
+      "publisher": "Yale University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "[verify] the demonstrations (cities, dates, sizes) in the Swiss and German press of 1998–99; the fund; the Atlantiku unit.",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "era": "07-1998-1999",
+  "year": 1999,
+  "order": 4,
+  "title": {
+    "sq": "Suhareka",
+    "en": "Suhareka"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 26 mars 1999, policia serbe vrau 48 njerëz në Suharekë, pothuajse të gjithë anëtarë të familjes Berisha, shumica gra e fëmijë.",
+      "Gjykata e Hagës i dënoi më vonë komandantët e policisë serbe për këtë krim, ndër të tjera."
+    ],
+    "en": [
+      "On 26 March 1999 Serbian police killed 48 people in Suhareka, nearly all of them members of the Berisha family, most of them women and children.",
+      "The tribunal in The Hague later convicted Serbian police commanders for this crime, among others."
+    ]
+  },
+  "image": "vii14-kampi-1999",
+  "imageAlt": {
+    "sq": "Kampi i refugjatëve kosovarë në Kukës, 1999.",
+    "en": "The camp for Kosovo refugees in Kukës, 1999."
+  },
+  "imageCredit": "Jonuz Kola (1999)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kampi_i_Kosovareve_gjate_Eksodit_99.JPG",
+  "pendingImage": {
+    "id": "vii14-suhareka",
+    "holder": "The Berisha family / the museum in their memory in Suhareka",
+    "note": "The Berisha family"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0.5,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Prosecutor v. Milutinović et al. (Šainović et al.), Trial Judgment",
+      "author": "ICTY",
+      "year": 2009,
+      "url": "https://www.icty.org/x/cases/milutinovic/tjug/en/jud090226-e2of4.pdf",
+      "note": "[verify paragraph]"
+    },
+    {
+      "title": "Prosecutor v. Đorđević, Trial Judgment",
+      "author": "ICTY",
+      "year": 2011,
+      "note": "[verify paragraph]"
+    },
+    {
+      "title": "Under Orders: War Crimes in Kosovo",
+      "author": "Human Rights Watch",
+      "year": 2001,
+      "url": "https://www.hrw.org/reports/2001/kosovo/",
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo Memory Book 1998–2000",
+      "author": "Humanitarian Law Center",
+      "url": "https://www.hlc-rdc.org/en/loss-database/kosovo-memory-book/",
+      "note": "Register of everyone killed or missing, by name; independently evaluated by HRDAG (2014). [verify current figures]"
+    }
+  ],
+  "flags": [
+    "Owner decision 2026-11-13: \"48\".",
+    "[verify] 48 (46 Berishas, 14 under fifteen in one breakdown; HLC counts 49 Berishas; the prosecution alleged at least 47); the convictions of Lukić (2009) and Đorđević (2011) for Suva Reka.",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

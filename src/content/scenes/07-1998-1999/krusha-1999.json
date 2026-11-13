@@ -1,0 +1,71 @@
+{
+  "era": "07-1998-1999",
+  "year": 1999,
+  "order": 3,
+  "title": {
+    "sq": "Krusha e Madhe, Krusha e Vogël, Bellacërka",
+    "en": "Krusha e Madhe, Krusha e Vogël, Bellacërka"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 25 dhe 26 mars 1999, në fshatrat rreth Rahovecit, forcat serbe i ndanë burrat nga gratë dhe fëmijët dhe i vranë.",
+      "Gratë e Krushës së Madhe e rindërtuan jetën pa burrat e tyre."
+    ],
+    "en": [
+      "On 25 and 26 March 1999, in the villages around Rahovec, Serbian forces separated the men from the women and children and killed them.",
+      "The women of Krusha e Madhe rebuilt their lives without their men."
+    ]
+  },
+  "image": "vii13-krusha-grate",
+  "imageAlt": {
+    "sq": "Gratë e Krushës së Madhe, 2005.",
+    "en": "The women of Krusha e Madhe, 2005."
+  },
+  "imageCredit": "Ola Syla (2005)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 3.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Women_of_Krusha_e_Madhe.jpg",
+  "pendingImage": {
+    "id": "vii13-krusha",
+    "holder": "to identify",
+    "note": "Krusha e Madhe, 1999"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0.5,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Prosecutor v. Milutinović et al. (Šainović et al.), Trial Judgment",
+      "author": "ICTY",
+      "year": 2009,
+      "url": "https://www.icty.org/x/cases/milutinovic/tjug/en/jud090226-e2of4.pdf",
+      "note": "[verify paragraph]"
+    },
+    {
+      "title": "Prosecutor v. Đorđević, Trial Judgment",
+      "author": "ICTY",
+      "year": 2011,
+      "note": "[verify paragraph]"
+    },
+    {
+      "title": "Under Orders: War Crimes in Kosovo",
+      "author": "Human Rights Watch",
+      "year": 2001,
+      "url": "https://www.hrw.org/reports/2001/kosovo/",
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "[verify] each village's figure in the ICTY judgments before any number is added.",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

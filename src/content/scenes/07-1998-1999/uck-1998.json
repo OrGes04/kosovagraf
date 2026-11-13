@@ -1,0 +1,82 @@
+{
+  "era": "07-1998-1999",
+  "year": 1998,
+  "order": 4,
+  "title": {
+    "sq": "UÇK-ja rritet",
+    "en": "The UÇK grows"
+  },
+  "subtitles": {
+    "sq": [
+      "Pas Prekazit, mijëra vullnetarë iu bashkuan Ushtrisë Çlirimtare të Kosovës, dhe fshatrat organizuan mbrojtjen e tyre.",
+      "Luftëtarët e lirisë luftuan në Rahovec në korrik dhe e mbajtën Junikun nën rrethim deri në gusht.",
+      "Mes atyre që ranë atë vit ishin Fehmi dhe Xhevë Lladrovci, burrë e grua."
+    ],
+    "en": [
+      "After Prekaz, thousands of volunteers joined the Kosovo Liberation Army, and villages organised their own defence.",
+      "The freedom fighters fought in Rahovec in July and held Junik under siege until August.",
+      "Among those who fell that year were Fehmi and Xhevë Lladrovci, husband and wife."
+    ]
+  },
+  "image": "vii05-junik-kulla",
+  "imageAlt": {
+    "sq": "Kulla e Brahim Hoxhës në Junik.",
+    "en": "The kulla of Brahim Hoxha in Junik."
+  },
+  "imageCredit": "Sali Shoshi (2013)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kulla_e_Brahim_Hoxh%C3%ABs,_Junik.jpg",
+  "pendingImage": {
+    "id": "vii05-uck",
+    "holder": "to identify (Kosovo photographers, 1998)",
+    "note": "UÇK fighters, 1998"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Kosovo Liberation Army: The Inside Story of an Insurgency",
+      "author": "Henry H. Perritt",
+      "publisher": "University of Illinois Press",
+      "year": 2008,
+      "note": "[verify page]"
+    },
+    {
+      "title": "The Kosova Liberation Army: Underground War to Balkan Insurgency, 1948–2001",
+      "author": "James Pettifer",
+      "publisher": "Hurst",
+      "year": 2012,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo: War and Revenge",
+      "author": "Tim Judah",
+      "publisher": "Yale University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entries: Kosovo Liberation Army; Lladrovci. [verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D37: freedom fighters.",
+    "[verify] every date and name (Rahovec, July 1998; Junik, August 1998; the Lladrovcis, September 1998).",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

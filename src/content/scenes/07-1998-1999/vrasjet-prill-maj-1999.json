@@ -1,0 +1,80 @@
+{
+  "era": "07-1998-1999",
+  "year": 1999,
+  "order": 10,
+  "title": {
+    "sq": "Vrasjet vazhdojnë",
+    "en": "The killings go on"
+  },
+  "subtitles": {
+    "sq": [
+      "Poklek, 17 prill. Kolona e refugjatëve në Vushtrri, 2 maj. Qyshk, Pavlan dhe Zahaq pranë Pejës, 14 maj. Cuska, 14 maj.",
+      "Në burgun e Dubravës, të burgosurit u vranë në maj.",
+      "Forcat serbe e përdorën edhe përdhunimin kundër grave shqiptare."
+    ],
+    "en": [
+      "Poklek, 17 April. The refugee column at Vushtrri, 2 May. Qyshk, Pavlan and Zahaq near Peja, 14 May. Cuska, 14 May.",
+      "In Dubrava prison, inmates were killed in May.",
+      "Serbian forces also used rape against Albanian women."
+    ]
+  },
+  "image": "vii20-refugjate-1999",
+  "imageAlt": {
+    "sq": "Njerëz të zhvendosur në Kosovë, parë nga ajri, prill 1999.",
+    "en": "Displaced people in Kosovo, seen from the air, April 1999."
+  },
+  "imageCredit": "US Department of Defense (1999)",
+  "imageLicense": "public-domain",
+  "imageLicenseDetail": "Public domain (work of the US government)",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Defense.gov_News_Photo_990428-O-9999K-008.jpg",
+  "pendingImage": {
+    "id": "vii20-vrasjet",
+    "holder": "to identify",
+    "note": "Places of the killings, 1999"
+  },
+  "isIllustration": false,
+  "depthMap": false,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 1,
+    "fitPortrait": 1
+  },
+  "sources": [
+    {
+      "title": "Prosecutor v. Milutinović et al. (Šainović et al.), Trial Judgment",
+      "author": "ICTY",
+      "year": 2009,
+      "url": "https://www.icty.org/x/cases/milutinovic/tjug/en/jud090226-e2of4.pdf",
+      "note": "[verify paragraph]"
+    },
+    {
+      "title": "Prosecutor v. Đorđević, Trial Judgment",
+      "author": "ICTY",
+      "year": 2011,
+      "note": "[verify paragraph]"
+    },
+    {
+      "title": "Under Orders: War Crimes in Kosovo",
+      "author": "Human Rights Watch",
+      "year": 2001,
+      "url": "https://www.hrw.org/reports/2001/kosovo/",
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo: Rape as a Weapon of \"Ethnic Cleansing\"",
+      "author": "Human Rights Watch",
+      "year": 2000
+    }
+  ],
+  "flags": [
+    "[verify] every date; the caption names places and dates only.",
+    "Owner decision D45: the estimate of 20,000 women raped is given in the final scene.",
+    "Aerial photo shown by the Pentagon on 28 April 1999.",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

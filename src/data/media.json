@@ -236,16 +236,6 @@
     ],
     "depth": true
   },
-  "test-10": {
-    "width": 2560,
-    "height": 1440,
-    "widths": [
-      960,
-      1600,
-      2560
-    ],
-    "depth": true
-  },
   "test-11": {
     "width": 2560,
     "height": 1440,
@@ -393,6 +383,192 @@
       960,
       1600,
       2560
+    ],
+    "depth": true
+  },
+  "vii01-drenica-lumi": {
+    "width": 2040,
+    "height": 1321,
+    "widths": [
+      960,
+      1600
+    ],
+    "depth": true
+  },
+  "vii02-prishtina-rruga": {
+    "width": 3840,
+    "height": 2560,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "vii03-prekaz": {
+    "width": 3840,
+    "height": 2560,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "vii05-junik-kulla": {
+    "width": 3840,
+    "height": 2560,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "vii06-junik-male": {
+    "width": 2160,
+    "height": 1440,
+    "widths": [
+      960,
+      1600
+    ],
+    "depth": true
+  },
+  "vii07-drenica": {
+    "width": 2048,
+    "height": 1536,
+    "widths": [
+      960,
+      1600
+    ],
+    "depth": true
+  },
+  "vii09-kukes-sheshi": {
+    "width": 1544,
+    "height": 1024,
+    "widths": [
+      960
+    ],
+    "depth": true
+  },
+  "vii10-recak": {
+    "width": 3840,
+    "height": 2154,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "vii11-rambouillet": {
+    "width": 3840,
+    "height": 2502,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "vii12-clark": {
+    "width": 2250,
+    "height": 1492,
+    "widths": [
+      960,
+      1600
+    ],
+    "depth": true
+  },
+  "vii13-krusha-grate": {
+    "width": 960,
+    "height": 720,
+    "widths": [
+      960
+    ],
+    "depth": true
+  },
+  "vii14-kampi-1999": {
+    "width": 1280,
+    "height": 849,
+    "widths": [
+      960
+    ],
+    "depth": true
+  },
+  "vii15-malisheva-1999": {
+    "width": 1280,
+    "height": 975,
+    "widths": [
+      960
+    ],
+    "depth": false
+  },
+  "vii16-agani": {
+    "width": 2502,
+    "height": 3596,
+    "widths": [
+      960,
+      1600
+    ],
+    "depth": true
+  },
+  "vii17-gjakova-1999": {
+    "width": 1169,
+    "height": 922,
+    "widths": [
+      960
+    ],
+    "depth": false
+  },
+  "vii18-koshare": {
+    "width": 1024,
+    "height": 768,
+    "widths": [
+      960
+    ],
+    "depth": true
+  },
+  "vii19-kukes-eksodi": {
+    "width": 1280,
+    "height": 849,
+    "widths": [
+      960
+    ],
+    "depth": true
+  },
+  "vii20-refugjate-1999": {
+    "width": 1280,
+    "height": 975,
+    "widths": [
+      960
+    ],
+    "depth": false
+  },
+  "vii21-pashtrik": {
+    "width": 3840,
+    "height": 2552,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
+  "vii22-krusha-1999": {
+    "width": 960,
+    "height": 614,
+    "widths": [
+      960
+    ],
+    "depth": true
+  },
+  "vii23-zegra-1999": {
+    "width": 1920,
+    "height": 1248,
+    "widths": [
+      960,
+      1600
     ],
     "depth": true
   }

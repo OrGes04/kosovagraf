@@ -1,0 +1,73 @@
+{
+  "era": "07-1998-1999",
+  "year": 1999,
+  "order": 0,
+  "title": {
+    "sq": "Reçaku",
+    "en": "Reçak"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 15 janar 1999, në fshatin Reçak, forcat serbe vranë të paktën 45 shqiptarë.",
+      "Shefi i misionit të OSBE-së, William Walker, shkoi në fshat të nesërmen dhe e quajti masakër.",
+      "Gjykata e Hagës për ish-Jugosllavinë vërtetoi më vonë se u vranë të paktën 45 shqiptarë, shumë prej tyre me armë nga afër."
+    ],
+    "en": [
+      "On 15 January 1999, in the village of Reçak, Serbian forces killed at least 45 Albanians.",
+      "The head of the OSCE mission, William Walker, went to the village the next day and called it a massacre.",
+      "The UN tribunal for the former Yugoslavia later found that at least 45 Albanians were killed, many shot at close range."
+    ]
+  },
+  "image": "vii10-recak",
+  "imageAlt": {
+    "sq": "Kodra në Kosovë.",
+    "en": "Hills in Kosovo."
+  },
+  "imageCredit": "Kosovare Ramadani Mehmeti (2024)",
+  "imageLicense": "cc0",
+  "imageLicenseDetail": "CC0 1.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:KRM_Photography_6.jpg",
+  "pendingImage": {
+    "id": "vii10-recak-varrimi",
+    "holder": "Reuters (photographer Yannis Behrakis; World Press Photo 2000, General News, 1st prize) [verify it is the same frame]",
+    "note": "The funeral of the Reçak victims, coffins draped in the Albanian flag, February 1999. Licence purchasable from Reuters."
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Prosecutor v. Đorđević, Trial Judgment",
+      "author": "ICTY",
+      "year": 2011,
+      "note": "[verify paragraph]"
+    },
+    {
+      "title": "Human Rights Watch investigation finds Yugoslav forces guilty of war crimes in Racak",
+      "author": "Human Rights Watch",
+      "year": 1999,
+      "url": "https://www.hrw.org/news/1999/01/29/human-rights-watch-investigation-findsyugoslav-forces-guilty-war-crimes-racak-kosovo"
+    },
+    {
+      "title": "Kosovo/Kosova: As Seen, As Told",
+      "author": "OSCE/ODIHR",
+      "year": 1999,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decision D44: the number is the ICTY's (\"at least 45\").",
+    "[verify] the wording of the ICTY finding.",
+    "The photo is a Kosovo landscape, not Reçak itself; replace with a photo of Reçak.",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

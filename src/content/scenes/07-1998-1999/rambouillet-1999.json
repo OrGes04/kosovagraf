@@ -1,0 +1,72 @@
+{
+  "era": "07-1998-1999",
+  "year": 1999,
+  "order": 1,
+  "title": {
+    "sq": "Rambouillet",
+    "en": "Rambouillet"
+  },
+  "subtitles": {
+    "sq": [
+      "Në bisedimet e paqes në Rambouillet, pranë Parisit, delegacioni shqiptar e nënshkroi marrëveshjen më 18 mars 1999.",
+      "Delegacioni jugosllav refuzoi."
+    ],
+    "en": [
+      "At the peace talks in Rambouillet, near Paris, the Albanian delegation signed the agreement on 18 March 1999.",
+      "The Yugoslav delegation refused."
+    ]
+  },
+  "image": "vii11-rambouillet",
+  "imageAlt": {
+    "sq": "Kështjella e Rambouillet-së, ku u zhvilluan bisedimet.",
+    "en": "The Château de Rambouillet, where the talks were held."
+  },
+  "imageCredit": "Trougnouf (Benoit Brummer) (2021)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Rambouillet_(DSC_7006).jpg",
+  "pendingImage": {
+    "id": "vii11-rambouillet",
+    "holder": "to identify",
+    "note": "The Albanian delegation at Rambouillet"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Kosovo: War and Revenge",
+      "author": "Tim Judah",
+      "publisher": "Yale University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "The Kosovo Report",
+      "author": "Independent International Commission on Kosovo",
+      "publisher": "Oxford University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entry: Rambouillet. [verify page]"
+    }
+  ],
+  "flags": [
+    "[verify] the dates of the talks (from 6 February 1999) and of the signature (18 March 1999, in Paris).",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

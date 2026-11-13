@@ -1,0 +1,72 @@
+{
+  "era": "07-1998-1999",
+  "year": 1998,
+  "order": 0,
+  "title": {
+    "sq": "Likoshani dhe Qirezi",
+    "en": "Likoshan and Qirez"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 28 shkurt dhe 1 mars 1998, policia serbe sulmoi fshatrat Likoshan dhe Qirez në Drenicë.",
+      "U vranë dhjetë anëtarë të familjes Ahmeti, ndërsa katër vëllezër Sejdiu vdiqën në duart e policisë.",
+      "Drenica u bë zemra e luftës."
+    ],
+    "en": [
+      "On 28 February and 1 March 1998 Serbian police attacked the villages of Likoshan and Qirez in Drenica.",
+      "Ten members of the Ahmeti family were killed, and four Sejdiu brothers died in police custody.",
+      "Drenica became the heart of the war."
+    ]
+  },
+  "image": "vii01-drenica-lumi",
+  "imageAlt": {
+    "sq": "Lugina e Drenicës sot.",
+    "en": "The Drenica valley today."
+  },
+  "imageCredit": "Drenisa (2022)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:LumiDrenica.jpg",
+  "pendingImage": {
+    "id": "vii01-likoshan",
+    "holder": "to identify (Kosovo photographers, 1998)",
+    "note": "Likoshan and Qirez, March 1998"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Humanitarian Law Violations in Kosovo",
+      "author": "Human Rights Watch",
+      "year": 1998,
+      "url": "https://www.hrw.org/legacy/reports98/kosovo/",
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo war crimes chronology",
+      "author": "Human Rights Watch",
+      "url": "https://hrw.org/campaigns/kosovo98/timeline.shtml"
+    },
+    {
+      "title": "Kosovo: War and Revenge",
+      "author": "Tim Judah",
+      "publisher": "Yale University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "[verify] the Ahmeti and Sejdiu figures in HRW's text; accounts give different totals for the two villages, so no overall total is given.",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

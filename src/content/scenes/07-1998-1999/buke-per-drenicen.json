@@ -1,0 +1,64 @@
+{
+  "era": "07-1998-1999",
+  "year": 1998,
+  "order": 3,
+  "title": {
+    "sq": "Bukë për Drenicën",
+    "en": "Bread for Drenica"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 16 mars 1998, gra nga Prishtina u nisën në këmbë me bukë në duar drejt fshatrave të rrethuara të Drenicës.",
+      "Policia i ndali në Fushë Kosovë.",
+      "Protestat e grave në mars 1998 e kthyen vëmendjen e botës nga Drenica."
+    ],
+    "en": [
+      "On 16 March 1998 women from Prishtina set out on foot, carrying bread, towards the besieged villages of Drenica.",
+      "The police stopped them at Fushë Kosova.",
+      "The women's protests of March 1998 turned the world's attention to Drenica."
+    ]
+  },
+  "image": "v1-fushe-kosove-stacioni",
+  "imageAlt": {
+    "sq": "Fushë Kosova sot, ku policia e ndali marshimin.",
+    "en": "Fushë Kosova today, where the police stopped the march."
+  },
+  "imageCredit": "Shpat Buzoku (2013)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 3.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Stacioni_Hekurudhor%C3%AB_-_Fush%C3%AB_Kosov%C3%AB.jpg",
+  "pendingImage": {
+    "id": "vii04-buka",
+    "holder": "Oral History Kosovo / participants (to identify)",
+    "note": "The women's march with bread, March 1998"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Bread for Drenica Women's March",
+      "author": "Oral History Kosovo",
+      "url": "https://oralhistorykosovo.org/?p=22608"
+    },
+    {
+      "title": "When Edita Tahiri and Pristina women set off to send bread to Drenica",
+      "author": "Periskopi",
+      "year": 2017,
+      "url": "https://periskopi.com/en/2017/7/edita-tahiri-pristina-women-set-send-bread-drenica-video"
+    }
+  ],
+  "flags": [
+    "[verify] the date (16 March 1998) and where the march was stopped.",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

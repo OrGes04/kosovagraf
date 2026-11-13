@@ -1,0 +1,76 @@
+{
+  "era": "07-1998-1999",
+  "year": 1998,
+  "order": 5,
+  "title": {
+    "sq": "Ofensiva e vitit 1998",
+    "en": "The 1998 offensive"
+  },
+  "subtitles": {
+    "sq": [
+      "Gjatë verës dhe vjeshtës së vitit 1998, forcat serbe granatuan dhe dogjën fshatra në gjithë Kosovën.",
+      "Qindra mijëra shqiptarë u përzunë nga shtëpitë e tyre; shumë familje jetuan në pyje e në male."
+    ],
+    "en": [
+      "Through the summer and autumn of 1998 Serbian forces shelled and burned villages across Kosovo.",
+      "Hundreds of thousands of Albanians were driven from their homes; many families lived in the forests and mountains."
+    ]
+  },
+  "image": "vii06-junik-male",
+  "imageAlt": {
+    "sq": "Malet mbi Junik.",
+    "en": "The mountains above Junik."
+  },
+  "imageCredit": "Ben Njeri (2013)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 3.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dramatic_Sunset_in_Junik_mountains.jpg",
+  "pendingImage": {
+    "id": "vii06-ofensiva",
+    "holder": "to identify (Kosovo photographers, 1998)",
+    "note": "Displaced families in the forests, 1998"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Humanitarian Law Violations in Kosovo",
+      "author": "Human Rights Watch",
+      "year": 1998,
+      "url": "https://www.hrw.org/legacy/reports98/kosovo/",
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo crisis reports, 1998",
+      "author": "UNHCR",
+      "note": "About 300,000 displaced by autumn 1998. [verify]"
+    },
+    {
+      "title": "Kosovo/Kosova: As Seen, As Told",
+      "author": "OSCE/ODIHR",
+      "year": 1999,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo: War and Revenge",
+      "author": "Tim Judah",
+      "publisher": "Yale University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "[verify] UNHCR's displacement figure.",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "era": "07-1998-1999",
+  "year": 1999,
+  "order": 8,
+  "title": {
+    "sq": "Koshare",
+    "en": "Koshare"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 9 prill 1999, UÇK-ja e çau kufirin nga Shqipëria te Koshare dhe e mbajti zonën deri në fund të luftës.",
+      "Mes të rënëve ishin komandantët Agim Ramadani dhe Sali Çeku."
+    ],
+    "en": [
+      "On 9 April 1999 the UÇK broke through the border from Albania at Koshare and held the area until the end of the war.",
+      "Among the fallen were the commanders Agim Ramadani and Sali Çeku."
+    ]
+  },
+  "image": "vii18-koshare",
+  "imageAlt": {
+    "sq": "Kazermat e ish-ushtrisë jugosllave pranë Koshares.",
+    "en": "The former Yugoslav army barracks near Koshare."
+  },
+  "imageCredit": "Arianit Dobroshi",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 3.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Arianit_Koshare_IMG_0049.JPG",
+  "pendingImage": {
+    "id": "vii18-koshare",
+    "holder": "to identify (veterans' archives, Kosovo photographers)",
+    "note": "UÇK fighters at Koshare, 1999"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0.4,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "The Kosova Liberation Army: Underground War to Balkan Insurgency, 1948–2001",
+      "author": "James Pettifer",
+      "publisher": "Hurst",
+      "year": 2012,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo Liberation Army: The Inside Story of an Insurgency",
+      "author": "Henry H. Perritt",
+      "publisher": "University of Illinois Press",
+      "year": 2008,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entry: Koshare. [verify page]"
+    }
+  ],
+  "flags": [
+    "Owner request 2026-11-13: more of the UÇK.",
+    "[verify] the dates (9 April – 10/14 June 1999), the names, and the unit (later the 138th \"Agim Ramadani\" brigade).",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

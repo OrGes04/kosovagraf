@@ -1,0 +1,63 @@
+{
+  "era": "07-1998-1999",
+  "year": 1998,
+  "order": 1,
+  "title": {
+    "sq": "Prishtina, 2 mars 1998",
+    "en": "Prishtina, 2 March 1998"
+  },
+  "subtitles": {
+    "sq": [
+      "Dhjetëra mijëra njerëz protestuan në Prishtinë kundër vrasjeve në Drenicë.",
+      "Policia e shpërndau marshimin me gaz lotsjellës dhe ujë me presion, dhe rrahu protestuesit. U rrahën edhe gazetarë."
+    ],
+    "en": [
+      "Tens of thousands protested in Prishtina against the killings in Drenica.",
+      "The police broke up the march with tear gas and water cannon and beat the protesters. Journalists were beaten too."
+    ]
+  },
+  "image": "vii02-prishtina-rruga",
+  "imageAlt": {
+    "sq": "Një rrugë në qendër të Prishtinës sot.",
+    "en": "A street in central Prishtina today."
+  },
+  "imageCredit": "Arianit (2020)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fehmi_Agani_st.,_Prishtina.jpg",
+  "pendingImage": {
+    "id": "vii02-protesta",
+    "holder": "Kosovo photographers (e.g. Koha Ditore archive)",
+    "note": "The 2 March 1998 protest in Prishtina"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Human Rights Watch Condemns Violence by Security Forces in Kosovo",
+      "author": "Human Rights Watch",
+      "year": 1998,
+      "url": "https://www.hrw.org/news/1998/03/02/human-rights-watch-condemns-violence-security-forces-kosovo"
+    },
+    {
+      "title": "Reports on Kosovo, 1998",
+      "author": "Amnesty International",
+      "year": 1998,
+      "note": "EUR 70/10/98, 70/11/98, 70/16/98. [verify]"
+    }
+  ],
+  "flags": [
+    "[verify] the size of the crowd (\"tens of thousands\").",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

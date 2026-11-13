@@ -33,6 +33,7 @@ export const TREATMENTS = [
   'film',
   'crt',
   'vhs',
+  'vhsQuiet',
   'vhsFading',
   'digital',
   'clean',

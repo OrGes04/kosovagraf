@@ -1,0 +1,73 @@
+{
+  "era": "07-1998-1999",
+  "year": 1999,
+  "order": 9,
+  "title": {
+    "sq": "Eksodi",
+    "en": "The exodus"
+  },
+  "subtitles": {
+    "sq": [
+      "Në javët që pasuan, më shumë se 800.000 shqiptarë u dëbuan nga Kosova drejt Shqipërisë, Maqedonisë dhe Malit të Zi; qindra mijëra të tjerë u zhvendosën brenda Kosovës.",
+      "Shumë u nisën me tren e në këmbë, dhe shumëve iu morën dokumentet.",
+      "Familjet shqiptare dhe diaspora i pritën refugjatët; kampe u ngritën në Kukës, në Stenkovec e gjetiu."
+    ],
+    "en": [
+      "In the weeks that followed, more than 800,000 Albanians were driven out of Kosovo into Albania, Macedonia and Montenegro; hundreds of thousands more were displaced inside Kosovo.",
+      "Many were sent by train and on foot, and many had their papers taken from them.",
+      "Albanian families and the diaspora took in the refugees; camps rose at Kukës, Stenkovec and elsewhere."
+    ]
+  },
+  "image": "vii19-kukes-eksodi",
+  "imageAlt": {
+    "sq": "Refugjatë nga Kosova në Kukës, 1999.",
+    "en": "Refugees from Kosovo in Kukës, 1999."
+  },
+  "imageCredit": "Jonuz Kola (1999)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Eksodi_99_Kukes.JPG",
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0.4,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Under Orders: War Crimes in Kosovo",
+      "author": "Human Rights Watch",
+      "year": 2001,
+      "url": "https://www.hrw.org/reports/2001/kosovo/",
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo refugee crisis reports",
+      "author": "UNHCR",
+      "year": 2000,
+      "note": "About 800,000 fled or were expelled."
+    },
+    {
+      "title": "Prosecutor v. Milutinović et al. (Šainović et al.), Trial Judgment",
+      "author": "ICTY",
+      "year": 2009,
+      "url": "https://www.icty.org/x/cases/milutinovic/tjug/en/jud090226-e2of4.pdf",
+      "note": "[verify paragraph]"
+    }
+  ],
+  "flags": [
+    "Owner decision D43: \"more than 800,000\".",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ],
+  "pendingImage": {
+    "id": "vii19-guzy",
+    "holder": "Carol Guzy / The Washington Post (Pulitzer Prize 1999)",
+    "note": "A child passed over the fence at the Kukës refugee camp, 1999"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "era": "07-1998-1999",
+  "year": 1998,
+  "order": 7,
+  "title": {
+    "sq": "Vëzhguesit e OSBE-së",
+    "en": "The OSCE monitors"
+  },
+  "subtitles": {
+    "sq": [
+      "Në tetor 1998, një marrëveshje mes të dërguarit amerikan Richard Holbrooke dhe Millosheviqit solli në Kosovë vëzhgues të paarmatosur të OSBE-së, Misionin Verifikues të Kosovës."
+    ],
+    "en": [
+      "In October 1998 an agreement between the US envoy Richard Holbrooke and Milošević brought unarmed OSCE monitors, the Kosovo Verification Mission, into Kosovo."
+    ]
+  },
+  "image": "vii02-prishtina-rruga",
+  "imageAlt": {
+    "sq": "Prishtina, ku misioni i OSBE-së kishte selinë.",
+    "en": "Prishtina, where the OSCE mission had its headquarters."
+  },
+  "imageCredit": "Arianit (2020)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fehmi_Agani_st.,_Prishtina.jpg",
+  "pendingImage": {
+    "id": "vii08-osbe",
+    "holder": "to identify (OSCE archive)",
+    "note": "OSCE monitors in Kosovo, 1998–99"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Kosovo/Kosova: As Seen, As Told",
+      "author": "OSCE/ODIHR",
+      "year": 1999,
+      "note": "[verify page]"
+    },
+    {
+      "title": "The Kosovo Report",
+      "author": "Independent International Commission on Kosovo",
+      "publisher": "Oxford University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    },
+    {
+      "title": "Kosovo: War and Revenge",
+      "author": "Tim Judah",
+      "publisher": "Yale University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "[verify] the date of the agreement (13 October 1998).",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

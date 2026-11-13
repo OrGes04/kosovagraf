@@ -1,0 +1,86 @@
+{
+  "era": "07-1998-1999",
+  "year": 1999,
+  "order": 13,
+  "title": {
+    "sq": "Qershor 1999: fundi i luftës",
+    "en": "June 1999: the end of the war"
+  },
+  "subtitles": {
+    "sq": [
+      "Më 9 qershor 1999 u nënshkrua marrëveshja ushtarake e Kumanovës, dhe më 10 qershor Këshilli i Sigurimit i OKB-së miratoi Rezolutën 1244.",
+      "Trupat e udhëhequra nga NATO, KFOR-i, hynë në Kosovë më 12 qershor, dhe brenda pak javësh shumica e refugjatëve u kthyen në shtëpi.",
+      "Më shumë se 10.000 shqiptarë u vranë ose u zhdukën. Mes të vrarëve të luftës ishin më shumë se 1.000 fëmijë.",
+      "Sipas vlerësimeve, rreth 20.000 gra u përdhunuan.",
+      "Rreth 1.600 njerëz janë ende të zhdukur."
+    ],
+    "en": [
+      "On 9 June 1999 the military agreement of Kumanovo was signed, and on 10 June the UN Security Council adopted Resolution 1244.",
+      "NATO-led troops, KFOR, entered Kosovo on 12 June, and within weeks most of the refugees came home.",
+      "More than 10,000 Albanians were killed or went missing. Among the war's dead were more than 1,000 children.",
+      "An estimated 20,000 women were raped.",
+      "About 1,600 people are still missing."
+    ]
+  },
+  "image": "vii23-zegra-1999",
+  "imageAlt": {
+    "sq": "Trupat e KFOR-it në Zhegër, 27 qershor 1999.",
+    "en": "KFOR troops in Zhegër, 27 June 1999."
+  },
+  "imageCredit": "Craig J. Shell, US Marine Corps (1999)",
+  "imageLicense": "public-domain",
+  "imageLicenseDetail": "Public domain (work of the US government)",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:USMC_LAV-25s_in_Zegra,_Kosovo_(June_27,_1999).jpg",
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "fitLandscape": 0,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Resolution 1244",
+      "author": "UN Security Council",
+      "year": 1999
+    },
+    {
+      "title": "Kosovo Memory Book 1998–2000",
+      "author": "Humanitarian Law Center",
+      "url": "https://www.hlc-rdc.org/en/loss-database/kosovo-memory-book/",
+      "note": "Register of everyone killed or missing, by name; independently evaluated by HRDAG (2014). [verify current figures]"
+    },
+    {
+      "title": "Children killed and missing",
+      "author": "Humanitarian Law Center",
+      "note": "1,024 children killed and 109 missing, 1998–2000; later lists give 1,122–1,133. [verify which list]"
+    },
+    {
+      "title": "Dignity for the Missing",
+      "author": "Humanitarian Law Center",
+      "note": "1,636 people still missing. [verify current number]"
+    },
+    {
+      "title": "Women raped: an estimate",
+      "author": "Kosovo Women's Network and others",
+      "url": "https://womensnetwork.org/kwn-calls-for-respect-recognition-for-survivors-of-war-time-sexual-violence/",
+      "note": "\"About 20,000\" is the most cited estimate; a survey for the US CDC (Hynes and Lopes Cardozo) estimated 23,200–45,600; other estimates are lower. No count exists."
+    },
+    {
+      "title": "The Kosovo Report",
+      "author": "Independent International Commission on Kosovo",
+      "publisher": "Oxford University Press",
+      "year": 2000,
+      "note": "[verify page]"
+    }
+  ],
+  "flags": [
+    "Owner decisions D42, D45: all the figures shown, each attributed in the sources.",
+    "[verify] the current Albanian figure (killed and missing, separately if the register gives both) before launch.",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded."
+  ]
+}

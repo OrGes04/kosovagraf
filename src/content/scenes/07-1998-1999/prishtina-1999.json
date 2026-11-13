@@ -1,0 +1,72 @@
+{
+  "era": "07-1998-1999",
+  "year": 1999,
+  "order": 6,
+  "title": {
+    "sq": "Prishtina e zbrazur",
+    "en": "Prishtina emptied"
+  },
+  "subtitles": {
+    "sq": [
+      "Në fund të marsit dhe në prill 1999, dhjetëra mijëra shqiptarë të Prishtinës u nxorën me forcë nga shtëpitë e tyre dhe u hipën në trena drejt kufirit me Maqedoninë.",
+      "Filozofi Fehmi Agani, këshilltar i Rugovës, u zbrit nga një tren dhe u vra në maj."
+    ],
+    "en": [
+      "In late March and April 1999, tens of thousands of Prishtina's Albanians were forced out of their homes and put on trains to the Macedonian border.",
+      "The philosopher Fehmi Agani, Rugova's adviser, was taken off a train and killed in May."
+    ]
+  },
+  "image": "vii16-agani",
+  "imageAlt": {
+    "sq": "Monumenti i Fehmi Aganit në Prishtinë.",
+    "en": "The monument to Fehmi Agani in Prishtina."
+  },
+  "imageCredit": "Arianit (2020)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fehmi_Agani2.jpg",
+  "pendingImage": {
+    "id": "vii16-treni",
+    "holder": "to identify",
+    "note": "The deportation trains from Prishtina, 1999"
+  },
+  "isIllustration": false,
+  "depthMap": true,
+  "framing": {
+    "focus": [
+      0.5,
+      0.35
+    ],
+    "fitLandscape": 1,
+    "fitPortrait": 0
+  },
+  "sources": [
+    {
+      "title": "Prosecutor v. Milutinović et al. (Šainović et al.), Trial Judgment",
+      "author": "ICTY",
+      "year": 2009,
+      "url": "https://www.icty.org/x/cases/milutinovic/tjug/en/jud090226-e2of4.pdf",
+      "note": "[verify paragraph]"
+    },
+    {
+      "title": "Under Orders: War Crimes in Kosovo",
+      "author": "Human Rights Watch",
+      "year": 2001,
+      "url": "https://www.hrw.org/reports/2001/kosovo/",
+      "note": "[verify page]"
+    },
+    {
+      "title": "Historical Dictionary of Kosovo, 2nd ed.",
+      "author": "Robert Elsie",
+      "publisher": "Scarecrow Press",
+      "year": 2011,
+      "note": "Entry: Agani, Fehmi. [verify page]"
+    }
+  ],
+  "flags": [
+    "[verify] the dates; Agani's death (6–7 May 1999).",
+    "Owner decision D48: quiet VHS look, no date stamp.",
+    "Owner decision D44: no photographs of the dead or wounded.",
+    "Stand-in photo until the archive photo in pendingImage is licensed (owner contacted the rights holders, 2026-11-12)."
+  ]
+}

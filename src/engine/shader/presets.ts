@@ -91,6 +91,15 @@ export const PRESETS: Record<Treatment, Weights> = {
     vignette: 0.25,
     stamp: 1,
   }),
+  // 1998 to 1999, the war: the VHS look without its showy parts (decision D48).
+  // No tracking glitches, colour bleed or date stamp; only grain and a little softness.
+  vhsQuiet: preset({
+    scanlines: 0.15,
+    fringe: 0.1,
+    grain: 0.3,
+    desaturate: 0.2,
+    vignette: 0.3,
+  }),
   // 1999 onwards: the effects leave one by one.
   vhsFading: preset({
     bleed: 0.4,
