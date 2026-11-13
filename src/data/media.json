@@ -405,6 +405,16 @@
     ],
     "depth": true
   },
+  "vii03-jashari-muri": {
+    "width": 2592,
+    "height": 1944,
+    "widths": [
+      960,
+      1600,
+      2560
+    ],
+    "depth": true
+  },
   "vii03-prekaz": {
     "width": 3840,
     "height": 2560,

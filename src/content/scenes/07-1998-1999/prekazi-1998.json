@@ -18,26 +18,26 @@
       "After Prekaz, thousands of young Albanians joined the UÇK."
     ]
   },
-  "image": "vii03-prekaz",
+  "image": "vii03-jashari-muri",
   "imageAlt": {
-    "sq": "Kompleksi Memorial «Adem Jashari» në Prekaz sot.",
-    "en": "The Adem Jashari Memorial Complex in Prekaz today."
+    "sq": "Muri i një shtëpie të familjes Jashari në Prekaz, i shpuar nga një predhë dhe plot gjurmë plumbash, i ruajtur siç mbeti në mars 1998.",
+    "en": "A wall of a Jashari family house in Prekaz, torn open by a shell and covered in bullet marks, preserved as it was left in March 1998."
   },
-  "imageCredit": "KushtrimHoti7 (2025)",
-  "imageLicense": "cc-by",
-  "imageLicenseDetail": "CC BY 4.0",
-  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kompleksi_Memorial_Adem_Jashari_n%C3%AB_Prekaz,_Skenderaj.jpg",
+  "imageCredit": "GentiBehramaj (2014)",
+  "imageLicense": "cc-by-sa",
+  "imageLicenseDetail": "CC BY-SA 4.0",
+  "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kompleksi_i_sht%C3%ABpive_t%C3%AB_familjes_Jashari_ne_Prekaz_14.jpg",
   "pendingImage": {
     "id": "vii03-jashari",
-    "holder": "The Jashari family / Adem Jashari Memorial Complex",
-    "note": "Portraits of Adem Jashari and his family"
+    "holder": "The Jashari family / Adem Jashari Memorial Complex (photographer unknown)",
+    "note": "Family photo of the Jashari children in the courtyard of their home, before 1998"
   },
   "isIllustration": false,
   "depthMap": true,
   "framing": {
     "focus": [
-      0.5,
-      0.5
+      0.45,
+      0.4
     ],
     "fitLandscape": 0,
     "fitPortrait": 0
